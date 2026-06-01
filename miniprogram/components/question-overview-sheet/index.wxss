@@ -16,7 +16,7 @@
   position: relative;
   width: 100%;
   max-height: 78vh;
-  padding: 18rpx 32rpx calc(32rpx + env(safe-area-inset-bottom));
+  padding: 0 32rpx calc(32rpx + env(safe-area-inset-bottom));
   border-radius: 34rpx 34rpx 0 0;
   background: #ffffff;
   box-shadow: 0 -22rpx 70rpx rgba(17, 24, 39, 0.18);
@@ -25,10 +25,21 @@
   animation: sheetUp 220ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
+.sheet-panel-dragging {
+  animation: none;
+}
+
+.sheet-drag-zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48rpx;
+  margin: 0 -32rpx 2rpx;
+}
+
 .sheet-handle {
   width: 72rpx;
   height: 8rpx;
-  margin: 0 auto 24rpx;
   border-radius: 999rpx;
   background: #d1d5db;
 }

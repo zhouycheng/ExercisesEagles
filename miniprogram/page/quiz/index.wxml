@@ -1,4 +1,4 @@
-<view class="quiz-page" bindtouchstart="handleTouchStart" bindtouchend="handleTouchEnd">
+<view class="quiz-page" bindtouchstart="handleTouchStart" bindtouchend="handleTouchEnd" bindtouchcancel="handleTouchCancel">
   <view class="app-bar" style="height: {{appBarHeight}}px;">
     <view
       class="app-bar-title"
@@ -17,34 +17,72 @@
       <view class="progress-track">
         <view class="progress-fill" style="width: {{progressPercent}}%;"></view>
       </view>
-      <view class="overview-entry" bindtap="openPaperOverview" aria-role="button" aria-label="打开试卷全览">
-        <image class="overview-entry-icon" src="/image/apps.png" mode="aspectFit"></image>
-      </view>
+      <icon-action-button
+        icon="/image/icons/apps.png"
+        action="overview"
+        label="打开试卷全览"
+        variant="panel"
+        bindactiontap="handleIconAction"
+      />
     </view>
 
-    <view class="question-text">
-      题目: {{currentQuestion.prompt}}
-    </view>
-
-    <view class="option-list">
-      <block wx:for="{{currentQuestion.options}}" wx:for-item="option" wx:for-index="optionIndex" wx:key="*this">
-        <view
-          class="option {{hasAnswered ? 'option-expanded' : ''}} {{selectedIndex === optionIndex ? 'option-selected' : ''}} {{hasAnswered && currentQuestion.answerIndex === optionIndex ? 'option-correct' : ''}} {{hasAnswered && selectedIndex === optionIndex && selectedIndex !== currentQuestion.answerIndex ? 'option-wrong' : ''}}"
-          data-index="{{optionIndex}}"
-          bindtap="selectOption"
-        >
-          <text class="option-code">{{['A', 'B', 'C', 'D'][optionIndex]}}</text>
-          <view class="option-body">
-            <text class="option-text">{{option.text}}</text>
-            <text wx:if="{{hasAnswered}}" class="option-explanation">{{option.explanation}}</text>
-          </view>
+    <scroll-view
+      class="question-scroll"
+      scroll-y="{{isQuestionScrollable}}"
+      scroll-top="{{questionScrollTop}}"
+      enhanced="{{true}}"
+      show-scrollbar="{{false}}"
+    >
+      <view class="question-content">
+        <view class="question-text">
+          <icon-action-button
+            icon="{{isCurrentQuestionFavorite ? '/image/icons/star.png' : '/image/icons/not_star.png'}}"
+            action="favorite"
+            label="{{isCurrentQuestionFavorite ? '取消收藏本题' : '收藏本题'}}"
+            variant="question"
+            active="{{isCurrentQuestionFavorite}}"
+            bindactiontap="handleIconAction"
+          />
+          <text class="question-copy">{{currentQuestion.prompt}}</text>
         </view>
-      </block>
+      </view>
+    </scroll-view>
+
+    <view wx:if="{{hasAnswered}}" class="question-analysis {{selectedIndex === currentQuestion.answerIndex ? 'question-analysis-correct' : 'question-analysis-wrong'}}">
+      <view class="analysis-heading">
+        <view class="analysis-title">题目解析</view>
+      </view>
+      <text class="analysis-copy">{{currentExplanation}}</text>
     </view>
 
-    <view class="action-row">
-      <button class="ghost-button" disabled="{{currentIndex === 0}}" bindtap="goPrev">上一题</button>
-      <button class="primary-button" bindtap="goNext">{{isLastQuestion ? '交卷' : '下一题'}}</button>
+    <view class="answer-dock">
+      <view class="option-list">
+        <block wx:for="{{currentQuestion.options}}" wx:for-item="option" wx:for-index="optionIndex" wx:key="*this">
+          <view
+            class="option {{selectedIndex === optionIndex ? 'option-selected' : ''}} {{hasAnswered && currentQuestion.answerIndex === optionIndex ? 'option-correct' : ''}} {{hasAnswered && selectedIndex === optionIndex && selectedIndex !== currentQuestion.answerIndex ? 'option-wrong' : ''}}"
+            data-index="{{optionIndex}}"
+            bindtap="selectOption"
+          >
+            <text class="option-code">{{['A', 'B', 'C', 'D'][optionIndex]}}</text>
+            <view class="option-body">
+              <text class="option-text">{{option.text}}</text>
+            </view>
+            <text
+              wx:if="{{hasAnswered && selectedIndex === optionIndex}}"
+              class="option-tail {{selectedIndex === currentQuestion.answerIndex ? 'option-tail-correct' : 'option-tail-wrong'}}"
+            >{{selectedIndex === currentQuestion.answerIndex ? '选择正确' : '选择错误'}}</text>
+            <text
+              wx:elif="{{hasAnswered && currentQuestion.answerIndex === optionIndex}}"
+              class="option-tail option-tail-correct"
+            >正确答案</text>
+          </view>
+        </block>
+      </view>
+
+      <view class="action-row">
+        <button class="ghost-button" disabled="{{currentIndex === 0}}" bindtap="goPrev">上一题</button>
+        <button class="primary-button" bindtap="goNext">{{isLastQuestion ? '交卷' : '下一题'}}</button>
+      </view>
     </view>
   </view>
 

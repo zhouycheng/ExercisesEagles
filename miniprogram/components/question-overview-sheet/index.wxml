@@ -1,6 +1,16 @@
 <view wx:if="{{visible}}" class="sheet-mask" catchtouchmove="stop" catchtap="handleClose">
-  <view class="sheet-panel" catchtap="stop">
-    <view class="sheet-handle"></view>
+  <view class="sheet-panel {{isDragging ? 'sheet-panel-dragging' : ''}}" style="{{panelStyle}}" catchtap="stop">
+    <view
+      class="sheet-drag-zone"
+      catchtouchstart="handleDragStart"
+      catchtouchmove="handleDragMove"
+      catchtouchend="handleDragEnd"
+      catchtouchcancel="handleDragEnd"
+      aria-role="button"
+      aria-label="下拉关闭试卷全览"
+    >
+      <view class="sheet-handle"></view>
+    </view>
     <view class="sheet-header">
       <view class="sheet-heading">
         <view class="sheet-title">试卷全览</view>

@@ -1,0 +1,9 @@
+<view
+  class="action-icon-button action-icon-button-{{variant}} {{active ? 'action-icon-button-active' : ''}} {{extClass}}"
+  hover-class="action-icon-button-hover"
+  aria-role="button"
+  aria-label="{{label}}"
+  catchtap="handleTap"
+>
+  <image class="action-icon-button__image" src="{{icon}}" mode="aspectFit"></image>
+</view>
