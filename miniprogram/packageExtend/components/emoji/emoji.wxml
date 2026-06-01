@@ -23,7 +23,7 @@
   <!--操作-->
   <view class="weui-emoji__operation">
     <view class="weui-emoji__operation__delete" bindtap="deleteEmoji" wx:if="{{showDel}}">
-      <image src="./icon_emotion_del.png" class="weui-emotion_del_btn"></image>
+      <text>删除</text>
     </view>
     <view class="weui-emoji__operation__send" bindtap="send" wx:if="{{showSend}}">发送</view>
   </view>

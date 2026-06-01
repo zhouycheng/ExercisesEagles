@@ -1,5 +1,5 @@
 // const app = getApp()
-const util = require('../../../../util/util.js')
+const util = require('../../util/util.js')
 
 
 const backgroundAudioManager = wx.getBackgroundAudioManager()

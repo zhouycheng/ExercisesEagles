@@ -1,4 +1,4 @@
-const util = require('../../../../util/util.js')
+const util = require('../../util/util.js')
 
 // 参考文档：https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-client-api/database/db.serverDate.html
 

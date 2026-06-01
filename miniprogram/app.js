@@ -75,7 +75,6 @@ App({
     theme: wx.getSystemInfoSync().theme,
     hasLogin: false,
     openid: null,
-    iconTabbar: '/page/weui/example/images/icon_tabbar.png',
   },
   // lazy loading openid
   getUserOpenId(callback) {

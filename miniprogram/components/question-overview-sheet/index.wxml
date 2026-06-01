@@ -1,0 +1,34 @@
+<view wx:if="{{visible}}" class="sheet-mask" catchtouchmove="stop" catchtap="handleClose">
+  <view class="sheet-panel" catchtap="stop">
+    <view class="sheet-handle"></view>
+    <view class="sheet-header">
+      <view class="sheet-heading">
+        <view class="sheet-title">试卷全览</view>
+        <view class="sheet-subtitle">已答 {{answeredCount}} / {{total}}</view>
+      </view>
+      <view class="sheet-close" bindtap="handleClose" aria-role="button" aria-label="关闭试卷全览">×</view>
+    </view>
+
+    <view class="sheet-legend">
+      <view class="legend-item"><text class="legend-dot legend-current"></text><text>当前</text></view>
+      <view class="legend-item"><text class="legend-dot legend-done"></text><text>已答</text></view>
+      <view class="legend-item"><text class="legend-dot legend-empty"></text><text>未答</text></view>
+    </view>
+
+    <scroll-view class="sheet-scroll" scroll-y="{{true}}">
+      <view class="question-grid">
+        <block wx:for="{{items}}" wx:key="id">
+          <view
+            class="question-cell {{item.answered ? 'question-answered' : 'question-unanswered'}} {{item.active ? 'question-active' : ''}}"
+            data-index="{{index}}"
+            bindtap="handleSelect"
+            aria-role="button"
+            aria-label="第{{item.number}}题"
+          >
+            {{item.number}}
+          </view>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -1,4 +1,4 @@
-const {fib} = require('../../../../util/util.js')
+const {fib} = require('../../util/util.js')
 
 Page({
   onShareAppMessage() {

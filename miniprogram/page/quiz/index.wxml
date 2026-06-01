@@ -1,0 +1,116 @@
+<view class="quiz-page" bindtouchstart="handleTouchStart" bindtouchend="handleTouchEnd">
+  <view class="app-bar" style="height: {{appBarHeight}}px;">
+    <view
+      class="app-bar-title"
+      style="top: {{menuButtonTop}}px; height: {{menuButtonHeight}}px; right: {{appBarTitleRight}}px;"
+    >
+      <text>{{quizTitle}}</text>
+    </view>
+  </view>
+
+  <view wx:if="{{!isCompleted}}" class="quiz-shell" style="padding-top: {{contentTop}}px;">
+    <view class="progress-row">
+      <view class="progress-text">
+        <text class="question-count">{{currentNumber}}</text>
+        <text class="question-total">/{{total}}</text>
+      </view>
+      <view class="progress-track">
+        <view class="progress-fill" style="width: {{progressPercent}}%;"></view>
+      </view>
+      <view class="overview-entry" bindtap="openPaperOverview" aria-role="button" aria-label="打开试卷全览">
+        <image class="overview-entry-icon" src="/image/apps.png" mode="aspectFit"></image>
+      </view>
+    </view>
+
+    <view class="question-text">
+      题目: {{currentQuestion.prompt}}
+    </view>
+
+    <view class="option-list">
+      <block wx:for="{{currentQuestion.options}}" wx:for-item="option" wx:for-index="optionIndex" wx:key="*this">
+        <view
+          class="option {{hasAnswered ? 'option-expanded' : ''}} {{selectedIndex === optionIndex ? 'option-selected' : ''}} {{hasAnswered && currentQuestion.answerIndex === optionIndex ? 'option-correct' : ''}} {{hasAnswered && selectedIndex === optionIndex && selectedIndex !== currentQuestion.answerIndex ? 'option-wrong' : ''}}"
+          data-index="{{optionIndex}}"
+          bindtap="selectOption"
+        >
+          <text class="option-code">{{['A', 'B', 'C', 'D'][optionIndex]}}</text>
+          <view class="option-body">
+            <text class="option-text">{{option.text}}</text>
+            <text wx:if="{{hasAnswered}}" class="option-explanation">{{option.explanation}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <view class="action-row">
+      <button class="ghost-button" disabled="{{currentIndex === 0}}" bindtap="goPrev">上一题</button>
+      <button class="primary-button" bindtap="goNext">{{isLastQuestion ? '交卷' : '下一题'}}</button>
+    </view>
+  </view>
+
+  <view wx:else class="result-shell" style="padding-top: {{contentTop}}px;">
+    <view class="result-hero">
+      <view class="result-label">本次成绩</view>
+      <view class="result-score">{{score}}</view>
+      <view class="result-copy">答对 {{correctCount}} / {{total}} 题</view>
+      <view class="best-line">历史最佳：{{bestScore}} 分</view>
+    </view>
+
+    <view class="summary-grid">
+      <view class="summary-item">
+        <text class="summary-value">{{correctCount}}</text>
+        <text class="summary-label">正确</text>
+      </view>
+      <view class="summary-item">
+        <text class="summary-value">{{total - correctCount}}</text>
+        <text class="summary-label">错误</text>
+      </view>
+      <view class="summary-item">
+        <text class="summary-value">{{score}}</text>
+        <text class="summary-label">分数</text>
+      </view>
+    </view>
+
+    <view class="review-list">
+      <block wx:for="{{resultItems}}" wx:key="id">
+        <view class="review-item {{item.isCorrect ? 'review-right' : 'review-wrong'}}">
+          <view class="review-top">
+            <text class="review-number">Q{{item.number}}</text>
+            <text class="review-status">{{item.isCorrect ? '正确' : '待复习'}}</text>
+          </view>
+          <view class="review-question">{{item.prompt}}</view>
+          <view class="review-answer">你的答案：{{item.selectedAnswer}} ｜ 正确答案：{{item.correctAnswer}}</view>
+          <view class="review-explain">{{item.explanation}}</view>
+        </view>
+      </block>
+    </view>
+
+    <button class="primary-button restart-button" bindtap="resetQuiz">重新开始</button>
+  </view>
+
+  <view wx:if="{{showSubmitModal}}" class="modal-mask" catchtouchmove="noop" catchtap="closeSubmitModal">
+    <view class="submit-dialog" catchtap="noop">
+      <view class="dialog-close" bindtap="closeSubmitModal" aria-role="button" aria-label="关闭弹窗">×</view>
+      <view class="dialog-header">
+        <view class="dialog-mark">!</view>
+        <view class="dialog-text">
+          <view class="dialog-title">还有题目没答完</view>
+          <view class="dialog-copy">当前还有 {{unansweredCount}} 道题未作答，提交后未作答题目会按错误计入成绩。</view>
+        </view>
+      </view>
+      <view class="dialog-actions">
+        <view class="dialog-secondary" bindtap="openPaperOverview" aria-role="button">试卷全览</view>
+        <view class="dialog-primary" bindtap="forceSubmitQuiz" aria-role="button">我就要交,你少管</view>
+      </view>
+    </view>
+  </view>
+
+  <question-overview-sheet
+    visible="{{showQuestionOverview}}"
+    total="{{total}}"
+    answered-count="{{total - unansweredCount}}"
+    items="{{overviewItems}}"
+    bindclose="closeQuestionOverview"
+    bindselect="jumpToQuestion"
+  />
+</view>

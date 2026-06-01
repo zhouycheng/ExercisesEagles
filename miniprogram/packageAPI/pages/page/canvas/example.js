@@ -72,7 +72,8 @@ example.restore = function (context) {
 }
 
 example.drawImage = function (context) {
-  context.drawImage('/image/wechat.png', 0, 0)
+  context.setFillStyle('#1aad19')
+  context.fillRect(0, 0, 100, 60)
 }
 
 example.fillText = function (context) {

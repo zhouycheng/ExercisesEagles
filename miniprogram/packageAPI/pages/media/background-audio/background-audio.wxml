@@ -17,16 +17,16 @@
     <view class="page-body-buttons">
       <block wx:if="{{playing === true}}">
         <view class="page-body-button" bindtap="stop">
-          <image src="/image/stop.png"></image>
+          <text>停止</text>
         </view>
         <view class="page-body-button" bindtap="pause">
-          <image src="/image/pause.png"></image>
+          <text>暂停</text>
         </view>
       </block>
       <block wx:if="{{playing === false}}">
         <view class="page-body-button"></view>
         <view class="page-body-button" bindtap="play">
-          <image src="/image/play.png"></image>
+          <text>播放</text>
         </view>
       </block>
       <view class="page-body-button"></view>

@@ -64,11 +64,6 @@ Page({
     }
     canvas.requestAnimationFrame(renderLoop)
 
-    const img = canvas.createImage()
-    img.onload = () => {
-      this._img = img
-    }
-    img.src = './car.png'
   },
 
   render(canvas, ctx) {
@@ -114,12 +109,11 @@ Page({
   },
 
   drawCar(ctx) {
-    if (!this._img) return
     if (this.x > 350) {
       this.x = -100
     }
-    ctx.drawImage(this._img, this.x++, 150 - 25, 100, 50)
-    ctx.restore()
+    ctx.fillStyle = '#1aad19'
+    ctx.fillRect(this.x++, 150 - 25, 100, 50)
   },
 
   onUnload() {

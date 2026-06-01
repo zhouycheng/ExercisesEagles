@@ -16,14 +16,8 @@
       <view class="weui-cells weui-cells_after-title">
         <view class="page-body-info">
           <view class="progress-figure">
-            <image wx:if="{{theme === 'dark'}}" src="/page/API/resources/kind/device_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/API/resources/kind/device.png" class="progress-icon"></image>
             <text class="progress-line {{sendTemplateMessageLoading && 'pending'}} {{sendTemplateMessageResult && 'success'}} {{sendTemplateMessageError && 'fail'}}"></text>
-            <image wx:if="{{theme === 'dark'}}" src="/page/cloud/resources/kind/scf_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/cloud/resources/kind/scf.png" class="progress-icon"></image>
             <text class="progress-line {{sendTemplateMessageLoading && 'pending'}} {{sendTemplateMessageResult && 'success'}} {{sendTemplateMessageError && 'fail'}}"></text>
-            <image wx:if="{{theme === 'dark'}}" src="/page/API/resources/kind/device_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/API/resources/kind/device.png" class="progress-icon"></image>
           </view>
 
           <view class="data-area">
@@ -49,11 +43,7 @@
       <view class="weui-cells weui-cells_after-title">
         <view class="page-body-info">
           <view class="progress-figure">
-            <image wx:if="{{theme === 'dark'}}" src="/page/API/resources/kind/device_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/API/resources/kind/device.png" class="progress-icon"></image>
             <text class="progress-line {{getWXACodeLoading && 'pending'}} {{getWXACodeResult && 'success'}} {{getWXACodeError && 'fail'}}"></text>
-            <image wx:if="{{theme === 'dark'}}" src="/page/cloud/resources/kind/scf_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/cloud/resources/kind/scf.png" class="progress-icon"></image>
           </view>
 
           <view class="progress-figure" wx:if="{{getWXACodeResult}}">

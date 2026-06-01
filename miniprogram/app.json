@@ -1,5 +1,6 @@
 {
   "pages": [
+    "page/quiz/index",
     "page/component/index",
     "page/API/index",
     "page/cloud/index",
@@ -224,26 +225,18 @@
     "list": [
       {
         "pagePath": "page/component/index",
-        "iconPath": "@iconPathComponent",
-        "selectedIconPath": "@selectedIconPathComponent",
         "text": "组件"
       },
       {
         "pagePath": "page/extend/index",
-        "iconPath": "@iconPathComponent",
-        "selectedIconPath": "@selectedIconPathComponent",
         "text": "扩展能力"
       },
       {
         "pagePath": "page/API/index",
-        "iconPath": "@iconPathAPI",
-        "selectedIconPath": "@selectedIconPathAPI",
         "text": "接口"
       },
       {
         "pagePath": "page/cloud/index",
-        "iconPath": "@iconPathCloud",
-        "selectedIconPath": "@selectedIconPathCloud",
         "text": "云开发"
       }
     ]

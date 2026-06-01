@@ -13,11 +13,7 @@
       <view class="weui-cells weui-cells_after-title">
         <view class="page-body-info">
           <view class="progress-figure">
-            <image wx:if="{{theme === 'dark'}}" src="/page/API/resources/kind/device_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/API/resources/kind/device.png" class="progress-icon"></image>
             <text class="progress-line lg {{clientLoading && 'pending'}} {{serverDataClient && 'success'}} {{serverDataClientError && 'fail'}}"></text>
-            <image wx:if="{{theme === 'dark'}}" src="/page/cloud/resources/kind/database_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/cloud/resources/kind/database.png" class="progress-icon"></image>
           </view>
 
           <view class="data-area">
@@ -41,14 +37,8 @@
       <view class="weui-cells weui-cells_after-title">
         <view class="page-body-info">
           <view class="progress-figure">
-            <image wx:if="{{theme === 'dark'}}" src="/page/API/resources/kind/device_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/API/resources/kind/device.png" class="progress-icon"></image>
             <text class="progress-line {{cloudLoading && 'pending'}} {{serverDataCloud && 'success'}} {{serverDataCloudError && 'fail'}}"></text>
-            <image wx:if="{{theme === 'dark'}}" src="/page/cloud/resources/kind/scf_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/cloud/resources/kind/scf.png" class="progress-icon"></image>
             <text class="progress-line {{cloudLoading && 'pending'}} {{serverDataCloud && 'success'}} {{serverDataCloudError && 'fail'}}"></text>
-            <image wx:if="{{theme === 'dark'}}" src="/page/cloud/resources/kind/database_dark.png" class="progress-icon"></image>
-            <image wx:else src="/page/cloud/resources/kind/database.png" class="progress-icon"></image>
           </view>
 
           <view class="data-area">

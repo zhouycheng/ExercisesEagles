@@ -18,10 +18,10 @@
       </picker-view-column>
       <picker-view-column>
         <view class="icon-container">
-          <image class="picker-icon" src="../../../resources/kind/daytime.png" />
+          <text>白天</text>
         </view>
         <view class="icon-container">
-          <image class="picker-icon" src="../../../resources/kind/night.png" />
+          <text>夜晚</text>
         </view>
       </picker-view-column>
     </picker-view>

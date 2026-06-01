@@ -13,7 +13,7 @@
         <view class="page-body-buttons">
           <view class="page-body-button"></view>
           <view class="page-body-button" bindtap="startRecord">
-            <image src="/image/record.png"></image>
+            <text>录音</text>
           </view>
           <view class="page-body-button"></view>
         </view>
@@ -40,10 +40,10 @@
         <view class="page-body-buttons">
           <view class="page-body-button"></view>
           <view class="page-body-button" bindtap="playVoice">
-            <image src="/image/play.png"></image>
+            <text>播放</text>
           </view>
           <view class="page-body-button" bindtap="clear">
-            <image src="/image/trash.png"></image>
+            <text>清除</text>
           </view>
         </view>
       </block>
@@ -55,13 +55,13 @@
         </view>
         <view class="page-body-buttons">
           <view class="page-body-button" bindtap="stopVoice">
-            <image src="/image/stop.png"></image>
+            <text>停止</text>
           </view>
           <view class="page-body-button" bindtap="pauseVoice">
-            <image src="/image/pause.png"></image>
+            <text>暂停</text>
           </view>
           <view class="page-body-button" bindtap="clear">
-            <image src="/image/trash.png"></image>
+            <text>清除</text>
           </view>
         </view>
       </block>

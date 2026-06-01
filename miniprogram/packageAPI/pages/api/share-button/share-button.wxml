@@ -12,7 +12,7 @@
       <view class="page-body-line">
         <button bindtap="handleTapShareButton" open-type="share" class="button-share" id="share-button">
         </button>
-        <label for="share-button"><image style="width: 27px; height: 27px" src="/image/share.png" /></label>
+        <label for="share-button">转发</label>
       </view>
     </view>
   </view>
