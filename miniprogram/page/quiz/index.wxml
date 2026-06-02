@@ -49,6 +49,7 @@
     </scroll-view>
 
     <view wx:if="{{hasAnswered}}" class="question-analysis {{selectedIndex === currentQuestion.answerIndex ? 'question-analysis-correct' : 'question-analysis-wrong'}}">
+      <view class="analysis-answer">正确答案: {{currentCorrectAnswerCode}}</view>
       <view class="analysis-heading">
         <view class="analysis-title">题目解析</view>
       </view>
@@ -63,7 +64,7 @@
             data-index="{{optionIndex}}"
             bindtap="selectOption"
           >
-            <text class="option-code">{{['A', 'B', 'C', 'D'][optionIndex]}}</text>
+            <text class="option-code">{{option.code}}</text>
             <view class="option-body">
               <text class="option-text">{{option.text}}</text>
             </view>

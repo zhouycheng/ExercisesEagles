@@ -11,123 +11,49 @@ const DEFAULT_MENU_BUTTON_HEIGHT = 32
 const DEFAULT_APP_BAR_TITLE_RIGHT = 108
 const DEFAULT_CONTENT_TOP = DEFAULT_APP_BAR_HEIGHT + 12
 const OPTION_CODES = ['A', 'B', 'C', 'D']
+const QUIZ_BEST_SCORE_KEY = 'quizBestScore:book-college-chinese:ch-001'
+const questionBank = require('../../data/question-banks/college-chinese-ch001.js')
 
-const questions = [
-  {
-    id: 1,
-    prompt: '8 + 5 = ?',
-    options: [
-      { text: '11', explanation: '8 加 3 才是 11，少加了 2。' },
-      { text: '12', explanation: '8 加 4 是 12，距离正确答案还差 1。' },
-      { text: '13', explanation: '正确。8 加 5 等于 13。' },
-      { text: '14', explanation: '14 比正确答案多 1。' }
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 2,
-    prompt: '15 - 7 = ?',
-    options: [
-      { text: '6', explanation: '15 减 9 才是 6，减多了。' },
-      { text: '7', explanation: '15 减 8 是 7，还差 1。' },
-      { text: '8', explanation: '正确。15 减 7 等于 8。' },
-      { text: '9', explanation: '15 减 6 是 9，减少了。' }
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 3,
-    prompt: '6 × 4 = ?',
-    options: [
-      { text: '20', explanation: '5 个 4 是 20，不是 6 个 4。' },
-      { text: '22', explanation: '22 不是 4 的整倍数。' },
-      { text: '24', explanation: '正确。6 个 4 相加等于 24。' },
-      { text: '26', explanation: '26 比正确答案多 2。' }
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 4,
-    prompt: '20 ÷ 5 = ?',
-    options: [
-      { text: '3', explanation: '5 乘 3 是 15，不够 20。' },
-      { text: '4', explanation: '正确。5 乘 4 等于 20。' },
-      { text: '5', explanation: '5 乘 5 是 25，超过 20。' },
-      { text: '6', explanation: '5 乘 6 是 30，超过 20。' }
-    ],
-    answerIndex: 1
-  },
-  {
-    id: 5,
-    prompt: '9 + 12 = ?',
-    options: [
-      { text: '19', explanation: '9 加 10 是 19，少加了 2。' },
-      { text: '20', explanation: '9 加 11 是 20，少加了 1。' },
-      { text: '21', explanation: '正确。9 加 12 等于 21。' },
-      { text: '22', explanation: '22 比正确答案多 1。' }
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 6,
-    prompt: '18 - 9 = ?',
-    options: [
-      { text: '8', explanation: '18 减 10 是 8，减多了 1。' },
-      { text: '9', explanation: '正确。18 减 9 等于 9。' },
-      { text: '10', explanation: '18 减 8 是 10，减少了 1。' },
-      { text: '11', explanation: '18 减 7 是 11，减少了 2。' }
-    ],
-    answerIndex: 1
-  },
-  {
-    id: 7,
-    prompt: '7 × 3 = ?',
-    options: [
-      { text: '18', explanation: '6 乘 3 是 18，少了 1 个 3。' },
-      { text: '20', explanation: '20 不是 7 的 3 倍。' },
-      { text: '21', explanation: '正确。7 乘 3 等于 21。' },
-      { text: '24', explanation: '8 乘 3 是 24，多了 1 个 3。' }
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 8,
-    prompt: '36 ÷ 6 = ?',
-    options: [
-      { text: '5', explanation: '6 乘 5 是 30，不够 36。' },
-      { text: '6', explanation: '正确。6 乘 6 等于 36。' },
-      { text: '7', explanation: '6 乘 7 是 42，超过 36。' },
-      { text: '8', explanation: '6 乘 8 是 48，超过 36。' }
-    ],
-    answerIndex: 1
-  },
-  {
-    id: 9,
-    prompt: '14 + 6 - 5 = ?',
-    options: [
-      { text: '13', explanation: '13 比正确答案少 2。' },
-      { text: '14', explanation: '14 比正确答案少 1。' },
-      { text: '15', explanation: '正确。14 加 6 是 20，再减 5 等于 15。' },
-      { text: '16', explanation: '16 比正确答案多 1。' }
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 10,
-    prompt: '5 × 5 + 2 = ?',
-    options: [
-      { text: '25', explanation: '这是只算了 5 乘 5，没有再加 2。' },
-      { text: '26', explanation: '26 比正确答案少 1。' },
-      { text: '27', explanation: '正确。先算 25，再加 2 得 27。' },
-      { text: '28', explanation: '28 比正确答案多 1。' }
-    ],
-    answerIndex: 2
+const quizTitle = `${questionBank.book.name} - ${questionBank.chapter.name}`
+const questions = questionBank.groups.reduce((items, group) => {
+  const groupQuestions = group.questions.map((question) => {
+    const answerKey = question.answerKeys[0]
+    return {
+      id: question.questionId,
+      groupName: group.name,
+      prompt: question.stem,
+      options: question.options.map((option, optionIndex) => ({
+        key: option.key,
+        code: option.keyLabel || option.key || getOptionCode(optionIndex),
+        text: option.text
+      })),
+      answerIndex: question.options.findIndex((option) => option.key === answerKey),
+      explanation: question.explanation || ''
+    }
+  })
+
+  return items.concat(groupQuestions)
+}, [])
+
+function getOptionCode(index) {
+  if (OPTION_CODES[index]) {
+    return OPTION_CODES[index]
   }
-]
+
+  let current = index
+  let code = ''
+
+  do {
+    code = String.fromCharCode(65 + (current % 26)) + code
+    current = Math.floor(current / 26) - 1
+  } while (current >= 0)
+
+  return code
+}
 
 Page({
   data: {
-    quizTitle: 'MVP测试 - 数学题',
+    quizTitle,
     questions,
     total: questions.length,
     currentIndex: 0,
@@ -137,6 +63,7 @@ Page({
     answers: [],
     progressPercent: 10,
     hasAnswered: false,
+    currentCorrectAnswerCode: '',
     currentExplanation: '',
     isQuestionScrollable: false,
     questionScrollTop: 0,
@@ -161,7 +88,7 @@ Page({
 
   onLoad() {
     this.setAppBarMetrics()
-    const bestScore = wx.getStorageSync('quizBestScore') || 0
+    const bestScore = wx.getStorageSync(QUIZ_BEST_SCORE_KEY) || 0
     this.setData({ bestScore })
     this.resetQuiz()
   },
@@ -190,6 +117,7 @@ Page({
       answers: [],
       progressPercent: this.getProgressPercent(0),
       hasAnswered: false,
+      currentCorrectAnswerCode: '',
       currentExplanation: '',
       isQuestionScrollable: false,
       questionScrollTop: 0,
@@ -366,7 +294,8 @@ Page({
       selectedIndex,
       answers,
       hasAnswered: true,
-      currentExplanation: this.getQuestionExplanation(question, selectedIndex),
+      currentCorrectAnswerCode: this.getQuestionCorrectAnswerCode(question),
+      currentExplanation: this.getQuestionExplanation(question),
       unansweredCount: this.getUnansweredIndexes(answers).length,
       overviewItems: this.getOverviewItems(answers, this.data.currentIndex)
     })
@@ -428,7 +357,8 @@ Page({
       selectedIndex: savedAnswer ? savedAnswer.selectedIndex : null,
       progressPercent: this.getProgressPercent(nextIndex),
       hasAnswered: !!savedAnswer,
-      currentExplanation: savedAnswer ? this.getQuestionExplanation(questions[nextIndex], savedAnswer.selectedIndex) : '',
+      currentCorrectAnswerCode: savedAnswer ? this.getQuestionCorrectAnswerCode(questions[nextIndex]) : '',
+      currentExplanation: savedAnswer ? this.getQuestionExplanation(questions[nextIndex]) : '',
       isQuestionScrollable: false,
       questionScrollTop: 0,
       isCurrentQuestionFavorite: this.isFavoriteQuestion(questions[nextIndex].id),
@@ -456,7 +386,8 @@ Page({
       selectedIndex: savedAnswer ? savedAnswer.selectedIndex : null,
       progressPercent: this.getProgressPercent(prevIndex),
       hasAnswered: !!savedAnswer,
-      currentExplanation: savedAnswer ? this.getQuestionExplanation(questions[prevIndex], savedAnswer.selectedIndex) : '',
+      currentCorrectAnswerCode: savedAnswer ? this.getQuestionCorrectAnswerCode(questions[prevIndex]) : '',
+      currentExplanation: savedAnswer ? this.getQuestionExplanation(questions[prevIndex]) : '',
       isQuestionScrollable: false,
       questionScrollTop: 0,
       isCurrentQuestionFavorite: this.isFavoriteQuestion(questions[prevIndex].id),
@@ -521,7 +452,8 @@ Page({
       selectedIndex: savedAnswer ? savedAnswer.selectedIndex : null,
       progressPercent: this.getProgressPercent(nextIndex),
       hasAnswered: !!savedAnswer,
-      currentExplanation: savedAnswer ? this.getQuestionExplanation(questions[nextIndex], savedAnswer.selectedIndex) : '',
+      currentCorrectAnswerCode: savedAnswer ? this.getQuestionCorrectAnswerCode(questions[nextIndex]) : '',
+      currentExplanation: savedAnswer ? this.getQuestionExplanation(questions[nextIndex]) : '',
       isQuestionScrollable: false,
       questionScrollTop: 0,
       isCurrentQuestionFavorite: this.isFavoriteQuestion(questions[nextIndex].id),
@@ -549,7 +481,7 @@ Page({
   finishQuiz() {
     const answers = this.data.answers
     const correctCount = answers.filter(item => item && item.isCorrect).length
-    const score = correctCount * 10
+    const score = Math.round((correctCount / questions.length) * 100)
     const bestScore = Math.max(score, this.data.bestScore)
     const resultItems = questions.map((question, index) => {
       const answer = answers[index] || {}
@@ -560,11 +492,11 @@ Page({
         selectedAnswer: answer.selectedIndex !== undefined ? question.options[answer.selectedIndex].text : '未作答',
         correctAnswer: question.options[question.answerIndex].text,
         isCorrect: !!answer.isCorrect,
-        explanation: this.getQuestionExplanation(question, answer.selectedIndex)
+        explanation: this.getQuestionExplanation(question)
       }
     })
 
-    wx.setStorageSync('quizBestScore', bestScore)
+    wx.setStorageSync(QUIZ_BEST_SCORE_KEY, bestScore)
     this.setData({
       isCompleted: true,
       showSubmitModal: false,
@@ -596,28 +528,21 @@ Page({
     return this.data.favoriteQuestionIds.indexOf(questionId) !== -1
   },
 
-  getQuestionExplanation(question, selectedIndex) {
+  getQuestionExplanation(question) {
+    if (!question || !question.options || !question.options[question.answerIndex]) {
+      return ''
+    }
+
+    return question.explanation || '暂无解析。'
+  },
+
+  getQuestionCorrectAnswerCode(question) {
     if (!question || !question.options || !question.options[question.answerIndex]) {
       return ''
     }
 
     const correctOption = question.options[question.answerIndex]
-    const selectedOption = question.options[selectedIndex]
-    const detailOption = selectedOption || correctOption
-    const isCorrect = selectedIndex === question.answerIndex
-    const correctChoice = OPTION_CODES[question.answerIndex] || `${question.answerIndex + 1}`
-    const firstSentence = isCorrect ? `选${correctChoice}是对的。` : `正确答案选${correctChoice}。`
-    const detail = this.getExplanationDetail(detailOption.explanation || '', detailOption === correctOption)
-
-    return `${firstSentence}${detail}`
-  },
-
-  getExplanationDetail(explanation, shouldRemoveCorrectPrefix) {
-    if (!shouldRemoveCorrectPrefix) {
-      return explanation
-    }
-
-    return explanation.replace(/^正确。/, '')
+    return correctOption.code || correctOption.key || getOptionCode(question.answerIndex)
   },
 
   updateQuestionScrollable() {

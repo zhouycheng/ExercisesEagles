@@ -29,6 +29,23 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 
 同一天的多个提交会合并整理为简洁 bullet。
 
+## 2026-06-02｜v1.1.0｜No Release
+
+### Changed
+
+- 将答题页当前测试题从内联数学 MVP 题切换为本地题库 `miniprogram/data/question-banks/college-chinese-ch001.json`。
+- 当前测试章节为大学语文第 1 课《序二篇》，共 29 题，包含课后作业、课前测验和文学常识。
+- 成绩改为按 100 分折算，并使用章节级历史最佳缓存键，避免沿用旧数学题成绩。
+
+### Removed
+
+- 移除答题页内联的 10 道数学 MVP 题。
+
+### Verified
+
+- 通过 `node --check miniprogram/page/quiz/index.js`。
+- 通过 Node 数据映射检查确认 29 道题答案索引均有效，解析状态均为 `verified`。
+
 ## 2026-06-01｜v1.0.0｜No Release
 
 今天完成题小鹰微信小程序 MVP，并在当前工作区继续补充答题页交互、试卷全览和项目文档。

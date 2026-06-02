@@ -1,0 +1,38 @@
+{
+  "version": "v1-college-chinese-ch001",
+  "createdAt": "2026-06-02",
+  "manifest": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks/manifest.json",
+  "books": [
+    {
+      "id": "book-college-chinese",
+      "name": "大学语文",
+      "chapters": [
+        {
+          "id": "ch-001",
+          "name": "1-序二篇",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks/college-chinese-ch001.json",
+          "dataModule": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks/college-chinese-ch001.js",
+          "questionCount": 29,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 3
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blockingTickets": []
+}
