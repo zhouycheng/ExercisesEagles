@@ -1,0 +1,1521 @@
+{
+  "status": "released",
+  "publishable": true,
+  "blockingTickets": [],
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapter": {
+    "id": "ch-009",
+    "name": "专家与通人"
+  },
+  "groups": [
+    {
+      "id": "group-homework",
+      "name": "课后作业",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-9-专家与通人.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch009-homework-001",
+          "sourceId": "subject-bmvcex-unit-9-001",
+          "questionType": "single",
+          "stem": "下列读音正确一项是。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "梗概gěng gài;嗜好shì hǎo"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "足跛bó;一隅yīyú"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "舍本逐末shě běn zhuó mò;敷衍塞责fū yǎn sè zé"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "隔阂gé hé;隔膜gé mó"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“隔阂”读 gé hé，“隔膜”读 gé mó；其他选项有读音或字形不合规范处。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-002",
+          "sourceId": "subject-bmvcex-unit-9-002",
+          "questionType": "single",
+          "stem": "被称为“其声如雷，其学如海，史学之宗”的是以下哪位先生。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "蔡元培"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "梅贻琦"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "雷海宗"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "胡适"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“其声如雷，其学如海，史学之宗”对应雷海宗，也暗合其姓名和史学身份。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-003",
+          "sourceId": "subject-bmvcex-unit-9-003",
+          "questionType": "single",
+          "stem": "结合课文内容，下列说法不正确一项是。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "大学期间，通专不能兼顾，因为人的能力有限。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "这是一篇论治学上的“专”与“通”关系的短文。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "文章谈及治学与人生关系的大文章。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "为造就“通人”，关键在力倡“通才教育”"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文章主张“通专兼顾”，并不认为大学期间只能顾一头，所以A项不正确。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-004",
+          "sourceId": "subject-bmvcex-unit-9-004",
+          "questionType": "single",
+          "stem": "大学生如何避免患“精神偏枯病”。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "注意补充身体营养。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "对学问建立广泛的兴趣。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "经常去做心理咨询。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "认真钻研本学科学问。"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“精神偏枯病”指眼界太窄；建立广泛兴趣，才能避免只守一隅。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-005",
+          "sourceId": "subject-bmvcex-unit-9-005",
+          "questionType": "single",
+          "stem": "作者在第一段举牛顿和达尔文的例子是为了说明什么?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "牛顿和达尔文非常了不起。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "在自然科学领域，伟大的人物不需要了解其他的学科。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "牛顿比达尔文更厉害。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "在自然科学领域，凡是伟大的人物都是对整个学问都感兴趣的人。"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "作者举牛顿、达尔文，是说明真正大家往往关心整个学问，不只守本专业。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-006",
+          "sourceId": "subject-bmvcex-unit-9-006",
+          "questionType": "single",
+          "stem": "根据文章，关于人才状况下列哪些说法是正确的。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "主要问题是人才数量不够。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "学校培养的人才大多不合格，不能满足社会需要。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "人才培养的责任与教育当局及大学教师无关。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "社会上人才充足。"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "作者批评学校培养的人才多不合格，难以满足社会需要，所以选B。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-007",
+          "sourceId": "subject-bmvcex-unit-9-007",
+          "questionType": "single",
+          "stem": "关于“十足的人”，下列说法正确的是。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "就是完美的人。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "就是指“通人”"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "就是只通自己本学科领域学问的人。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "就是专家。"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文中“十足的人”指知识和视野较完整的“通人”，不是只会一门的专家。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-008",
+          "sourceId": "subject-bmvcex-unit-9-008",
+          "questionType": "single",
+          "stem": "学界太专的弊端与什么有关?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "学者们自身的思想认识不够。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "学者们自己没有多余的时间精力。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "高等教育制度导致的。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "大学的教学水平不高。"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "作者认为学界过专与高等教育制度有关，课程和培养方式都助长了狭窄。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-009",
+          "sourceId": "subject-bmvcex-unit-9-009",
+          "questionType": "single",
+          "stem": "课文中关于大学课程设置，下列说法错误的是。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "基本的课程开设情况不理想。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "课程设置本末倒置"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "大学课程开设的数量不足。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "本科开设的课程过难。"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文章批评课程本末倒置、基础不理想和本科课程过难，不是说课程数量不足。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-010",
+          "sourceId": "subject-bmvcex-unit-9-010",
+          "questionType": "single",
+          "stem": "以下成语比喻“见识浅陋,没有远见”是哪一项?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "本末倒置"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "雕虫小技"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "眼光短浅"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "舍本逐末"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“眼光短浅”就是见识浅、缺少长远眼光，正合题干意思。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-011",
+          "sourceId": "subject-bmvcex-unit-9-011",
+          "questionType": "single",
+          "stem": "下列关于当今学问分门别类的原因，哪项不正确",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "各门学问之间差距非常大。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "为了研究的便利。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "人的精力有限。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "整个学问体系庞大复杂，分门别类有利于开展研究。"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "学问分科是为研究便利、精力有限和体系庞大，并不是因为各学问毫不相通。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-012",
+          "sourceId": "subject-bmvcex-unit-9-012",
+          "questionType": "single",
+          "stem": "下列词语书写正确的是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "叼虫小技"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "考据将"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "应接不暇"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "略知梗慨"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“应接不暇”书写正确；“叼虫”“考据将”“梗慨”都不是规范写法。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-013",
+          "sourceId": "subject-bmvcex-unit-9-013",
+          "questionType": "single",
+          "stem": "文中第二段提到考据专家，下列哪种说法不正确。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "这个专家专业水平不高。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "作者认为这样的“专家”并不是更高层次的“大家”。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "这种专家只专注于自身学科领域的学问。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "这是作者生活中真实的例子。"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "作者批评这类专家不够“通”，不是说他的专业水平低。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-014",
+          "sourceId": "subject-bmvcex-unit-9-014",
+          "questionType": "single",
+          "stem": "作者在第二段提到的“科学家”，下列哪种说法正确。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "这个科学家不认真做实验。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "这个科学家是个残疾人。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "这个科学家可能在专业领域成就很高。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "这个科学家非常了解外界的世界。"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文中的科学家可能专业成就很高，但问题在于对专业外世界了解太少。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-015",
+          "sourceId": "subject-bmvcex-unit-9-015",
+          "questionType": "single",
+          "stem": "文中“死抱一隅之见”指的是。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "暴虎冯河、心胸狭窄之人。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "只关注自己研究方向、立场的人。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "躲在墙角，不问世事的人。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "目光短浅、无主见之人。"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“死抱一隅之见”指只守自己的研究方向和立场，不肯放宽视野。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-016",
+          "sourceId": "subject-bmvcex-unit-9-016",
+          "questionType": "judge",
+          "stem": "根据文章，我们知道对知识学问的学习和探索，需要分门别类去进行，所以不必太关注其他学科领域的知识。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文章承认学问要分科，但反对因此完全不关心其他领域，所以判断为错误。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-017",
+          "sourceId": "subject-bmvcex-unit-9-017",
+          "questionType": "judge",
+          "stem": "很多专家经常会发表出一些幼稚的言论主要就是因为他们没有把自身学科领域的学问学好。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "幼稚言论主要因视野太窄、缺少通识，不是因为本专业没学好。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-018",
+          "sourceId": "subject-bmvcex-unit-9-018",
+          "questionType": "judge",
+          "stem": "根据作者所述，社会上很多人追求专家的头衔，这是当时的一大社会问题。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "作者把追逐“专家”头衔看作社会问题，强调要培养更完整的通人。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-019",
+          "sourceId": "subject-bmvcex-unit-9-019",
+          "questionType": "judge",
+          "stem": "本文作者的主要观点就是希望我们不要甘于做井底之蛙，应该有更广阔的视野和胸怀。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文章主旨是反对做井底之蛙，主张有更广的学问兴趣和胸怀。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-homework-020",
+          "sourceId": "subject-bmvcex-unit-9-020",
+          "questionType": "judge",
+          "stem": "本文作者雷海宗先生是一个历史学家，但是他对其他领域包括教育领域也都深有研究。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-专家与通人",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "雷海宗是历史学家，也关注教育与社会问题，题干判断正确。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-pretest",
+      "name": "课前测验",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第9课-课前测验.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch009-pretest-001",
+          "sourceId": "subject-bmvcex-unit-9-pretest-001",
+          "questionType": "single",
+          "stem": "一百多年来中国教育始终没有解决的一个大问题是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "教育目的"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "教学观念"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "课程设置"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "教学目标"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-课前测试题",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 33.3
+          },
+          "explanation": "文中把教育目的看作百年来中国教育没有真正解决的大问题。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-pretest-002",
+          "sourceId": "subject-bmvcex-unit-9-pretest-002",
+          "questionType": "single",
+          "stem": "梅贻琦先生倡导( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "通专兼顾"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "通才教育"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "重“专”轻“通”"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "专才教育"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-课前测试题",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 33.3
+          },
+          "explanation": "梅贻琦强调大学教育要“通专兼顾”，既有专业也有通识。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-pretest-003",
+          "sourceId": "subject-bmvcex-unit-9-pretest-003",
+          "questionType": "judge",
+          "stem": "文章认为，整个社会长期被金钱第一、专家至上、高速发展等急功近利的观念所困扰，这使“专才”的培养大受影响，“通才”的制造仍在进行。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-课前测试题",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 33.4
+          },
+          "explanation": "文章批评急功近利使通才培养受阻，社会仍偏向制造专才，所以题干说反了。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-literary-common-sense",
+      "name": "文学常识",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第9课-文学常识.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch009-literary-001",
+          "sourceId": "subject-bmvcex-unit-9-literature-2-001",
+          "questionType": "single",
+          "stem": "下列文学常识表述正确的一项是()。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "司马迁，西汉史学家、文学家。《史记》是我国第一部编年体通史。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《史记》记载了上自传说中的黄帝时代，下至汉武帝共3000多年的历史，一共120篇。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《史记》分本纪、世家、列传、书、表五个体例。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "韩愈，字退之，世称韩昌黎。唐代文学家，与刘禹锡共同倡导了“古文运动”。宋代苏轼称他“文起八代之衰”，明人推他为唐宋八大家之首。"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测试2",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "《史记》分本纪、世家、列传、书、表五体，C项表述正确。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-002",
+          "sourceId": "subject-bmvcex-unit-9-literature-2-002",
+          "questionType": "single",
+          "stem": "下列表述有误的一项是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "词的标题与词牌有严格的区别，标题表明词所涉及的内容，词牌是与韵相配合的乐调，二者分别表示词的内容和形式。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "现代戏剧主要指20世纪以来从西方传入的话剧(如《雷雨》)、歌剧(如《白毛女》)和舞剧(如《红色娘子军》)等，话剧是其中的主体。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "“汉乐府”本是汉武帝设立的掌管音乐的官府，后来成为诗体的名称。《木兰辞》和《孔雀东南飞》被称为“乐府双璧”。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "西方表现主义小说的代表是被誉为美国当代戏剧奠基人的尤金奥尼尔，西方表现主义戏剧的代表是奥地利的卡夫卡。"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测试2",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "尤金·奥尼尔是戏剧家，卡夫卡是小说家；D项把两者代表领域说反了。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-003",
+          "sourceId": "subject-bmvcex-unit-9-literature-2-003",
+          "questionType": "single",
+          "stem": "1918年，鲁迅发表在《新青年》上的我国现代文学史上的第一篇白话小说是(  )。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "《祝福》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《药》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《狂人日记》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《伤逝》"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测试2",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "鲁迅1918年在《新青年》发表《狂人日记》，常被称为现代文学第一篇白话小说。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-004",
+          "sourceId": "subject-bmvcex-unit-9-literature-2-004",
+          "questionType": "single",
+          "stem": "下列作品不是莎士比亚四大悲剧的一项是(    )。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "《奥赛罗》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《李尔王》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《麦克白》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《威尼斯商人》"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测试2",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "莎士比亚四大悲剧不包括《威尼斯商人》，它通常归入喜剧。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-005",
+          "sourceId": "subject-bmvcex-unit-9-literature-2-005",
+          "questionType": "single",
+          "stem": "“先天下之忧而忧，后天下之乐而乐”出自哪位作家的哪部作品()?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "范仲淹——《岳阳楼记》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "欧阳修——《醉翁亭记》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "柳宗元——《小石潭记》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "王安石——《游褒禅山记》"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测试2",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "“先天下之忧而忧，后天下之乐而乐”出自范仲淹《岳阳楼记》。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-006",
+          "sourceId": "subject-bmvcex-unit-9-literature-2-006",
+          "questionType": "single",
+          "stem": "下列各项中，作家、作品、体裁对应不正确的一项是()。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "孙犁——《荷花淀》——小说"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "朱自清——《荷塘月色》——散文"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "司马迁——《鸿门宴》——小说"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "鲁迅——《祝福》——小说"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测试2",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "《鸿门宴》出自《史记》，是史传名篇，不是司马迁写的小说。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-007",
+          "sourceId": "subject-bmvcex-unit-9-literature-001",
+          "questionType": "single",
+          "stem": "以下四位谁曾经中过状元?( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "欧阳修"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "范仲淹"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "韩愈"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "文天祥"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "文天祥曾中状元；欧阳修、范仲淹、韩愈不以状元身份著称。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-008",
+          "sourceId": "subject-bmvcex-unit-9-literature-002",
+          "questionType": "single",
+          "stem": "“美”字最初的含义是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "羊大即为美"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "远方茂盛的森林"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "戴着头饰站立的人"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "土地里生长的花朵"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "本题采用“美”字源于戴羽饰之人的说法，强调早期字形与装饰、审美有关。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-009",
+          "sourceId": "subject-bmvcex-unit-9-literature-003",
+          "questionType": "single",
+          "stem": "《尚书》中的“尚”是什么意思?( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "崇尚"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "上古"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "官名"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "高尚"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "《尚书》又称《书》，其中“尚”可理解为上古，指上古之书。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-010",
+          "sourceId": "subject-bmvcex-unit-9-literature-004",
+          "questionType": "single",
+          "stem": "孔子为自己的教学定为“孔门四教”，具体指的是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "仁、义、礼、信"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "德、智、体、美"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "修身、齐家、治国、平天下"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "文、行、忠、信"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "孔门四教指文、行、忠、信，见于孔子教学内容的传统概括。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-011",
+          "sourceId": "subject-bmvcex-unit-9-literature-005",
+          "questionType": "single",
+          "stem": "俗语说“化干戈为玉帛”，干戈都是兵器，下面哪种武器属于防御武器?( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "矛"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "干"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "刀"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "戈"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "“干”是盾牌一类防御兵器，“戈”才是进攻性兵器。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch009-literary-012",
+          "sourceId": "subject-bmvcex-unit-9-literature-006",
+          "questionType": "single",
+          "stem": "《霸王别姬》是京剧中的名段，“虞姬”这一角色在京剧中属于( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "矛"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "青衣"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "花旦"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "刀"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "9-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "京剧中虞姬多属青衣行当，重唱功和端庄形象。",
+          "explanationStatus": "verified"
+        }
+      ]
+    }
+  ],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-remaining.md"
+  ],
+  "resolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-complete",
+    "confirmedChoices": {
+      "issue-003-ch009-homework-q001-option-d-spacing": "A",
+      "issue-004-ch009-homework-q003-stem-punctuation": "A",
+      "issue-005-ch009-homework-q006-option-b-mojibake": "A",
+      "issue-006-ch009-homework-q020-stem-typo": "A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch009-homework-001",
+        "field": "options.D.text",
+        "from": "隔 阂gé hé ;隔膜gé mó",
+        "to": "隔阂gé hé;隔膜gé mó",
+        "reason": "用户选择 A，确认修正生成题库中的空格/标点异常；源文件不改。"
+      },
+      {
+        "questionId": "q-cc-ch009-homework-003",
+        "field": "stem",
+        "from": "结合课文内容，下列说法不正确一项是、",
+        "to": "结合课文内容，下列说法不正确一项是。",
+        "reason": "用户选择 A，确认修正生成题库中的题干标点；源文件不改。"
+      },
+      {
+        "questionId": "q-cc-ch009-homework-006",
+        "field": "options.B.text",
+        "from": "学校pei'y培养的人才大多不合格，不能满足社会需要。",
+        "to": "学校培养的人才大多不合格，不能满足社会需要。",
+        "reason": "用户选择 A，确认删除生成题库中的拼音残片；源文件不改。"
+      },
+      {
+        "questionId": "q-cc-ch009-homework-020",
+        "field": "stem",
+        "from": "本位作者雷海宗先生是一个历史学家，但是他对其他领域包括教育领域也都深有研究。",
+        "to": "本文作者雷海宗先生是一个历史学家，但是他对其他领域包括教育领域也都深有研究。",
+        "reason": "用户选择 A，确认修正生成题库中的疑似错字；源文件不改。"
+      }
+    ]
+  },
+  "release": {
+    "version": "v4-college-english-units-001-to-003",
+    "createdAt": "2026-06-02",
+    "importBatchId": "college-chinese-remaining",
+    "sourceFiles": [
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-9-专家与通人.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第9课-课前测验.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第9课-文学常识.json"
+    ],
+    "verificationSources": [],
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups.",
+    "previousReleaseVersion": "v3-mental-health-ch001-to-ch007",
+    "metadataChanges": [
+      {
+        "id": "chapter-title-normalized-v1",
+        "date": "2026-06-02",
+        "field": "chapter.name",
+        "from": "数字前缀标题，例如 1-序二篇、10-西湖七月半、11-别赋",
+        "to": "纯章节标题，例如 序二篇、西湖七月半、别赋",
+        "reason": "用户要求章节显示为“第 X 章： 章节名称”。题库数据仅保留纯章节标题，由界面根据章节顺序拼接显示文案。"
+      },
+      {
+        "id": "release-directory-consolidation-v1",
+        "date": "2026-06-02",
+        "field": "question-banks/releases",
+        "from": "v2-college-chinese-complete, v2-college-chinese-complete-ch011-title-fix, v2-college-chinese-through-ch002, v2-college-chinese-through-ch003, v2-college-chinese-through-ch004, v2-college-chinese-through-ch005, v2-college-chinese-through-ch006, v2-college-chinese-through-ch007, v2-college-chinese-through-ch008, v2-college-chinese-through-ch008-rawscore-normalized",
+        "to": "v2-college-chinese-complete-chapter-title-normalized",
+        "reason": "用户要求 release 目录只保留 v1 和最终 v2；中间 v2 release 的 manifest 与工单审计信息合并进最终 v2 manifest。"
+      }
+    ],
+    "snapshotRelease": true
+  }
+}

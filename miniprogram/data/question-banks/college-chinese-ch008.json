@@ -1,0 +1,1588 @@
+{
+  "status": "released",
+  "publishable": true,
+  "blockingTickets": [],
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapter": {
+    "id": "ch-008",
+    "name": "北京大学月刊发刊词"
+  },
+  "groups": [
+    {
+      "id": "group-homework",
+      "name": "课后作业",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-8-北京大学月刊发刊词.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch008-homework-001",
+          "sourceId": "subject-bmvcex-unit-8-001",
+          "questionType": "single",
+          "stem": "下列不属于“汉赋四大家”的是。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "班固"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "司马相如"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "司马迁"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "扬雄"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "汉赋四大家通常指司马相如、扬雄、班固、张衡；司马迁是《史记》作者，不在其中。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-002",
+          "sourceId": "subject-bmvcex-unit-8-002",
+          "questionType": "single",
+          "stem": "下列划线字词解释正确的一项是:",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "静俟读者批判而已 (俟:看着)"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "倍蓰:五倍"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "常樊然并峙于其中(樊:纷杂)"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "计学:会计学"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“樊然”有纷杂貌的意思，符合“并峙于其中”的语境；其余释义与文中用法不合。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-003",
+          "sourceId": "subject-bmvcex-unit-8-003",
+          "questionType": "single",
+          "stem": "科举制度是古代中国最重要的人才选拔机制，下列关于科举制度的说法正确的是:",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "戊戌变法提出废止科举主张，科举制度从此退出历史舞台"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "起源于唐太宗时期，成熟于唐玄宗时期"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "“三元及第”是指接连在乡试、会试、殿试中都考中第一名"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "宋朝时科举增设武举，采用糊名法加强考试公平性"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“三元及第”指乡试、会试、殿试都考中第一名，正对应题干说法。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-004",
+          "sourceId": "subject-bmvcex-unit-8-004",
+          "questionType": "single",
+          "stem": "下列关于我国古代典籍“四书五经”的相关表述，正确的是。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "“五经”指的是《诗经》《大学》《礼记》《周易》和《论语》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《易经》被誉为“群经之首，大道之源”"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "宋朝学者将《礼记》从《中庸》中抽出独立成书"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《四书》是《大学》《中庸》《礼记》《论语》"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《易经》常被称为“群经之首，大道之源”；四书五经的组成也不含选项A、D那样的搭配。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-005",
+          "sourceId": "subject-bmvcex-unit-8-005",
+          "questionType": "single",
+          "stem": "下列选项与“万物并育而不相害,道并行而不相悖”、“和而不同”所体现的文化生活道理一致的是 ①海纳百川，有容乃大 ②天下兴亡，匹夫有责 ③推陈出新，革故鼎新 ④美美与共，天下大同",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "①④"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "①②"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "①③"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "②③"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "题干强调并存包容、和而不同；①“海纳百川”和④“美美与共”最能体现这一点。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-006",
+          "sourceId": "subject-bmvcex-unit-8-006",
+          "questionType": "single",
+          "stem": "《<北京大学月刊>发刊词》一文体裁是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "议论文"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "说明文"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "应用文"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "记叙文"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本文阐述大学性质和办刊意义，主要用论证说理表达观点，属于议论文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-007",
+          "sourceId": "subject-bmvcex-unit-8-007",
+          "questionType": "single",
+          "stem": "在《<北京大学月刊>发刊词》一文中,“共同研究学术之机关”的基本含义是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "强调大学的批判功能"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "强调大学的科学职能"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "强调大学的教育职能"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "强调大的学科功能"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“共同研究学术之机关”强调大学以研究学术、发展科学为职责，不是只为仕途服务。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-008",
+          "sourceId": "subject-bmvcex-unit-8-008",
+          "questionType": "single",
+          "stem": "下列哪一部作品不是秦汉时期的文学作品?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "《战国策》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《汉书》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《史记》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《庄子》"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《庄子》是先秦道家著作，不属于秦汉时期文学作品，所以选D。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-009",
+          "sourceId": "subject-bmvcex-unit-8-009",
+          "questionType": "single",
+          "stem": "下列表述错误的一项是:",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "本文写作背景是民国初年，中国高等教育刚刚诞生。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "“万物并育而不相害，道并行而不悖”，此句出于《大学》。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "在《<北京大学月刊>发刊词》一文中，作者主要说了发行《月刊》的三个必要性。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "在《<北京大学月刊>发刊词》一文中作者集中阐发了自己的大学理念。"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“万物并育而不相害，道并行而不相悖”出自《中庸》，不是《大学》，所以B错误。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-010",
+          "sourceId": "subject-bmvcex-unit-8-010",
+          "questionType": "single",
+          "stem": "《后汉书》的作者是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "范晔"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "班固"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "司马迁"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "陈寿"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《后汉书》为南朝宋范晔所撰，主要记载东汉历史。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-011",
+          "sourceId": "subject-bmvcex-unit-8-011",
+          "questionType": "single",
+          "stem": "《<北京大学月刊>发刊词》选自",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "《蔡元培全集》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《谈文学》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《旅途随笔》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《龙.虎.狗》"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《<北京大学月刊>发刊词》收入《蔡元培全集》，其他选项不是这篇文章的出处。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-012",
+          "sourceId": "subject-bmvcex-unit-8-012",
+          "questionType": "single",
+          "stem": "蔡元培在1918年撰文说:“万物并育而不相害，道并行而不相悖，哲学之唯心论与唯物论;文学之崇实论与理想论;经济学之干涉论与放任论并列其中，此大学之所以为大也。”此处蔡元培所说“大学之所以为大”的主要意义是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "学风开放，思想自由"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "规模宏大，名师众多"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "学科齐全，综合性强"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "重文轻理，倡新抑日"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "引文列举不同学说并存，说明蔡元培重视思想自由、学风开放。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-013",
+          "sourceId": "subject-bmvcex-unit-8-013",
+          "questionType": "single",
+          "stem": "《<北京大学月刊>发刊词》所使用的语言是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "普通话"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "浅近文言"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "古白话"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "古文"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "这篇发刊词用语接近文言但较浅易，通常概括为浅近文言。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-014",
+          "sourceId": "subject-bmvcex-unit-8-014",
+          "questionType": "single",
+          "stem": "蔡元培在《<北京大学月刊>发刊词》中:大学者，“囊括大典，网罗众家”之学府也……各国大学，哲学之唯心论与唯物论，文学、美术之理想派与写实派，计学之干涉论与放任论，常樊然并屿其中，此思想自由之通则，而大学之所以为大也。材料不能说明蔡元培:",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "全盘否定中国古代封建文化"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "诠释了自己对大学的理解"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "提倡“兼容并包，思想自由”"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "鼓励和倡导资产阶级新文化"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "材料体现蔡元培提倡思想自由、兼容并包，不能说明他全盘否定传统文化。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-015",
+          "sourceId": "subject-bmvcex-unit-8-015",
+          "questionType": "single",
+          "stem": "《<北京大学月刊>发刊词》一文的作者是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "胡适"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "钱锺书"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "蔡元培"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "蒋梦麟"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《<北京大学月刊>发刊词》的作者是蔡元培，这是本课最基本的作者常识。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-016",
+          "sourceId": "subject-bmvcex-unit-8-016",
+          "questionType": "judge",
+          "stem": "《<北京大学月刊>发刊词》这篇文章初次刊登于1919年《北京大学学报》。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文章刊于《北京大学月刊》第1卷第1号，不是《北京大学学报》。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-017",
+          "sourceId": "subject-bmvcex-unit-8-017",
+          "questionType": "judge",
+          "stem": "蔡元培先生曾经两次去美国莱比锡大学研修。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "莱比锡大学在德国，不在美国；题干把地点说错了。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-018",
+          "sourceId": "subject-bmvcex-unit-8-018",
+          "questionType": "judge",
+          "stem": "蔡元培所有作品都收录于他所编的《蔡元培全集》。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《蔡元培全集》是后人整理出版的文集，不能说由蔡元培本人编成且收尽所有作品。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-019",
+          "sourceId": "subject-bmvcex-unit-8-019",
+          "questionType": "judge",
+          "stem": "蔡元培先生是清朝时期的进士，后担任了北京大学的校长。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "蔡元培清末中进士，后来出任北京大学校长，题干表述正确。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-homework-020",
+          "sourceId": "subject-bmvcex-unit-8-020",
+          "questionType": "judge",
+          "stem": "蔡元培先生与毛泽东都是湖南人，因此毛泽东评价他是“学界泰斗人世楷模”。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-北京大学月刊发刊词",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "蔡元培是浙江绍兴人，不是湖南人；毛泽东评价他也不是因为同乡关系。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-pretest",
+      "name": "课前测验",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第7课-课前测验.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch008-pretest-001",
+          "sourceId": "subject-bmvcex-unit-7-pretest-001",
+          "questionType": "single",
+          "stem": "《<北京大学月刊>发刊词》是一篇(  )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "议论文"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "散文"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "记叙文"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "剧本"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-课前小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.2
+          },
+          "explanation": "本文阐明办刊宗旨和大学理念，主要用议论说理表达观点，属于议论文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-pretest-002",
+          "sourceId": "subject-bmvcex-unit-7-pretest-002",
+          "questionType": "single",
+          "stem": "被毛泽东称为“学界泰斗，人世楷模”的人是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "鲁迅"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "胡适"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "蔡元培"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "李大钊"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-课前小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "毛泽东评价蔡元培为“学界泰斗，人世楷模”，肯定其教育与人格影响。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-pretest-003",
+          "sourceId": "subject-bmvcex-unit-7-pretest-003",
+          "questionType": "single",
+          "stem": "《<北京大学月刊>发刊词》的作者是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "蔡元培"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "朱光潜"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "钱锺书"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "余秋雨"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-课前小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "《<北京大学月刊>发刊词》的作者是蔡元培。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-pretest-004",
+          "sourceId": "subject-bmvcex-unit-7-pretest-004",
+          "questionType": "single",
+          "stem": "《<北京大学月刊>发刊词》所使用的语言是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "古白话"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "古文"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "浅近文言文"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "普通话"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-课前小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "这篇文章语言接近文言但较浅易，答案应为浅近文言文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-pretest-005",
+          "sourceId": "subject-bmvcex-unit-7-pretest-005",
+          "questionType": "judge",
+          "stem": "《<北京大学月刊>发刊词》初次刊登是在1918年。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-课前小测试",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "文章虽写于1918年11月，但刊于《北京大学月刊》第1卷第1号，1919年1月出版。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-pretest-006",
+          "sourceId": "subject-bmvcex-unit-7-pretest-006",
+          "questionType": "judge",
+          "stem": "蔡元培是中国近代教育家。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-课前小测试",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "蔡元培是中国近代教育家，并曾任北京大学校长，题干正确。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-pretest-007",
+          "sourceId": "subject-bmvcex-unit-7-pretest-007",
+          "questionType": "judge",
+          "stem": "蔡元培在《<北京大学月刊>发刊词》中提出了“兼容并收”的教育主张。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-课前小测试",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "蔡元培在文中主张思想自由、兼容并收，与“兼容并包”的大学理念相通。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-literary-common-sense",
+      "name": "文学常识",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第8课-文学常识.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch008-literary-001",
+          "sourceId": "subject-bmvcex-unit-8-literature-001",
+          "questionType": "single",
+          "stem": "成语“白驹过隙”比喻( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "时光飞逝"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "人生如梦"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "时间宝贵"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "速度飞快"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "“白驹过隙”比喻时间过得很快，像白马一闪而过。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-literary-002",
+          "sourceId": "subject-bmvcex-unit-8-literature-002",
+          "questionType": "single",
+          "stem": "下列选项中与“亡羊补牢”意思最接近的是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "往者不可谏，来者犹可追"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "祸兮，福之所倚，福兮，祸之所伏"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "失之东隅，收之桑榆"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "人无远虑，必有近忧"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "“亡羊补牢”强调出错后及时补救，与“往者不可谏，来者犹可追”意思最接近。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-literary-003",
+          "sourceId": "subject-bmvcex-unit-8-literature-003",
+          "questionType": "single",
+          "stem": "下面哪个成语和曹操有关?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "望梅止渴"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "画饼充饥"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "背水一战"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "四面楚歌"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "“望梅止渴”典故与曹操有关，指用想象来安慰或激励自己。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-literary-004",
+          "sourceId": "subject-bmvcex-unit-8-literature-004",
+          "questionType": "single",
+          "stem": "墨子的主要思想是“兼爱”，他所反对的“爱有差等”这一观点是哪家学派的?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "道家"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "儒家"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "法家"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "名家"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "墨子主张“兼爱”，反对儒家强调亲疏等级的“爱有差等”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-literary-005",
+          "sourceId": "subject-bmvcex-unit-8-literature-005",
+          "questionType": "single",
+          "stem": "拍电影时常用的“杀青”来表示拍摄完成，“杀青”原指什么?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "制作竹简的一道工序"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "加工新茶的一种方法"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "制作陶器的一道工序"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "制作丝绸的一道工序"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "“杀青”原指制作竹简时处理、烘干竹青的工序，后来引申为作品完成。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch008-literary-006",
+          "sourceId": "subject-bmvcex-unit-8-literature-006",
+          "questionType": "single",
+          "stem": "王羲之对一种动物十分偏爱，并从它的体态姿势上领悟到书法执笔运笔的道理，这是什么动物?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "鱼"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "鸡"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "鹤"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "鹅"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "8-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
+          "explanation": "王羲之爱鹅，传说他从鹅的体态中体会到书法用笔之妙。",
+          "explanationStatus": "verified"
+        }
+      ]
+    }
+  ],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch008.md"
+  ],
+  "resolution": {
+    "pendingAt": "2026-06-02",
+    "stagingVersion": "v2-pending-college-chinese-ch008",
+    "blockingIssues": [
+      "issue-001-zero-score-homework-006"
+    ],
+    "inheritedConfirmedChoices": {
+      "pretestFileContentMapping": "college-chinese-ch007 ticket choice A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch008-pretest-001..007",
+        "field": "source-file-to-chapter/group mapping",
+        "from": "source filename/tag says 第7课课前测验",
+        "to": "map by confirmed content to ch008 pretest",
+        "reason": "沿用 college-chinese-ch007 工单用户选择 A；源文件不改名，题干、选项、答案未修改。"
+      },
+      {
+        "questionId": "q-cc-ch008-pretest-001..007",
+        "field": "tags[0]",
+        "from": "7-课前小测试",
+        "to": "8-课前小测试",
+        "reason": "源文件按内容归属第8课后，生成题库标签同步到第8课；题干、选项、答案未修改。"
+      }
+    ],
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-through-ch008",
+    "scoreHandlingPolicy": "Source score values are preserved as sourceMeta.rawScore; generated app-facing weight defaults to 1.",
+    "blockingIssuesResolvedBySchemaPolicy": [
+      "issue-001-zero-score-homework-006"
+    ]
+  },
+  "release": {
+    "version": "v4-college-english-units-001-to-003",
+    "createdAt": "2026-06-02",
+    "importBatchId": "college-chinese-ch008",
+    "sourceFiles": [
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-8-北京大学月刊发刊词.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第7课-课前测验.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第8课-文学常识.json"
+    ],
+    "verificationSources": [
+      {
+        "title": "源文件：大学语文-8-北京大学月刊发刊词.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-8-北京大学月刊发刊词.json",
+        "usedFor": [
+          "课后作业题干、选项、答案、原始 sourceId"
+        ]
+      },
+      {
+        "title": "源文件：大学语文章节题-第7课-课前测验.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第7课-课前测验.json",
+        "usedFor": [
+          "用户已确认按内容映射为第8课课前测验"
+        ]
+      },
+      {
+        "title": "源文件：大学语文章节题-第8课-文学常识.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第8课-文学常识.json",
+        "usedFor": [
+          "文学常识题干、选项、答案、原始 sourceId"
+        ]
+      },
+      {
+        "title": "北京大学新闻网：蔡元培题写《北京大学月刊》发刊词",
+        "type": "web",
+        "url": "https://news.pku.edu.cn/2012zt/2012-05/14/content_241031.htm",
+        "usedFor": [
+          "发刊词作者、1918年撰写时间、兼容并收/思想自由、文中大学理念核对"
+        ]
+      },
+      {
+        "title": "《北京大学日刊》：蔡元培全集出版",
+        "type": "web",
+        "url": "https://journal.pku.edu.cn/CN/Y1997/V34/I2/107",
+        "usedFor": [
+          "《蔡元培全集》为后人整理出版文集核对"
+        ]
+      },
+      {
+        "title": "中国政府网/新华社：蔡元培生平资料",
+        "type": "web",
+        "url": "https://www.gov.cn/jrzg/2008-01/11/content_856186.htm",
+        "usedFor": [
+          "蔡元培近代教育家、籍贯、进士、任北大校长核对"
+        ]
+      },
+      {
+        "title": "人民网：毛泽东挽蔡元培联",
+        "type": "web",
+        "url": "http://dangshi.people.com.cn/n/2013/0428/c85037-21317547.html",
+        "usedFor": [
+          "“学界泰斗，人世楷模”核对"
+        ]
+      },
+      {
+        "title": "汉典：白驹过隙",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E7%99%BD%E9%A9%B9%E8%BF%87%E9%9A%99",
+        "usedFor": [
+          "白驹过隙释义核对"
+        ]
+      },
+      {
+        "title": "汉典：亡羊补牢",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E4%BA%A1%E7%BE%8A%E8%A1%A5%E7%89%A2",
+        "usedFor": [
+          "亡羊补牢释义核对"
+        ]
+      },
+      {
+        "title": "汉典：望梅止渴",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E6%9C%9B%E6%A2%85%E6%AD%A2%E6%B8%B4",
+        "usedFor": [
+          "望梅止渴典故核对"
+        ]
+      },
+      {
+        "title": "汉典：杀青",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E6%9D%80%E9%9D%92",
+        "usedFor": [
+          "杀青原义核对"
+        ]
+      },
+      {
+        "title": "汉典：俟",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E4%BF%9F",
+        "usedFor": [
+          "文言词义核对"
+        ]
+      },
+      {
+        "title": "汉典：樊然",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E6%A8%8A%E7%84%B6",
+        "usedFor": [
+          "樊然释义核对"
+        ]
+      },
+      {
+        "title": "汉典：三元及第",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E4%B8%89%E5%85%83%E5%8F%8A%E7%AC%AC",
+        "usedFor": [
+          "科举三元及第核对"
+        ]
+      },
+      {
+        "title": "故宫博物院：四书五经",
+        "type": "web",
+        "url": "https://www.dpm.org.cn/Home.html",
+        "usedFor": [
+          "四书五经常识核对"
+        ]
+      },
+      {
+        "title": "古籍与传统文化资料：汉赋四大家",
+        "type": "web",
+        "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=70698",
+        "usedFor": [
+          "汉赋四大家核对"
+        ]
+      },
+      {
+        "title": "中国哲学书电子化计划：《中庸》",
+        "type": "web",
+        "url": "https://ctext.org/liji/zhong-yong/zhs",
+        "usedFor": [
+          "“万物并育而不相害，道并行而不悖”出处核对"
+        ]
+      },
+      {
+        "title": "中国哲学书电子化计划：《庄子》",
+        "type": "web",
+        "url": "https://ctext.org/zhuangzi/zhs",
+        "usedFor": [
+          "《庄子》为先秦道家文本核对"
+        ]
+      },
+      {
+        "title": "中国哲学书电子化计划：墨子",
+        "type": "web",
+        "url": "https://ctext.org/mozi/zhs",
+        "usedFor": [
+          "墨子兼爱思想核对"
+        ]
+      },
+      {
+        "title": "中国大百科全书：范晔",
+        "type": "web",
+        "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=45531",
+        "usedFor": [
+          "《后汉书》作者核对"
+        ]
+      },
+      {
+        "title": "中国大百科全书：王羲之",
+        "type": "web",
+        "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=41972",
+        "usedFor": [
+          "王羲之与鹅、书法常识核对"
+        ]
+      }
+    ],
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups.",
+    "schemaChanges": [
+      {
+        "id": "score-to-weight-v1",
+        "description": "Generated questions use weight for app scoring; source score is stored under sourceMeta.rawScore after default-5 normalization."
+      },
+      {
+        "id": "rawscore-default-5-v1",
+        "description": "sourceMeta.rawScore defaults to 5, converts 0 or <=5 to 5, and preserves source values greater than 5."
+      }
+    ],
+    "previousReleaseVersion": "v3-mental-health-ch001-to-ch007",
+    "metadataChanges": [
+      {
+        "id": "chapter-title-normalized-v1",
+        "date": "2026-06-02",
+        "field": "chapter.name",
+        "from": "数字前缀标题，例如 1-序二篇、10-西湖七月半、11-别赋",
+        "to": "纯章节标题，例如 序二篇、西湖七月半、别赋",
+        "reason": "用户要求章节显示为“第 X 章： 章节名称”。题库数据仅保留纯章节标题，由界面根据章节顺序拼接显示文案。"
+      },
+      {
+        "id": "release-directory-consolidation-v1",
+        "date": "2026-06-02",
+        "field": "question-banks/releases",
+        "from": "v2-college-chinese-complete, v2-college-chinese-complete-ch011-title-fix, v2-college-chinese-through-ch002, v2-college-chinese-through-ch003, v2-college-chinese-through-ch004, v2-college-chinese-through-ch005, v2-college-chinese-through-ch006, v2-college-chinese-through-ch007, v2-college-chinese-through-ch008, v2-college-chinese-through-ch008-rawscore-normalized",
+        "to": "v2-college-chinese-complete-chapter-title-normalized",
+        "reason": "用户要求 release 目录只保留 v1 和最终 v2；中间 v2 release 的 manifest 与工单审计信息合并进最终 v2 manifest。"
+      }
+    ],
+    "snapshotRelease": true
+  }
+}

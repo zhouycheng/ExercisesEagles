@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Workflow"
+  short_description: "Project workflow from intake to PR prep, including Git branch/worktree/commit/release rules"
+  default_prompt: "Use $ExercisesEaglesWorkflow to guide this Tixiaoying change from requirement discussion through branch setup, tests, implementation, validation, docs, commit preparation, and PR delivery."
+
+policy:
+  allow_implicit_invocation: true

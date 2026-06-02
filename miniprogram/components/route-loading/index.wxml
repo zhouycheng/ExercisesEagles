@@ -1,0 +1,11 @@
+<view wx:if="{{visible}}" class="route-loading" catchtouchmove="noop" catchtap="noop">
+  <view class="route-loading__panel">
+    <view class="route-loading__spinner" aria-hidden="true">
+      <view class="route-loading__ring route-loading__ring--outer"></view>
+      <view class="route-loading__ring route-loading__ring--inner"></view>
+      <view class="route-loading__dot"></view>
+    </view>
+    <view class="route-loading__title">{{title}}</view>
+    <view wx:if="{{description}}" class="route-loading__description">{{description}}</view>
+  </view>
+</view>

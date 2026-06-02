@@ -1,0 +1,126 @@
+.route-loading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48rpx;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10rpx);
+  box-sizing: border-box;
+  animation: routeLoadingMaskIn 120ms ease-out both;
+}
+
+.route-loading__panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 360rpx;
+  min-height: 260rpx;
+  padding: 40rpx 28rpx;
+  border: 1rpx solid rgba(226, 232, 240, 0.9);
+  border-radius: 18rpx;
+  background: #ffffff;
+  box-shadow: 0 22rpx 70rpx rgba(15, 23, 42, 0.12);
+  box-sizing: border-box;
+}
+
+.route-loading__spinner {
+  position: relative;
+  width: 92rpx;
+  height: 92rpx;
+}
+
+.route-loading__ring {
+  position: absolute;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.route-loading__ring--outer {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 6rpx solid #dbeafe;
+  border-top-color: #2f80ed;
+  animation: routeLoadingSpin 820ms linear infinite;
+}
+
+.route-loading__ring--inner {
+  top: 20rpx;
+  right: 20rpx;
+  bottom: 20rpx;
+  left: 20rpx;
+  border: 5rpx solid #dcfce7;
+  border-bottom-color: #5dbb82;
+  animation: routeLoadingSpinReverse 940ms linear infinite;
+}
+
+.route-loading__dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 50%;
+  background: #111827;
+  transform: translate(-50%, -50%);
+}
+
+.route-loading__title {
+  margin-top: 28rpx;
+  color: #111827;
+  font-size: 28rpx;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.route-loading__description {
+  width: 100%;
+  margin-top: 10rpx;
+  overflow: hidden;
+  color: #64748b;
+  font-size: 22rpx;
+  line-height: 1.35;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+@keyframes routeLoadingMaskIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes routeLoadingSpin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes routeLoadingSpinReverse {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}

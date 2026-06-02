@@ -29,6 +29,51 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 
 同一天的多个提交会合并整理为简洁 bullet。
 
+## 2026-06-03｜v1.2.0｜No Release
+
+这次将题小鹰从单章节答题 MVP 推进为多课本本地题库应用，并同步收敛小程序主导航、题库运行态和项目文档。
+
+### Added
+
+- 新增首页 `page/home/index`，展示“我的课本”入口，目前接入大学语文、大学生心理健康和大学英语。
+- 新增课本详情页 `page/book-detail/index`，展示课本简介、章节数量、题目数量和章节目录。
+- 新增“查看题目”“章节抽题”“整本抽题”和“模拟测试”入口。
+- 新增模拟测试配置弹层，可选择题目数量和测试时长。
+- 新增答题倒计时，测试模式时间结束后自动交卷。
+- 新增多选题答题支持，多选题先勾选选项，再通过“确认答案”提交。
+- 新增通用 `bottom-sheet`、`book-cover-card`、`book-summary-card`、`chapter-list-item` 和 `route-loading` 组件。
+- 新增 `QuizSession`、页面 ViewModel、题库 repository 和题库 catalog 工具，拆分页面层与答题业务状态。
+- 新增课本封面图和首页 / 我的 tabBar 图标资源。
+- 新增大学语文 11 章、大学生心理健康 7 章、大学英语 3 单元的运行态题库快照，共 525 道题。
+- 新增 `manifest.js`、`latest.js` 和各章节 `.js` 题库模块包装，供小程序 `require()` 读取。
+- 新增 `docs/workflow/question-banks.md`，记录题库数据流、运行态快照、发布同步和校验规则。
+- 新增 `question-bank-curator` 的导入流程、解析标准和校验清单引用文档。
+
+### Changed
+
+- 将小程序 active pages 从官方示例页和单一答题页，调整为首页、课本详情、我的和答题页。
+- 将 tabBar 收敛为“首页 / 我的”，并从当前主流程移除组件、接口、云开发和扩展能力示例入口。
+- 答题页从直接读取单个大学语文章节，改为根据 URL 参数读取章节题库、整本抽题或测试题目。
+- 答题页逻辑从页面文件拆分到 `QuizViewModel` 和 `QuizSession`，页面层主要处理触摸、导航、计时器和微信存储。
+- 试卷全览组件增加查看题目模式，在查看模式下隐藏已答 / 未答状态说明。
+- 成绩历史缓存按章节、整本抽题数量和测试时长分开记录，避免不同模式互相覆盖。
+- `project.config.json` 增加上传忽略规则，排除旧示例目录、运行态 JSON 审阅文件和本地依赖目录。
+- `README.md` 按当前多课本题库应用状态重写。
+- 题库维护技能从单一格式说明扩展为 Git-like workspaces / releases / latest-runtime 模型。
+- `.codex/skills/tixiaoying-workflow` 重命名为 `ExercisesEaglesWorkflow`，并合并 `git-workflow` 技能内容后删除 `git-workflow`。
+
+### Removed
+
+- 从 active app config 中移除官方示例分包、示例 tabBar、云开发开关、深色主题、位置 / 音频后台能力和 worker 配置。
+- 移除当前主应用对云开发初始化、openid 拉取和主题监听示例逻辑的依赖。
+
+### Verified
+
+- 通过 Node 读取 `miniprogram/data/question-banks/manifest.js`，确认当前运行态题库为 3 本书、21 个章节 / 单元、525 道题。
+- 通过 `find miniprogram/data/question-banks -maxdepth 1 -name '*.js' -exec node --check {} \;` 检查运行态题库模块语法。
+- 通过 Node 逐个读取运行态题库 `.js` 模块，确认 21 个章节 / 单元的题目数量与 manifest 统计一致。
+- 通过静态阅读 `miniprogram/app.json`、`project.config.json`、`miniprogram/page/`、`miniprogram/viewmodels/`、`miniprogram/models/`、`miniprogram/repositories/` 和 `miniprogram/utils/` 核对当前页面、导航和数据流。
+
 ## 2026-06-02｜v1.1.0｜No Release
 
 ### Changed

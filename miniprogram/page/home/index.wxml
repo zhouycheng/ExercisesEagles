@@ -1,0 +1,19 @@
+<view class="home-page" style="padding-top: {{statusBarHeight}}px;">
+  <view class="home-header">
+    <text>我的课本</text>
+  </view>
+
+  <view class="book-grid">
+    <block wx:for="{{books}}" wx:key="id">
+      <view class="book-grid__item">
+        <book-cover-card book="{{item}}" bindbooktap="handleBookTap" />
+      </view>
+    </block>
+  </view>
+
+  <route-loading
+    visible="{{routeLoadingVisible}}"
+    title="{{routeLoadingTitle}}"
+    description="{{routeLoadingDescription}}"
+  />
+</view>

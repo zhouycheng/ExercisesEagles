@@ -1,0 +1,65 @@
+.bottom-sheet-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 70;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(17, 24, 39, 0.46);
+  animation: bottomSheetMaskIn 140ms ease-out both;
+}
+
+.bottom-sheet-panel {
+  position: relative;
+  width: 100%;
+  max-height: 78vh;
+  padding: 0 32rpx calc(32rpx + env(safe-area-inset-bottom));
+  border-radius: 34rpx 34rpx 0 0;
+  background: #ffffff;
+  box-shadow: 0 -22rpx 70rpx rgba(17, 24, 39, 0.18);
+  overflow: hidden;
+  box-sizing: border-box;
+  animation: bottomSheetUp 220ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.bottom-sheet-panel--dragging {
+  animation: none;
+}
+
+.bottom-sheet-drag-zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48rpx;
+  margin: 0 -32rpx 2rpx;
+}
+
+.bottom-sheet-handle {
+  width: 72rpx;
+  height: 8rpx;
+  border-radius: 999rpx;
+  background: #d1d5db;
+}
+
+@keyframes bottomSheetMaskIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bottomSheetUp {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

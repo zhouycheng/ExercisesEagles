@@ -1,6 +1,15 @@
 <view class="quiz-page" bindtouchstart="handleTouchStart" bindtouchend="handleTouchEnd" bindtouchcancel="handleTouchCancel">
   <view class="app-bar" style="height: {{appBarHeight}}px;">
     <view
+      class="app-bar-back"
+      style="top: {{menuButtonTop}}px; height: {{menuButtonHeight}}px;"
+      bindtap="handleBackTap"
+      aria-role="button"
+      aria-label="返回"
+    >
+      <view class="app-bar-back__icon"></view>
+    </view>
+    <view
       class="app-bar-title"
       style="top: {{menuButtonTop}}px; height: {{menuButtonHeight}}px; right: {{appBarTitleRight}}px;"
     >
@@ -8,7 +17,7 @@
     </view>
   </view>
 
-  <view wx:if="{{!isCompleted}}" class="quiz-shell" style="padding-top: {{contentTop}}px;">
+  <view wx:if="{{!isCompleted && currentQuestion}}" class="quiz-shell" style="padding-top: {{contentTop}}px;">
     <view class="progress-row">
       <view class="progress-text">
         <text class="question-count">{{currentNumber}}</text>
@@ -16,6 +25,9 @@
       </view>
       <view class="progress-track">
         <view class="progress-fill" style="width: {{progressPercent}}%;"></view>
+      </view>
+      <view wx:if="{{isTestMode}}" class="timer-pill {{timerSeconds <= 60 ? 'timer-pill-warning' : ''}}">
+        {{timerText}}
       </view>
       <icon-action-button
         icon="/image/icons/apps.png"
@@ -34,6 +46,7 @@
       show-scrollbar="{{false}}"
     >
       <view class="question-content">
+        <view wx:if="{{currentQuestion.isMultiple}}" class="question-type-badge">多选</view>
         <view class="question-text">
           <icon-action-button
             icon="{{isCurrentQuestionFavorite ? '/image/icons/star.png' : '/image/icons/not_star.png'}}"
@@ -48,7 +61,7 @@
       </view>
     </scroll-view>
 
-    <view wx:if="{{hasAnswered}}" class="question-analysis {{selectedIndex === currentQuestion.answerIndex ? 'question-analysis-correct' : 'question-analysis-wrong'}}">
+    <view wx:if="{{shouldRevealAnswer}}" class="question-analysis {{questionAnalysisClass}}">
       <view class="analysis-answer">正确答案: {{currentCorrectAnswerCode}}</view>
       <view class="analysis-heading">
         <view class="analysis-title">题目解析</view>
@@ -60,8 +73,9 @@
       <view class="option-list">
         <block wx:for="{{currentQuestion.options}}" wx:for-item="option" wx:for-index="optionIndex" wx:key="*this">
           <view
-            class="option {{selectedIndex === optionIndex ? 'option-selected' : ''}} {{hasAnswered && currentQuestion.answerIndex === optionIndex ? 'option-correct' : ''}} {{hasAnswered && selectedIndex === optionIndex && selectedIndex !== currentQuestion.answerIndex ? 'option-wrong' : ''}}"
+            class="option {{option.isSelected ? 'option-selected' : ''}} {{shouldRevealAnswer && option.isCorrect ? 'option-correct' : ''}} {{hasAnswered && option.isWrongSelected ? 'option-wrong' : ''}}"
             data-index="{{optionIndex}}"
+            data-key="{{option.key}}"
             bindtap="selectOption"
           >
             <text class="option-code">{{option.code}}</text>
@@ -69,11 +83,11 @@
               <text class="option-text">{{option.text}}</text>
             </view>
             <text
-              wx:if="{{hasAnswered && selectedIndex === optionIndex}}"
-              class="option-tail {{selectedIndex === currentQuestion.answerIndex ? 'option-tail-correct' : 'option-tail-wrong'}}"
-            >{{selectedIndex === currentQuestion.answerIndex ? '选择正确' : '选择错误'}}</text>
+              wx:if="{{hasAnswered && option.isSelected}}"
+              class="option-tail {{option.isCorrect ? 'option-tail-correct' : 'option-tail-wrong'}}"
+            >{{option.isCorrect ? '选择正确' : '选择错误'}}</text>
             <text
-              wx:elif="{{hasAnswered && currentQuestion.answerIndex === optionIndex}}"
+              wx:elif="{{shouldRevealAnswer && option.isCorrect}}"
               class="option-tail option-tail-correct"
             >正确答案</text>
           </view>
@@ -82,9 +96,14 @@
 
       <view class="action-row">
         <button class="ghost-button" disabled="{{currentIndex === 0}}" bindtap="goPrev">上一题</button>
-        <button class="primary-button" bindtap="goNext">{{isLastQuestion ? '交卷' : '下一题'}}</button>
+        <button class="primary-button" bindtap="goNext">{{primaryActionText}}</button>
       </view>
     </view>
+  </view>
+
+  <view wx:elif="{{!isCompleted}}" class="empty-shell" style="padding-top: {{contentTop}}px;">
+    <view class="empty-title">暂无题目</view>
+    <button class="primary-button empty-button" bindtap="handleReturnHome">返回首页</button>
   </view>
 
   <view wx:else class="result-shell" style="padding-top: {{contentTop}}px;">
@@ -110,6 +129,11 @@
       </view>
     </view>
 
+    <view class="result-actions">
+      <button class="ghost-button" bindtap="resetQuiz">再来一次</button>
+      <button class="primary-button" bindtap="handleReturnHome">返回首页</button>
+    </view>
+
     <view class="review-list">
       <block wx:for="{{resultItems}}" wx:key="id">
         <view class="review-item {{item.isCorrect ? 'review-right' : 'review-wrong'}}">
@@ -123,8 +147,6 @@
         </view>
       </block>
     </view>
-
-    <button class="primary-button restart-button" bindtap="resetQuiz">重新开始</button>
   </view>
 
   <view wx:if="{{showSubmitModal}}" class="modal-mask" catchtouchmove="noop" catchtap="closeSubmitModal">
@@ -149,6 +171,8 @@
     total="{{total}}"
     answered-count="{{total - unansweredCount}}"
     items="{{overviewItems}}"
+    show-status="{{showOverviewStatus}}"
+    subtitle="{{overviewSubtitle}}"
     bindclose="closeQuestionOverview"
     bindselect="jumpToQuestion"
   />

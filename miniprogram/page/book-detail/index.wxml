@@ -1,0 +1,79 @@
+<view class="book-detail-page" style="padding-top: {{statusBarHeight}}px;">
+  <view class="detail-nav">
+    <view class="detail-nav__back" bindtap="handleBackTap" aria-role="button" aria-label="返回">
+      <view class="detail-nav__back-icon"></view>
+    </view>
+    <text class="detail-nav__title">课本详情</text>
+  </view>
+
+  <view wx:if="{{book}}" class="detail-content">
+    <book-summary-card
+      book="{{book}}"
+      binddrawstarttap="handleBookDrawStartTap"
+      bindteststarttap="handleBookTestStartTap"
+    />
+
+    <view class="section-title">章节目录</view>
+
+    <view class="chapter-list">
+      <block wx:for="{{book.chapters}}" wx:key="id">
+        <chapter-list-item
+          chapter="{{item}}"
+          bindviewtap="handleChapterViewTap"
+          binddrawtap="handleChapterDrawTap"
+        />
+      </block>
+    </view>
+  </view>
+
+  <bottom-sheet visible="{{configSheetVisible}}" close-label="下拉关闭抽题设置" bindclose="closeConfigSheet">
+    <view class="config-sheet">
+      <view class="config-header">
+        <view class="config-heading">
+          <view class="config-title">{{configSheetTitle}}</view>
+          <view class="config-description">{{configSheetDescription}}</view>
+        </view>
+        <view class="config-close" bindtap="closeConfigSheet" aria-role="button" aria-label="关闭抽题设置">×</view>
+      </view>
+
+      <view class="config-section">
+        <view class="config-section-title">题目数量</view>
+        <view class="config-chip-list">
+          <block wx:for="{{questionCountOptions}}" wx:key="value">
+            <view
+              class="config-chip {{item.active ? 'config-chip--active' : ''}}"
+              data-value="{{item.value}}"
+              bindtap="selectQuestionCount"
+              aria-role="button"
+            >{{item.label}}</view>
+          </block>
+        </view>
+      </view>
+
+      <view wx:if="{{isConfigTestMode}}" class="config-section">
+        <view class="config-section-title">测试时长</view>
+        <view class="config-chip-list">
+          <block wx:for="{{durationOptions}}" wx:key="value">
+            <view
+              class="config-chip {{item.active ? 'config-chip--active' : ''}}"
+              data-value="{{item.value}}"
+              bindtap="selectDuration"
+              aria-role="button"
+            >{{item.label}}</view>
+          </block>
+        </view>
+      </view>
+
+      <view class="config-actions">
+        <view class="config-secondary" bindtap="closeConfigSheet" aria-role="button">取消</view>
+        <view class="config-primary" bindtap="confirmConfigSheet" aria-role="button">{{configPrimaryText}}</view>
+      </view>
+    </view>
+  </bottom-sheet>
+
+  <route-loading
+    visible="{{routeLoadingVisible}}"
+    title="{{routeLoadingTitle}}"
+    description="{{routeLoadingDescription}}"
+  />
+</view>

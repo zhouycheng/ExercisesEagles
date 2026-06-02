@@ -4,7 +4,9 @@
 
 这份文档记录题小鹰项目的 Git 分支结构、日常开发流程、提交规则、发布流程和合并要求。
 
-目标是避免直接在 `main` 上提交开发改动，同时保持流程足够轻量，适合当前微信小程序 MVP 的迭代节奏。
+目标是避免直接在 `main` 上提交开发改动，同时保持流程足够轻量，适合当前本地题库微信小程序的迭代节奏。
+
+题库数据流、运行态快照、题库发布同步和题库校验规则见 `docs/workflow/question-banks.md`。本文件只负责 Git、提交、PR 和 tag 规则。
 
 ## 核心原则
 
@@ -101,9 +103,9 @@ cannot lock ref
 示例：
 
 ```text
-feature/quiz-question-bank
+feature/book-catalog
+feature/simulated-test
 feature/wrong-answer-review
-feature/cloud-score-sync
 ```
 
 适用场景：
@@ -120,8 +122,8 @@ feature/cloud-score-sync
 
 ```text
 fix/quiz-scroll-layout
-fix/overview-sheet-close
-fix/appbar-safe-area
+fix/question-bank-manifest
+fix/test-timer-autosubmit
 ```
 
 适用场景：
@@ -139,7 +141,7 @@ fix/appbar-safe-area
 ```text
 chore/git-workflow
 chore/add-ci
-chore/update-miniprogram-dependencies
+chore/update-question-bank-runtime
 ```
 
 适用场景：
@@ -247,7 +249,15 @@ git diff --check
 npm run lint
 ```
 
+涉及题库运行态快照时追加：
+
+```bash
+find miniprogram/data/question-banks -maxdepth 1 -name '*.js' -exec node --check {} \;
+```
+
 涉及小程序页面、组件、NPM 构建产物或云函数时，还应在微信开发者工具中完成对应的构建 npm、编译、预览或真机验证。
+
+涉及题库 manifest、章节题库、`.js` 包装或上传忽略规则时，还应按 `docs/workflow/question-banks.md` 校验运行态统计和小程序读取合同。
 
 提交前更新变更记录：
 
@@ -367,7 +377,7 @@ git worktree prune
 - 没有把无关格式化、生成文件或临时文件混入提交。
 - 已运行必要检查。
 - 如果改动影响用户行为，已补充或更新测试，或记录人工验证方式。
-- 如果改动影响架构、测试、发布或使用方式，已同步更新 `docs/` 中的相关文档。
+- 如果改动影响架构、题库数据流、测试、发布或使用方式，已同步更新 `docs/` 中的相关文档。
 
 必跑命令：
 

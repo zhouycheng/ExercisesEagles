@@ -1,0 +1,1466 @@
+{
+  "status": "released",
+  "publishable": true,
+  "blockingTickets": [],
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapter": {
+    "id": "ch-004",
+    "name": "我的四个假想敌"
+  },
+  "groups": [
+    {
+      "id": "group-homework",
+      "name": "课后作业",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-4-我的四个假想敌.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch004-homework-001",
+          "sourceId": "subject-bmvcex-unit-4-001",
+          "questionType": "single",
+          "stem": "《乡愁》中“长大后，乡愁是一张窄窄的”后面接什么?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "车票"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "门票"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "船票"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "机票"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "余光中《乡愁》原句是“长大后，乡愁是一张窄窄的船票”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-002",
+          "sourceId": "subject-bmvcex-unit-4-002",
+          "questionType": "single",
+          "stem": "下列哪一项不是军事上的术语?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "堡垒最容易从内部攻破。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "一切已崩溃，失去重心。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "假想敌在实弹射击了。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "滩头阵地已经被入侵的军队占领去了。"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“失去重心”来自叶慈诗句，不是战场、阵地、假想敌这类军事术语。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-003",
+          "sourceId": "subject-bmvcex-unit-4-003",
+          "questionType": "single",
+          "stem": "《我的四个假想敌》中，“战争”的敌我双方是:",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "父亲与女儿的男友"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "父亲与女儿"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "女儿与女儿的男友"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "母亲与女儿的男友"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文中把女儿男友想象成“假想敌”，实际是父亲与未来女婿的心理“战争”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-004",
+          "sourceId": "subject-bmvcex-unit-4-004",
+          "questionType": "single",
+          "stem": "文中下列加点的词的注音和字形完全正确的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "嗫嚅其词(niè)开门辑盗(yī)惴惴不安(zhuì)"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "蹑手蹑足(niè)屏声止息(bǐng)果实累累(léi)"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "鬼鬼崇崇(suì)腹背受敌(fǔ)迁回曲折(qū)"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "不胜负荷(hè)里应外合(yīng)暝暝之中(míng)"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "B 项“蹑、屏、累”的读音和字形都正确；其他项有字形或读音错误。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-005",
+          "sourceId": "subject-bmvcex-unit-4-005",
+          "questionType": "single",
+          "stem": "《我的四个假想敌》的体裁是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "戏剧"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "散文"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "诗歌"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "小说"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《我的四个假想敌》写日常父女情感，叙述自由亲切，体裁是散文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-006",
+          "sourceId": "subject-bmvcex-unit-4-006",
+          "questionType": "single",
+          "stem": "关于《我的四个假想敌》中父亲的微妙心理,下列说法哪项是错误的?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "将男友们视为“假想敌”是出于对女儿的关爱。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "女儿目前的男友均不符合自己的标准，所以将他们视为“假想敌”。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "想到女儿将要出嫁和今后的寂寞,父亲不由得患得患失。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "目睹爱女长到婚嫁年龄,不忍割舍,却无法阻拦。"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "父亲把男友视为“假想敌”主要因爱女不舍，不是因为男友都不合标准。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-007",
+          "sourceId": "subject-bmvcex-unit-4-007",
+          "questionType": "single",
+          "stem": "下面不属于《我的四个假想敌》一文语言特点的是:",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "巧用成语"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "善用比喻"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "妙用谚语"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "引用明诗"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文章多用成语、比喻和诗句，军事化语汇明显，并不以谚语见长。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-008",
+          "sourceId": "subject-bmvcex-unit-4-008",
+          "questionType": "single",
+          "stem": "下列修辞和表现手法正确的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "他在一首妙诗《由女婴之父来唱的歌》之中，说他生了女儿之后，惴惴不安，感到不知什么地方正有个男婴也在长大，现在虽然还浑浑噩噩，口吐白述，却注定将来会抢走他的女儿。于是做父亲的每次在公园里看见娶儿车中的男要，都不由神色一变，暗暗想:“会不会是这家伙?” (想象)"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "昔日的童话之门砰地一关，再也回不去了。 (拟人)"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "但自己辖下的女生，尤其是前面的三位，已有“不稳”的现象，却令我想起叶慈的一句诗:一切已崩溃，失去重心。 (引用)"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "我当然不会应他。哪有这么容易的事!我像一棵果树，天长地久在这里立了多年风霜雨露，样样有份，换来果实累累，不胜负荷。而你，偶尔过路的小子，竞然一伸手就来摘果子，活该蟠地的树根绊你一交!而最可恼的，却是树上的果子，竞有自动落入行人手中的样子。 (类比)"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "选项 C 明说“想起叶慈的一句诗”，这是直接引用。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-009",
+          "sourceId": "subject-bmvcex-unit-4-009",
+          "questionType": "single",
+          "stem": "下列哪项不是作者频用军事术语的作用?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "惟妙惟肖地刻画了为女父者对那些颇有“敌意”却又甘为败将的微妙心理。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "紧扣题旨，暗喻父亲与候选女婿对女儿的争夺战。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "使文章语言幽默风趣。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "作者也是一个军事家，想让读者了解军事术语。"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "军事术语服务于幽默表达和父亲心理，并不是为了介绍军事知识。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-010",
+          "sourceId": "subject-bmvcex-unit-4-010",
+          "questionType": "single",
+          "stem": "下列对散文相关内容和艺术特色的分析鉴赏，不正确的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "父亲认为十岁以前的女儿最可爱;在姻缘上女儿竟然将父亲而不是男友作为作战对象;女儿越大，父亲的阵地越易失守。这些都是现实生活中一个有女儿的父亲的真实心态。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "“昔日的童话之门砰地一关，再也回不去了”在文中的意思是女儿已经长大了，不再需要父亲讲童话故事了，父女交流的门就此关上，形象地表现了父亲的失落之感。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "小说标题为“我的四个假想敌”，用语幽默俏皮，既表明四个未来的女婿并不是真正的敌人，也展现出一个父亲明知女儿成年后将会嫁为人妻但内心却割舍不下的深爱。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "散文中塑造的几个形象都很鲜活，有在女儿长大成人后心态复杂的父亲，有鬼鬼祟祟、伺机而动的“假想敌”，还有把母亲当成顾问、为男友做“内奸\"的女儿，等等。"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“童话之门”重在写女儿长大后的父亲失落，不是说父女交流完全关闭。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-011",
+          "sourceId": "subject-bmvcex-unit-4-011",
+          "questionType": "single",
+          "stem": "余光中《乡愁》中“乡愁是一枚小小的邮票”运用了什么修辞手法?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "排比"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "比喻"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "拟人"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "夸张"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“乡愁是一枚小小的邮票”把乡愁比作邮票，是典型比喻。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-012",
+          "sourceId": "subject-bmvcex-unit-4-012",
+          "questionType": "single",
+          "stem": "下面哪一篇不是余光中的作品?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "《听听那冷雨》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《我的四个假想敌》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《乡愁》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《讲故事的人》"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《听听那冷雨》《我的四个假想敌》《乡愁》属余光中作品，《讲故事的人》是莫言演讲。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-013",
+          "sourceId": "subject-bmvcex-unit-4-013",
+          "questionType": "single",
+          "stem": "余光中被称为?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "“乡愁诗人”"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "“乡土诗人”"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "“朦胧诗人”"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "“先锋诗人”"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "余光中因《乡愁》影响广泛，常被称为“乡愁诗人”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-014",
+          "sourceId": "subject-bmvcex-unit-4-014",
+          "questionType": "judge",
+          "stem": "余光中是台湾著名诗人，一生只专注于诗歌创作。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "余光中不仅写诗，也写散文、评论并从事翻译，题干“只专注诗歌”不对。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-015",
+          "sourceId": "subject-bmvcex-unit-4-015",
+          "questionType": "judge",
+          "stem": "余光中诗歌常常将古典与现代巧妙融合。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "余光中诗文常把中国古典意象与现代经验结合，题干说法正确。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-016",
+          "sourceId": "subject-bmvcex-unit-4-016",
+          "questionType": "judge",
+          "stem": "余光中说:“中文必须精通,中文不通,将祸延吾孙”。这充分体现了他对中华文化的重视和认同。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "这句话强调中文能力和文化传承，体现他对中华文化的重视。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-017",
+          "sourceId": "subject-bmvcex-unit-4-017",
+          "questionType": "judge",
+          "stem": "《我的四个假想敌》的主题是父爱。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文章表面写“假想敌”，核心是父亲对女儿成长与离家的爱和不舍。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-018",
+          "sourceId": "subject-bmvcex-unit-4-018",
+          "questionType": "judge",
+          "stem": "“二人同心，其利断金”的意思是只要两个人一条心，就能发挥很大的力量,告诉我们要团结协作。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“二人同心，其利断金”出自《易经》，意思是齐心协力力量很大。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-homework-019",
+          "sourceId": "subject-bmvcex-unit-4-019",
+          "questionType": "judge",
+          "stem": "《我的四个假想敌》一文塑造了一个严厉、古板的父亲形象。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "false"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "文中的父亲幽默、敏感又充满爱意，并非严厉古板。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-pretest",
+      "name": "课前测验",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第4课-课前测验.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch004-pretest-001",
+          "sourceId": "subject-bmvcex-unit-4-001",
+          "questionType": "single",
+          "stem": "《我的四个假想敌》最主要的一个行文特色是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "运用了科技术语"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "运用了军事术语"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "运用了经济术语"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "运用了政治术语"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌-课前测试题",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 20
+          },
+          "explanation": "文章反复借“假想敌、阵地、实弹”等语汇写父亲心理，军事术语最突出。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-pretest-002",
+          "sourceId": "subject-bmvcex-unit-4-002",
+          "questionType": "single",
+          "stem": "“环伺”的正确读音是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "huán cì"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "huài sì"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "huán sì"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "huài cì"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌-课前测试题",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 20
+          },
+          "explanation": "“环伺”读作 huán sì，意思是围绕窥伺。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-pretest-003",
+          "sourceId": "subject-bmvcex-unit-4-003",
+          "questionType": "single",
+          "stem": "《我的四个假想敌》一文中“假想敌”指的是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "女儿的妈妈"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "女儿"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "敌人"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "女儿的男朋友"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌-课前测试题",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 20
+          },
+          "explanation": "题目中的“假想敌”指女儿的男朋友，也就是父亲想象中的未来女婿。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-pretest-004",
+          "sourceId": "subject-bmvcex-unit-4-004",
+          "questionType": "single",
+          "stem": "《我的四个假想敌》的体裁是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "爱情"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "小说"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "散文"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "亲情"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌-课前测试题",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 20
+          },
+          "explanation": "这篇文章写父亲的细腻心理和生活情趣，文体是散文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-pretest-005",
+          "sourceId": "subject-bmvcex-unit-4-005",
+          "questionType": "single",
+          "stem": "《我的四个假想敌》的作者是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "叶圣陶"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "余光中"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "沈从文"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "张中行"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-我的四个假想敌-课前测试题",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 20
+          },
+          "explanation": "《我的四个假想敌》的作者是余光中。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-literary-common-sense",
+      "name": "文学常识",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第4课-文学常识.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch004-literary-001",
+          "sourceId": "subject-bmvcex-unit-4-literature-001",
+          "questionType": "single",
+          "stem": "被鲁迅誉为“史家之绝唱，无韵之离骚”的是我国古代哪部著作?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "《史记》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《战国策》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《资治通鉴》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《左传》"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-文学常识小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "鲁迅称《史记》为“史家之绝唱，无韵之离骚”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-literary-002",
+          "sourceId": "subject-bmvcex-unit-4-literature-002",
+          "questionType": "single",
+          "stem": "下列有关表述错误的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "我国最早的国别体、纪传体、断代体史书，分别是《国语》《史记》《汉书》《春秋》是我国第一部叙事详备的编年体史书。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "我国古典文学的形式多种多样，诗歌包括诗、词、曲等，散文有叙事、记游、说理、抒情等类别，小说有笔记、传奇、平话、章回小说等体裁，戏曲有杂剧(北曲)、南曲等"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "散曲是金、元两代兴起、从“词”蜕化出来的一种歌曲，体式和词相近，较为自由，可以在字数定格外加衬字，较多地使用口语，有小令和套数两种形式"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "唐代小说称“传奇”，明代的戏剧也称“传奇”，汤显祖的《牡丹亭》就是明代传奇的杰出作品"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-文学常识小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "《左传》才是我国第一部叙事详备的编年体史书，不是《春秋》。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-literary-003",
+          "sourceId": "subject-bmvcex-unit-4-literature-003",
+          "questionType": "single",
+          "stem": "与杨炯、王勃、卢照邻并称为“初唐四杰”的是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "李白"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "白居易"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "骆宾王"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "李商隐"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-文学常识小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "“初唐四杰”是王勃、杨炯、卢照邻、骆宾王。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-literary-004",
+          "sourceId": "subject-bmvcex-unit-4-literature-004",
+          "questionType": "single",
+          "stem": "下列说法不正确的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "历史剧往往注重剧情和史实的吻合，郭沫若却独辟蹊径，超越了史实的局限，以达到借古讽今的目的，如历史剧《屈原》。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "我国“五四”新文化运动以前的文学叫古典文学。在古典文学中，先秦散文、两汉史传文学、唐诗、宋词、元曲、明清小说，代表了各个时期文学的最高成就。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "我国古代有些文学形式，在不同朝代所指有别，如“传奇”，唐宋时代是指文言短篇小说，明清时代也可指戏曲作品;“乐府”，汉代可指民歌，宋代也可指词。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "唐传奇的出现，标志着我国古典小说的成熟，著名的传奇有李朝威的《莺莺传》、元稹的《柳毅传》等。"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-文学常识小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "《莺莺传》作者是元稹，《柳毅传》作者是李朝威，选项把作者作品说反了。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-literary-005",
+          "sourceId": "subject-bmvcex-unit-4-literature-005",
+          "questionType": "single",
+          "stem": "下列表述不正确的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "古体诗和近体诗是从诗的音律角度来划分的，二者的区别是:近体诗的行数、字数和用韵不固定，古体诗的行数、字数和用韵固定。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "词分小令、中调和长调，这是依据字数的多少来划分的。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "中国古代戏剧以“戏”和“曲”为主要因素，称为“戏曲”。主要包括南戏、杂剧、传奇及各种地方戏。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "“赋”是我国古代一种文体，它讲求文采、韵律，兼具诗歌和散文的性质。著名的赋有杜牧的《阿房宫赋》、苏轼的《前赤壁赋》和欧阳修的《秋声赋》等。"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-文学常识小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "近体诗格律固定，古体诗较自由；A 项把二者特点说反。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch004-literary-006",
+          "sourceId": "subject-bmvcex-unit-4-literature-006",
+          "questionType": "single",
+          "stem": "下列文学常识表述错误的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "马致远是元曲四大家之一"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "小李杜是指唐代诗人李白和杜甫，大李杜是指晚唐诗人李商隐和杜牧"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "建安文学“三曹”是指曹操、曹丕、曹植"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《狂人日记》是我国第一篇白话小说"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "4-文学常识小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 16.6
+          },
+          "explanation": "“大李杜”指李白、杜甫，“小李杜”指李商隐、杜牧，B 项说反。",
+          "explanationStatus": "verified"
+        }
+      ]
+    }
+  ],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch004.md"
+  ],
+  "resolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-through-ch004",
+    "confirmedChoices": {
+      "duplicateSourceId": "A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch004-homework-001..005 / q-cc-ch004-pretest-001..005",
+        "field": "sourceIdIdentityPolicy",
+        "from": "same sourceId used for different content across groups",
+        "to": "use internal questionId as identity; keep sourceId as evidence only",
+        "reason": "用户选择 A，确认重复 sourceId 不作为题目身份，按文件和 groupType 归属导入。"
+      }
+    ]
+  },
+  "release": {
+    "version": "v4-college-english-units-001-to-003",
+    "createdAt": "2026-06-02",
+    "importBatchId": "college-chinese-through-ch007",
+    "sourceFiles": [
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-4-我的四个假想敌.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第4课-课前测验.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第4课-文学常识.json"
+    ],
+    "verificationSources": [
+      {
+        "title": "源文件：大学语文-4-我的四个假想敌.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-4-我的四个假想敌.json",
+        "usedFor": [
+          "课后作业题干、选项、答案、标签、原始 sourceId"
+        ]
+      },
+      {
+        "title": "源文件：大学语文章节题-第4课-课前测验.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第4课-课前测验.json",
+        "usedFor": [
+          "课前测验题干、选项、答案、标签、原始 sourceId"
+        ]
+      },
+      {
+        "title": "源文件：大学语文章节题-第4课-文学常识.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第4课-文学常识.json",
+        "usedFor": [
+          "文学常识题干、选项、答案、标签"
+        ]
+      },
+      {
+        "title": "余光中《乡愁》资料",
+        "type": "web",
+        "url": "https://www.gushiwen.cn/modern/shiwenv_b3d35eb39757.aspx",
+        "usedFor": [
+          "《乡愁》诗句与比喻核对"
+        ]
+      },
+      {
+        "title": "余光中作家资料",
+        "type": "web",
+        "url": "https://www.chinawriter.com.cn/n1/2017/1215/c403994-29709345.html",
+        "usedFor": [
+          "余光中作品、诗歌散文评论翻译和称谓核对"
+        ]
+      },
+      {
+        "title": "《我的四个假想敌》文本资料",
+        "type": "web",
+        "url": "https://www.99csw.com/book/2313/69727.htm",
+        "usedFor": [
+          "课文内容、军事术语、父亲心理、体裁与主题核对"
+        ]
+      },
+      {
+        "title": "汉典：环伺",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E7%8E%AF%E4%BC%BA",
+        "usedFor": [
+          "环伺读音核对"
+        ]
+      },
+      {
+        "title": "汉典：蹑手蹑足",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E8%B9%91%E6%89%8B%E8%B9%91%E8%B6%B3",
+        "usedFor": [
+          "字音字形核对"
+        ]
+      },
+      {
+        "title": "汉典：屏声息气",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E5%B1%8F%E5%A3%B0%E6%81%AF%E6%B0%94",
+        "usedFor": [
+          "屏声相关读音核对"
+        ]
+      },
+      {
+        "title": "汉典：二人同心，其利断金",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E4%BA%8C%E4%BA%BA%E5%90%8C%E5%BF%83%EF%BC%8C%E5%85%B6%E5%88%A9%E6%96%AD%E9%87%91",
+        "usedFor": [
+          "成语出处和含义核对"
+        ]
+      },
+      {
+        "title": "鲁迅《汉文学史纲要》资料",
+        "type": "web",
+        "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%96%87%E5%AD%B8%E5%8F%B2%E7%B6%B1%E8%A6%81",
+        "usedFor": [
+          "“史家之绝唱，无韵之离骚”核对"
+        ]
+      },
+      {
+        "title": "中国哲学书电子化计划：《左传》",
+        "type": "web",
+        "url": "https://ctext.org/chun-qiu-zuo-zhuan/zh",
+        "usedFor": [
+          "《左传》编年体史书资料核对"
+        ]
+      },
+      {
+        "title": "古诗文网：初唐四杰",
+        "type": "web",
+        "url": "https://www.gushiwen.cn/authorv_38d52d8f32d0.aspx",
+        "usedFor": [
+          "初唐四杰成员核对"
+        ]
+      },
+      {
+        "title": "中国大百科全书：唐传奇",
+        "type": "web",
+        "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=58684",
+        "usedFor": [
+          "唐传奇、作品与作者核对"
+        ]
+      },
+      {
+        "title": "古诗文网：诗体常识",
+        "type": "web",
+        "url": "https://www.gushiwen.cn/guwen/bookv_46653FD803893E4F5E1761A26B7B184F.aspx",
+        "usedFor": [
+          "古体诗、近体诗格律差异核对"
+        ]
+      },
+      {
+        "title": "中国大百科全书：词",
+        "type": "web",
+        "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=60438",
+        "usedFor": [
+          "词按字数分小令、中调、长调核对"
+        ]
+      },
+      {
+        "title": "古诗文网：李商隐资料",
+        "type": "web",
+        "url": "https://www.gushiwen.cn/authorv_bc94c92721b8.aspx",
+        "usedFor": [
+          "小李杜称谓核对"
+        ]
+      },
+      {
+        "title": "古诗文网：李白资料",
+        "type": "web",
+        "url": "https://www.gushiwen.cn/authorv_b90660e3e492.aspx",
+        "usedFor": [
+          "大李杜称谓核对"
+        ]
+      },
+      {
+        "title": "中国大百科全书：马致远",
+        "type": "web",
+        "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=60459",
+        "usedFor": [
+          "元曲四大家核对"
+        ]
+      },
+      {
+        "title": "中国大百科全书：建安文学",
+        "type": "web",
+        "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=59749",
+        "usedFor": [
+          "三曹核对"
+        ]
+      },
+      {
+        "title": "鲁迅博物馆：《狂人日记》资料",
+        "type": "web",
+        "url": "https://www.luxunmuseum.com.cn/cx/works-details.php?id=164",
+        "usedFor": [
+          "《狂人日记》白话小说地位核对"
+        ]
+      }
+    ],
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups.",
+    "schemaChanges": [
+      {
+        "id": "score-to-weight-v1",
+        "description": "Generated questions use weight for app scoring; source score is stored under sourceMeta.rawScore after default-5 normalization."
+      },
+      {
+        "id": "rawscore-default-5-v1",
+        "description": "sourceMeta.rawScore defaults to 5, converts 0 or <=5 to 5, and preserves source values greater than 5."
+      }
+    ],
+    "previousReleaseVersion": "v3-mental-health-ch001-to-ch007",
+    "metadataChanges": [
+      {
+        "id": "chapter-title-normalized-v1",
+        "date": "2026-06-02",
+        "field": "chapter.name",
+        "from": "数字前缀标题，例如 1-序二篇、10-西湖七月半、11-别赋",
+        "to": "纯章节标题，例如 序二篇、西湖七月半、别赋",
+        "reason": "用户要求章节显示为“第 X 章： 章节名称”。题库数据仅保留纯章节标题，由界面根据章节顺序拼接显示文案。"
+      },
+      {
+        "id": "release-directory-consolidation-v1",
+        "date": "2026-06-02",
+        "field": "question-banks/releases",
+        "from": "v2-college-chinese-complete, v2-college-chinese-complete-ch011-title-fix, v2-college-chinese-through-ch002, v2-college-chinese-through-ch003, v2-college-chinese-through-ch004, v2-college-chinese-through-ch005, v2-college-chinese-through-ch006, v2-college-chinese-through-ch007, v2-college-chinese-through-ch008, v2-college-chinese-through-ch008-rawscore-normalized",
+        "to": "v2-college-chinese-complete-chapter-title-normalized",
+        "reason": "用户要求 release 目录只保留 v1 和最终 v2；中间 v2 release 的 manifest 与工单审计信息合并进最终 v2 manifest。"
+      }
+    ],
+    "snapshotRelease": true
+  }
+}

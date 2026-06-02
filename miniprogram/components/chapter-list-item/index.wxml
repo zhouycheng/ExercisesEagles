@@ -1,0 +1,22 @@
+<view class="chapter-list-item">
+  <view class="chapter-list-item__content">
+    <view class="chapter-list-item__meta">
+      <view class="chapter-list-item__dot"></view>
+      <text>{{chapter.label}}</text>
+    </view>
+    <view class="chapter-list-item__title">{{chapter.name}}</view>
+    <view class="chapter-list-item__description">{{chapter.description}}</view>
+  </view>
+  <view class="chapter-list-item__actions">
+    <view
+      class="chapter-list-item__button chapter-list-item__button--muted"
+      aria-role="button"
+      bindtap="handleViewTap"
+    >查看题目</view>
+    <view
+      class="chapter-list-item__button chapter-list-item__button--blue"
+      aria-role="button"
+      bindtap="handleDrawTap"
+    >抽题</view>
+  </view>
+</view>
