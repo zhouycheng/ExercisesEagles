@@ -1,0 +1,1542 @@
+module.exports = {
+  "status": "released",
+  "publishable": true,
+  "blockingTickets": [],
+  "book": {
+    "id": "book-mental-health",
+    "name": "大学生心理健康"
+  },
+  "chapter": {
+    "id": "ch-002",
+    "name": "从被动适应到主动掌舵：构建属于你的大学导航系统"
+  },
+  "groups": [
+    {
+      "id": "group-homework",
+      "name": "课后作业",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+      "questions": [
+        {
+          "questionId": "q-mh-ch002-homework-001",
+          "sourceId": "psych-ch2-hw-001",
+          "questionType": "judge",
+          "stem": "生涯规划就是为了一辈子只做一份工作。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-001"
+            }
+          ],
+          "explanation": "正确答案是错。生涯规划不是把自己限定在一份固定工作上，而是根据兴趣、能力、价值观和外部环境，持续安排学习、职业与生活发展。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-002",
+          "sourceId": "psych-ch2-hw-002",
+          "questionType": "judge",
+          "stem": "舒伯认为生涯发展只与个人兴趣有关，与环境无关。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-002"
+            }
+          ],
+          "explanation": "正确答案是错。舒伯的生涯发展理论强调生涯发展受个人因素和环境因素共同影响，个人兴趣只是其中一部分。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-003",
+          "sourceId": "psych-ch2-hw-003",
+          "questionType": "judge",
+          "stem": "“兴趣岛”活动是一种帮助探索个人职业兴趣的工具。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-003"
+            }
+          ],
+          "explanation": "正确答案是对。“兴趣岛”活动通过让个体选择自己更向往的岛屿环境，帮助其识别职业兴趣倾向。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-004",
+          "sourceId": "psych-ch2-hw-004",
+          "questionType": "judge",
+          "stem": "时间管理的目标是尽量把所有时间都用于学习，避免休闲。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-004"
+            }
+          ],
+          "explanation": "正确答案是错。时间管理的目标是合理安排重要事务、提高效率并保持身心平衡，不是把所有时间都挤给学习。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-005",
+          "sourceId": "psych-ch2-hw-005",
+          "questionType": "judge",
+          "stem": "大学适应是一个个体主动适应、动态调整的过程。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-005"
+            }
+          ],
+          "explanation": "正确答案是对。大学适应不是被动等待环境改变，而是主动理解新环境、调整学习方式、人际方式和生活节奏。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-006",
+          "sourceId": "psych-ch2-hw-006",
+          "questionType": "judge",
+          "stem": "具有现实型兴趣的人，喜欢在非机构性的环境下工作，发挥他们的想象力与创造力。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-006"
+            }
+          ],
+          "explanation": "正确答案是错。霍兰德现实型兴趣更偏向动手操作、机械、工具、技术和具体任务；喜欢自由、想象、创造和非机构性环境，更接近艺术型兴趣。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-007",
+          "sourceId": "psych-ch2-hw-007",
+          "questionType": "judge",
+          "stem": "职业兴趣探索过程是一个循环往复、不断深入和调整的过程。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-007"
+            }
+          ],
+          "explanation": "正确答案是对。职业兴趣探索不是一次测试就结束，而是会随着学习经历、实践体验和自我认识的加深不断修正。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-008",
+          "sourceId": "psych-ch2-hw-008",
+          "questionType": "judge",
+          "stem": "生涯选择是一个动态的过程，也是一个持续的过程。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-008"
+            }
+          ],
+          "explanation": "正确答案是对。生涯选择会受到成长阶段、能力变化、机会环境和价值观调整的影响，不是一次决定后永远不变。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-009",
+          "sourceId": "psych-ch2-hw-009",
+          "questionType": "single",
+          "stem": "根据舒伯的生涯发展理论，大学生正处在人生的( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "成长阶段"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "探索阶段"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "建立阶段"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "维持阶段"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-009"
+            }
+          ],
+          "explanation": "正确答案是B：探索阶段。舒伯认为大学生大致处在生涯发展的探索阶段，这一阶段的重要任务是认识自我、了解职业世界、尝试不同选择，并逐步形成较明确的发展方向，所以选B。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-010",
+          "sourceId": "psych-ch2-hw-010",
+          "questionType": "single",
+          "stem": "舒伯认为，影响个体生涯发展的两大基石是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "兴趣与能力"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "个人决定因素与环境决定因素"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "家庭与社会"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "学业与职业"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-010"
+            }
+          ],
+          "explanation": "正确答案是B：个人决定因素与环境决定因素。舒伯的生涯发展理论认为，生涯不是只由兴趣或家庭单方面决定，而是个人因素与环境因素共同作用的结果。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-011",
+          "sourceId": "psych-ch2-hw-011",
+          "questionType": "single",
+          "stem": "霍兰德职业兴趣理论中，“喜欢与人交往、乐于助人”对应的兴趣类型是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "现实型(R)"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "研究型(I)"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "社会型(S)"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "企业型("
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-011"
+            }
+          ],
+          "explanation": "正确答案是C：社会型(S)。霍兰德职业兴趣中的社会型强调喜欢与人交往、帮助他人、教育辅导和服务他人。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-012",
+          "sourceId": "psych-ch2-hw-012",
+          "questionType": "single",
+          "stem": "在“兴趣岛”活动中，选择“美丽浪漫的岛屿”最可能对应霍兰德类型中的( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "社会型(S)"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "艺术型(A)"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "常规型(C)"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "研究型(I)"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-012"
+            }
+          ],
+          "explanation": "正确答案是B：艺术型(A)。“美丽浪漫的岛屿”强调审美、想象、自由表达和创造性体验，这些特征与霍兰德艺术型兴趣最接近。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-013",
+          "sourceId": "psych-ch2-hw-013",
+          "questionType": "single",
+          "stem": "生涯规划的核心目的是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "尽快找到高薪工作"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "帮助个人在职业发展中做出有目的、有计划的安排"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "完全遵循父母期望"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "避免所有迷茫和困惑"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-013"
+            }
+          ],
+          "explanation": "正确答案是B。生涯规划的重点不是单纯追求高薪，也不是完全听从他人期待，而是帮助个体结合自我特点和环境条件，做出有方向、有步骤的发展安排，所以选B。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-014",
+          "sourceId": "psych-ch2-hw-014",
+          "questionType": "single",
+          "stem": "大学生应主动培养自己的沟通能力、生活管理能力，这些能力属于( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "学习能力"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "人际能力"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "一般生涯技能"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "特殊生涯技能"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-014"
+            }
+          ],
+          "explanation": "正确答案是C：一般生涯技能。沟通能力、生活管理能力属于学习、生活和未来职业发展中普遍需要的基础能力，不只服务于某个特定职业。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-015",
+          "sourceId": "psych-ch2-hw-015",
+          "questionType": "single",
+          "stem": "舒伯认为()是生涯的核心概念。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "机遇"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "气质与个性"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "后天习得的特定技能"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "自我概念"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-015"
+            }
+          ],
+          "explanation": "正确答案是D：自我概念。舒伯认为生涯发展与个体自我概念的发展和实现密切相关。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-016",
+          "sourceId": "psych-ch2-hw-016",
+          "questionType": "single",
+          "stem": "在进行生涯规划时，个体需要充分了解自己的( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "兴趣"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "价值观"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "技能"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "以上都是"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-016"
+            }
+          ],
+          "explanation": "正确答案是D：以上都是。生涯规划需要全面认识自己，兴趣决定愿不愿意做，价值观影响重视什么，技能关系到能不能做好。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-017",
+          "sourceId": "psych-ch2-hw-017",
+          "questionType": "single",
+          "stem": "根据时间管理的四象限法则，主要的时间和精力应该集中在哪一象限上( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "第一象限:紧急且重要"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "第二象限:重要但不紧急"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "第三象限:紧急但不重要"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "第四象限:不紧急也不重要"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-017"
+            }
+          ],
+          "explanation": "正确答案是A：第一象限:紧急且重要。按本题给出的答案，主要时间和精力应首先用于处理既紧急又重要的事务，因为这类任务往往有明确期限，并会直接影响当前学习、生活或工作结果，所以选A。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-018",
+          "sourceId": "psych-ch2-hw-018",
+          "questionType": "single",
+          "stem": "下列关于“生涯”概念的理解正确的是( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "生涯是一个动态发展的历程"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "每个人的生涯都是独一无二的"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "生涯所反映的是一个人和他的“所务”之间的关系"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "以上都对"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-018"
+            }
+          ],
+          "explanation": "正确答案是D：以上都对。生涯是一个动态发展的历程，每个人的生涯也具有独特性；同时，生涯还反映了个人与其所从事事务、角色和生活选择之间的关系。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-019",
+          "sourceId": "psych-ch2-hw-019",
+          "questionType": "single",
+          "stem": "大学生应主动培养自己的沟通、生活管理等能力，这些能力属于 ( ) 。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "学习能力"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "人际能力"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "一般生涯技能"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "特殊生涯技能"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-019"
+            }
+          ],
+          "explanation": "正确答案是C：一般生涯技能。沟通、生活管理等能力不是某个具体职业才需要的专门技能，而是在学习、生活和未来工作中都能发挥作用的通用能力。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-020",
+          "sourceId": "psych-ch2-hw-020",
+          "questionType": "multiple",
+          "stem": "大一新生常见的适应问题包括( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "学业适应问题"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "人际关系问题"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "情绪问题"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "自我发展问题"
+            }
+          ],
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "多选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-020"
+            }
+          ],
+          "explanation": "正确答案是A、B、C、D。大一新生进入大学后，学习方式、人际圈层、情绪状态和自我定位都会发生变化。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-021",
+          "sourceId": "psych-ch2-hw-021",
+          "questionType": "multiple",
+          "stem": "时间管理四象限中，“重要且紧急”的事情可能包括( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "明天要交的作业"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "下周的考试复习"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "突发会议"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "长期职业规划"
+            }
+          ],
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "多选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-021"
+            }
+          ],
+          "explanation": "正确答案是A、C。重要且紧急的事情既有时间压力，又会对当前目标产生明显影响。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-022",
+          "sourceId": "psych-ch2-hw-022",
+          "questionType": "multiple",
+          "stem": "舒伯生涯发展理论中提到的“生命角色”包括( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "学生"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "子女"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "工作者"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "公民"
+            }
+          ],
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "多选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-022"
+            }
+          ],
+          "explanation": "正确答案是A、B、C、D。舒伯强调人生中会承担多种生命角色，如学生、子女、工作者、公民等。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-023",
+          "sourceId": "psych-ch2-hw-023",
+          "questionType": "multiple",
+          "stem": "职业价值观澄清活动中提到的八种主要价值观包括( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "高收入"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "社会贡献"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "稳定性"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "休闲"
+            }
+          ],
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "多选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-023"
+            }
+          ],
+          "explanation": "正确答案是A、B、C、D。职业价值观澄清关注个体在职业选择中重视什么，高收入、社会贡献、稳定性和休闲都属于常见职业价值取向。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-024",
+          "sourceId": "psych-ch2-hw-024",
+          "questionType": "multiple",
+          "stem": "缓解迷茫感的方法包括( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "自我探索(兴趣、价值观、能力)"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "职业探索(实习、讲座)"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "制定具体计划"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "完全依赖他人建议"
+            }
+          ],
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "多选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-024"
+            }
+          ],
+          "explanation": "正确答案是A、B、C。缓解迷茫需要同时了解自己、了解外部职业世界，并把想法落实为具体计划。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-025",
+          "sourceId": "psych-ch2-hw-025",
+          "questionType": "multiple",
+          "stem": "PDCA循环法包括( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "计划"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "执行"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "反馈"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "行动"
+            }
+          ],
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "多选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-025"
+            }
+          ],
+          "explanation": "正确答案是A、B、C、D。按本题给出的答案，PDCA循环包括计划、执行、反馈和行动。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-026",
+          "sourceId": "psych-ch2-hw-026",
+          "questionType": "multiple",
+          "stem": "心理调适的方法主要有( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "情绪转移法"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "适度宣泄法"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "松弛练习法"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "自我安慰法"
+            }
+          ],
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "多选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-026"
+            }
+          ],
+          "explanation": "正确答案是A、B、C、D。心理调适可以通过不同方式缓解压力和负面情绪。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch002-homework-027",
+          "sourceId": "psych-ch2-hw-027",
+          "questionType": "multiple",
+          "stem": "当我们面临父母的期望和个人理想之间的冲突时，以下哪些方法可以帮助我们找到平衡?( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "深入理解父母的动机和期望"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "完全忽略父母的建议，专注于自己的理想"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "与父母进行有效沟通，表达自己的观点和计划"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "列出“他人期待的”和“自己想要的”清单，明确差异"
+            },
+            {
+              "key": "E",
+              "keyLabel": "E",
+              "text": "选择一个父母期望的职业，并完全放弃自己的梦想"
+            }
+          ],
+          "answerKeys": [
+            "A",
+            "C",
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二章-课后作业",
+            "多选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-002",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+              "sourceId": "psych-ch2-hw-027"
+            }
+          ],
+          "explanation": "正确答案是A、C、D。面对父母期待和个人理想的冲突，合理做法是先理解父母的动机，再通过沟通表达自己的想法，并梳理他人期待与自我愿望的差异。",
+          "explanationStatus": "verified"
+        }
+      ]
+    }
+  ],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/mental-health-ch001-to-ch007.md"
+  ],
+  "resolution": {
+    "userChoices": {
+      "issue-001-chapter-title-missing": "B",
+      "issue-002-ch006-duplicate-judge-questions": "A"
+    }
+  },
+  "release": {
+    "version": "v4-college-english-units-001-to-003",
+    "createdAt": "2026-06-02",
+    "importBatchId": "mental-health-ch001-to-ch007",
+    "sourceWorkspaceId": "wb-20260602-mental-health",
+    "previousReleaseVersion": "v3-mental-health-ch001-to-ch007",
+    "sourceFiles": [
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json"
+    ],
+    "verificationSources": [
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第一章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第四章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第五章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第六章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第七章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      }
+    ],
+    "importDecisions": [
+      {
+        "id": "issue-001-chapter-title-missing",
+        "userChoice": "B",
+        "result": "Use user-provided chapter titles and strip chapter-order prefixes from chapter.name.",
+        "titles": [
+          {
+            "chapterId": "ch-001",
+            "userProvidedLabel": "第一章 导论",
+            "chapterName": "导论"
+          },
+          {
+            "chapterId": "ch-002",
+            "userProvidedLabel": "第二章 从被动适应到主动掌舵：构建属于你的大学导航系统",
+            "chapterName": "从被动适应到主动掌舵：构建属于你的大学导航系统"
+          },
+          {
+            "chapterId": "ch-003",
+            "userProvidedLabel": "第三章 遇见完整的自己：从认知到接纳的自我整合之旅",
+            "chapterName": "遇见完整的自己：从认知到接纳的自我整合之旅"
+          },
+          {
+            "chapterId": "ch-004",
+            "userProvidedLabel": "第四章 构建内在的情绪生态系统：从辨识到转化的智慧",
+            "chapterName": "构建内在的情绪生态系统：从辨识到转化的智慧"
+          },
+          {
+            "chapterId": "ch-005",
+            "userProvidedLabel": "第五章 人际关系的构建与优化：从基础搭建到深度互动",
+            "chapterName": "人际关系的构建与优化：从基础搭建到深度互动"
+          },
+          {
+            "chapterId": "ch-006",
+            "userProvidedLabel": "第六章 亲密关系的建构与演变：从个体到共同体的生命旅程",
+            "chapterName": "亲密关系的建构与演变：从个体到共同体的生命旅程"
+          },
+          {
+            "chapterId": "ch-007",
+            "userProvidedLabel": "第七章 积极心理的建构：从识别美好到实践幸福",
+            "chapterName": "积极心理的建构：从识别美好到实践幸福"
+          }
+        ]
+      },
+      {
+        "id": "issue-002-ch006-duplicate-judge-questions",
+        "userChoice": "A",
+        "result": "Merge exact duplicate chapter 6 rows into the earlier source row and record duplicate sourceIds in placements/sourceMeta.",
+        "duplicateDecisions": [
+          {
+            "primaryQuestionId": "q-mh-ch006-homework-011",
+            "primarySourceId": "psych-ch6-hw-011",
+            "duplicateSourceId": "psych-ch6-hw-016",
+            "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第六章-课后作业.json",
+            "reason": "User choice A: exact duplicate content merged into the earlier source row."
+          },
+          {
+            "primaryQuestionId": "q-mh-ch006-homework-014",
+            "primarySourceId": "psych-ch6-hw-014",
+            "duplicateSourceId": "psych-ch6-hw-017",
+            "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第六章-课后作业.json",
+            "reason": "User choice A: exact duplicate content merged into the earlier source row."
+          }
+        ]
+      }
+    ],
+    "metadataChanges": [
+      {
+        "field": "ch-001.name",
+        "from": "第一章-课后作业",
+        "to": "导论",
+        "reason": "用户选择 B，提供章节标题“第一章 导论”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-002.name",
+        "from": "第二章-课后作业",
+        "to": "从被动适应到主动掌舵：构建属于你的大学导航系统",
+        "reason": "用户选择 B，提供章节标题“第二章 从被动适应到主动掌舵：构建属于你的大学导航系统”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-003.name",
+        "from": "第三章-课后作业",
+        "to": "遇见完整的自己：从认知到接纳的自我整合之旅",
+        "reason": "用户选择 B，提供章节标题“第三章 遇见完整的自己：从认知到接纳的自我整合之旅”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-004.name",
+        "from": "第四章-课后作业",
+        "to": "构建内在的情绪生态系统：从辨识到转化的智慧",
+        "reason": "用户选择 B，提供章节标题“第四章 构建内在的情绪生态系统：从辨识到转化的智慧”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-005.name",
+        "from": "第五章-课后作业",
+        "to": "人际关系的构建与优化：从基础搭建到深度互动",
+        "reason": "用户选择 B，提供章节标题“第五章 人际关系的构建与优化：从基础搭建到深度互动”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-006.name",
+        "from": "第六章-课后作业",
+        "to": "亲密关系的建构与演变：从个体到共同体的生命旅程",
+        "reason": "用户选择 B，提供章节标题“第六章 亲密关系的建构与演变：从个体到共同体的生命旅程”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-007.name",
+        "from": "第七章-课后作业",
+        "to": "积极心理的建构：从识别美好到实践幸福",
+        "reason": "用户选择 B，提供章节标题“第七章 积极心理的建构：从识别美好到实践幸福”；生成题库只保存纯标题。"
+      }
+    ],
+    "schemaChanges": [
+      {
+        "field": "score",
+        "to": "weight/sourceMeta.rawScore",
+        "rule": "weight defaults to 1; source score is preserved only as normalized sourceMeta.rawScore"
+      },
+      {
+        "field": "explanation",
+        "to": "short verified app-facing explanation",
+        "rule": "source explanations are compressed to answer plus key source rationale"
+      }
+    ],
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups."
+  }
+}

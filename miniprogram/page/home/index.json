@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "book-cover-card": "/components/book-cover-card/index",
+    "route-loading": "/components/route-loading/index"
+  }
+}

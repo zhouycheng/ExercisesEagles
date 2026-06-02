@@ -1,0 +1,25 @@
+<view class="book-summary-card">
+  <view class="book-summary-card__main">
+    <image class="book-summary-card__cover" src="{{book.cover}}" mode="aspectFill"></image>
+    <view class="book-summary-card__body">
+      <view class="book-summary-card__title">{{book.name}}</view>
+      <view class="book-summary-card__description">{{book.description}}</view>
+      <view class="book-summary-card__badges">
+        <view class="book-summary-card__badge book-summary-card__badge--blue">{{book.chapterBadgeText}}</view>
+        <view class="book-summary-card__badge book-summary-card__badge--green">{{book.questionBadgeText}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="book-summary-card__actions">
+    <view
+      class="book-summary-card__button book-summary-card__button--primary"
+      aria-role="button"
+      bindtap="handleDrawStartTap"
+    >抽题开始</view>
+    <view
+      class="book-summary-card__button book-summary-card__button--success"
+      aria-role="button"
+      bindtap="handleTestStartTap"
+    >模拟测试</view>
+  </view>
+</view>

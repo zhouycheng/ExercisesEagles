@@ -1,0 +1,3 @@
+<view class="my-page" style="padding-top: {{statusBarHeight}}px;">
+  <view class="my-placeholder">我的</view>
+</view>

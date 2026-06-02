@@ -1,0 +1,1054 @@
+module.exports = {
+  "status": "released",
+  "publishable": true,
+  "blockingTickets": [],
+  "book": {
+    "id": "book-college-english",
+    "name": "大学英语"
+  },
+  "chapter": {
+    "id": "ch-002",
+    "name": "第二单元"
+  },
+  "groups": [
+    {
+      "id": "group-vocabulary",
+      "name": "词汇题",
+      "groupType": "vocabulary",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第二单元.json",
+      "questions": [
+        {
+          "questionId": "q-ce-ch002-vocabulary-001",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-001",
+          "questionType": "single",
+          "stem": "“grab” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "敲打;敲击"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "抢夺;抓住"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "着迷;沉迷"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "犹豫;迟疑"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 grab 的词义。正确答案是 B，因为它表示“抢夺;抓住”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-002",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-002",
+          "questionType": "single",
+          "stem": "“passionate” 的意思是____。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "非常热情的"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "古怪的"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "厚重的"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "美丽的"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 passionate 的词义。正确答案是 A，因为它表示“非常热情的”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-003",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-003",
+          "questionType": "single",
+          "stem": "“currently” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "历史地"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "快速地"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "自动地"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "当前"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 currently 的词义。正确答案是 D，因为它表示“当前”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-004",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-004",
+          "questionType": "single",
+          "stem": "“magnificence” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "委屈"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "童话"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "宏伟"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "珍宝"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 magnificence 的词义。正确答案是 C，因为它表示“宏伟”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-005",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-005",
+          "questionType": "single",
+          "stem": "“gaze” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "竞跑"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "拍卖"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "凝视"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "证明"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 gaze 的词义。正确答案是 C，因为它表示“凝视”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-006",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-006",
+          "questionType": "single",
+          "stem": "“placement” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "安置;安排"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "地方"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "情节"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "制度"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 placement 的词义。正确答案是 A，因为它表示“安置;安排”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-007",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-007",
+          "questionType": "single",
+          "stem": "“semester” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "书目"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "入室盗窃"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "范围"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "学期"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 semester 的词义。正确答案是 D，因为它表示“学期”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-008",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-008",
+          "questionType": "single",
+          "stem": "“confirm” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "怀疑"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "证实"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "相信"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "惊叹"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 confirm 的词义。正确答案是 B，因为它表示“证实”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-009",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-009",
+          "questionType": "single",
+          "stem": "“hatred” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "幸福"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "喜爱"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "憎恶"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "悲伤"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 hatred 的词义。正确答案是 C，因为它表示“憎恶”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-vocabulary-010",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-010",
+          "questionType": "single",
+          "stem": "“browse” 是什么意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "下载"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "浏览"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "删除"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "复制"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "词汇题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 browse 的词义。正确答案是 B，因为它表示“浏览”。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-single-choice",
+      "name": "单选题",
+      "groupType": "singleChoice",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第二单元.json",
+      "questions": [
+        {
+          "questionId": "q-ce-ch002-single-choice-001",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-011",
+          "questionType": "single",
+          "stem": "According to the news __________, her interest in writing about plants and animals came from her childhood.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "release"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "sentiment"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "resort"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "calling"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 release 的语义和搭配。正确答案是 A，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-002",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-012",
+          "questionType": "single",
+          "stem": "Those beginners who have never done painting before are looking to develop their __________ interests.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "academic"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "artistic"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "logical"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "elegant"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 artistic 的语义和搭配。正确答案是 B，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-003",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-013",
+          "questionType": "single",
+          "stem": "The tourists were awestruck at the ______ of the Great Wall, the building of which started as early as the seventh century B.C.E.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "destruction"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "investment"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "intelligence"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "magnificence"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 magnificence 的语义和搭配。正确答案是 D，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-004",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-014",
+          "questionType": "single",
+          "stem": "The website is reliable because I’ve made dozens of purchases from this very __________ site with zero problems.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "beautiful"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "reputable"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "worse"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "lasting"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 reputable 的语义和搭配。正确答案是 B，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-005",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-015",
+          "questionType": "single",
+          "stem": "Just as we all admire heroes, we look to others for inspiration and __________, but change has to start with you, as an individual.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "population"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "reputation"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "aspiration"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "education"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 aspiration 的语义和搭配。正确答案是 C，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-006",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-016",
+          "questionType": "single",
+          "stem": "When I first saw the scenery of Mount Huangshan, I was _______: the fascinating pine trees, the spectacular peaks, and the fairyland of clouds and mists.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "very upset"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "in awe"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "in sorrow"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "very angry"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 in awe 的语义和搭配。正确答案是 B，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-007",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-017",
+          "questionType": "single",
+          "stem": "Whenever there is a chance we can help these children, we make a top effort and don’t want to _______________.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "let them down"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "make them happy"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "make them nervous"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "make them strong"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 let them down 的语义和搭配。正确答案是 A，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-008",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-018",
+          "questionType": "single",
+          "stem": "If you feel that your grades or your study skills are_____________ you may turn to your teachers for advice.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "very high"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "above the average"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "up to par"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "not up to par"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 not up to par 的语义和搭配。正确答案是 D，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-009",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-019",
+          "questionType": "single",
+          "stem": "Science is not my profession, so if you want to discuss it, you could _______________ other people here who know science better than me.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "make fun of"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "pick the brains of"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "clean the ways of"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "stay out of"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 pick the brains of 的语义和搭配。正确答案是 B，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-ce-ch002-single-choice-010",
+          "sourceId": "subject-bmu0zf-unit-x8ggao-020",
+          "questionType": "single",
+          "stem": "If one is always _____________ money, appearance, and social status, they will unfortunately forget what is most important in their life.",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "busy with"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "lack of"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "uncomfortable with"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "obsessed with"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第二单元",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "本题考查 obsessed with 的语义和搭配。正确答案是 D，因为它符合句意并能自然衔接上下文。",
+          "explanationStatus": "verified"
+        }
+      ]
+    }
+  ],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-english-units-001-to-003.md"
+  ],
+  "resolution": {
+    "ticket": "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-english-units-001-to-003.md",
+    "resolvedAt": "2026-06-02"
+  },
+  "release": {
+    "version": "v4-college-english-units-001-to-003",
+    "createdAt": "2026-06-02",
+    "importBatchId": "college-english-units-001-to-003",
+    "sourceWorkspaceId": "wb-20260602-college-english",
+    "previousReleaseVersion": "v3-mental-health-ch001-to-ch007",
+    "sourceFiles": [
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第二单元.json"
+    ],
+    "verificationSources": [
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第一单元.json",
+        "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第二单元.json",
+        "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第三单元.json",
+        "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
+      },
+      {
+        "sourceFile": "/Users/leftzhou/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_58wr89h4czls22_9888/temp/RWTemp/2026-06/8fd2ae725818d9d055a484c5950c2441/9e5f70fa26734fd782d203a0733e3324.jpg",
+        "usage": "User-provided textbook image verifies that no exaggeration means no overstatement / 毫不夸张；并非言过其实."
+      }
+    ],
+    "importDecisions": [
+      {
+        "id": "issue-001-unit2-q013-malformed-blank",
+        "userChoice": "A",
+        "result": "Confirmed correction of generated stem to insert a blank placeholder; source file unchanged."
+      },
+      {
+        "id": "issue-002-unit3-embedded-score-markers",
+        "userChoice": "A",
+        "result": "Confirmed removal of trailing score markers from generated stems; source files unchanged."
+      },
+      {
+        "id": "issue-003-unit3-q015-answer-explanation-conflict",
+        "userChoice": "A",
+        "result": "Revised from prior B after user provided textbook image evidence. Generated answer changed to B and explanation verified; source file unchanged. Evidence: /Users/leftzhou/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_58wr89h4czls22_9888/temp/RWTemp/2026-06/8fd2ae725818d9d055a484c5950c2441/9e5f70fa26734fd782d203a0733e3324.jpg"
+      }
+    ],
+    "manualChanges": [
+      {
+        "questionId": "q-ce-ch002-single-choice-003",
+        "sourceId": "subject-bmu0zf-unit-x8ggao-013",
+        "field": "stem",
+        "from": "The tourists were awestruck at the of the Great Wall, the building of which started as early as the seventh century B.C.E.",
+        "to": "The tourists were awestruck at the ______ of the Great Wall, the building of which started as early as the seventh century B.C.E.",
+        "reason": "用户选择 A，确认修正生成题库中的缺失填空占位；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-008",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-008",
+        "field": "stem",
+        "from": "recruit(1.7分)",
+        "to": "recruit",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-009",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-009",
+        "field": "stem",
+        "from": "stunning(1.7分)",
+        "to": "stunning",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-010",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-010",
+        "field": "stem",
+        "from": "vigorous(1.7分)",
+        "to": "vigorous",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-011",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-011",
+        "field": "stem",
+        "from": "be accustomed to(1.7分)",
+        "to": "be accustomed to",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-012",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-012",
+        "field": "stem",
+        "from": "be based on(1.7分)",
+        "to": "be based on",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-013",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-013",
+        "field": "stem",
+        "from": "for the sake of(1.7分)",
+        "to": "for the sake of",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-014",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-014",
+        "field": "stem",
+        "from": "have a passion for(1.7分)",
+        "to": "have a passion for",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-015",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-015",
+        "field": "stem",
+        "from": "no exaggeration(1.7分)",
+        "to": "no exaggeration",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-016",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-016",
+        "field": "stem",
+        "from": "strive for(1.7分)",
+        "to": "strive for",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-single-choice-008",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-026",
+        "field": "stem",
+        "from": "I've ______ hardships throughout my life, so I think I can handle the stress and achieve my full potential in this company.(3.9分)",
+        "to": "I've ______ hardships throughout my life, so I think I can handle the stress and achieve my full potential in this company.",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-single-choice-009",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-027",
+        "field": "stem",
+        "from": "Many people believe that ______ exercise and outdoor sports could better help people stay healthy and strong.(3.9分)",
+        "to": "Many people believe that ______ exercise and outdoor sports could better help people stay healthy and strong.",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-single-choice-017",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-035",
+        "field": "stem",
+        "from": "The situation between us is very challenging, but we have to learn how to handle the difficult situation ______ improving our relations.(3.9分)",
+        "to": "The situation between us is very challenging, but we have to learn how to handle the difficult situation ______ improving our relations.",
+        "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+      },
+      {
+        "questionId": "q-ce-ch003-vocabulary-015",
+        "sourceId": "subject-bmu0zf-unit-x8j5fn-015",
+        "field": "answerKeys",
+        "from": [
+          "A"
+        ],
+        "to": [
+          "B"
+        ],
+        "reason": "用户提供教材图片依据，确认 no exaggeration 为“no overstatement / 毫不夸张；并非言过其实”；源文件不改。证据：/Users/leftzhou/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_58wr89h4czls22_9888/temp/RWTemp/2026-06/8fd2ae725818d9d055a484c5950c2441/9e5f70fa26734fd782d203a0733e3324.jpg"
+      }
+    ],
+    "metadataChanges": [
+      {
+        "field": "group assignment",
+        "description": "Split each unit source into 词汇题 and 单选题 groups by source typeLabel/tags."
+      }
+    ],
+    "schemaChanges": [
+      {
+        "field": "score",
+        "description": "Stored app-facing weight as 1 and normalized source score into sourceMeta.rawScore."
+      }
+    ],
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups."
+  }
+}

@@ -1,0 +1,98 @@
+.chapter-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 0;
+  padding: 30rpx;
+  border: 1rpx solid #e9edf4;
+  border-radius: 18rpx;
+  background: #ffffff;
+  box-shadow: 0 6rpx 18rpx rgba(15, 23, 42, 0.05);
+  box-sizing: border-box;
+}
+
+.chapter-list-item__content {
+  width: 100%;
+  min-width: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+.chapter-list-item__meta {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+  color: #657083;
+  font-size: 24rpx;
+  line-height: 1.2;
+}
+
+.chapter-list-item__dot {
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background: #0877df;
+}
+
+.chapter-list-item__title {
+  margin-top: 14rpx;
+  overflow: hidden;
+  color: #263040;
+  font-size: 32rpx;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chapter-list-item__description {
+  margin-top: 10rpx;
+  overflow: hidden;
+  color: #8a95a4;
+  font-size: 24rpx;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chapter-list-item__actions {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 24rpx;
+  box-sizing: border-box;
+}
+
+.chapter-list-item__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+  height: 64rpx;
+  margin: 0;
+  padding: 0;
+  border-radius: 14rpx;
+  font-size: 24rpx;
+  font-weight: 700;
+  line-height: 1;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.chapter-list-item__button + .chapter-list-item__button {
+  margin-left: 18rpx;
+}
+
+.chapter-list-item__button--muted {
+  color: #5f6d7d;
+  background: #e7ebf1;
+}
+
+.chapter-list-item__button--blue {
+  color: #1457c5;
+  background: #dbe6ff;
+}

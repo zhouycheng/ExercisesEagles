@@ -1,0 +1,120 @@
+.book-summary-card {
+  width: 100%;
+  padding: 32rpx;
+  border: 1rpx solid #e5eaf2;
+  border-radius: 18rpx;
+  background: #ffffff;
+  box-shadow: 0 8rpx 20rpx rgba(15, 23, 42, 0.06);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.book-summary-card__main {
+  display: flex;
+  align-items: flex-start;
+  gap: 24rpx;
+}
+
+.book-summary-card__cover {
+  width: 176rpx;
+  height: 246rpx;
+  flex: 0 0 176rpx;
+  border-radius: 14rpx;
+  background: #eef2f7;
+  box-shadow: 0 12rpx 22rpx rgba(15, 23, 42, 0.14);
+}
+
+.book-summary-card__body {
+  flex: 1;
+  min-width: 0;
+  padding-top: 4rpx;
+}
+
+.book-summary-card__title {
+  color: #172033;
+  font-size: 34rpx;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.book-summary-card__description {
+  display: -webkit-box;
+  margin-top: 10rpx;
+  overflow: hidden;
+  color: #4b5563;
+  font-size: 27rpx;
+  line-height: 1.32;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.book-summary-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14rpx;
+  margin-top: 24rpx;
+}
+
+.book-summary-card__badge {
+  min-width: 118rpx;
+  height: 42rpx;
+  padding: 0 20rpx;
+  border-radius: 999rpx;
+  font-size: 24rpx;
+  font-weight: 700;
+  line-height: 42rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.book-summary-card__badge--blue {
+  color: #1d4f9f;
+  background: #dfeafe;
+}
+
+.book-summary-card__badge--green {
+  color: #008641;
+  background: #d9f8e6;
+}
+
+.book-summary-card__actions {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 34rpx;
+  box-sizing: border-box;
+}
+
+.book-summary-card__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+  height: 76rpx;
+  margin: 0;
+  padding: 0;
+  border-radius: 16rpx;
+  color: #ffffff;
+  font-size: 28rpx;
+  font-weight: 700;
+  line-height: 1;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.book-summary-card__button + .book-summary-card__button {
+  margin-left: 24rpx;
+}
+
+.book-summary-card__button--primary {
+  background: #1f78ee;
+}
+
+.book-summary-card__button--success {
+  background: #087f36;
+}

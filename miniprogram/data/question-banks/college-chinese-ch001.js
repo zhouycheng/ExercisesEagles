@@ -8,7 +8,7 @@ module.exports = {
   },
   "chapter": {
     "id": "ch-001",
-    "name": "1-序二篇"
+    "name": "序二篇"
   },
   "groups": [
     {
@@ -36,12 +36,15 @@ module.exports = {
           "answerKeys": [
             "B"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "序",
             "判断"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "序文中自序、他序可以同时出现，二者只是作者不同；题干说“不能并存”过于绝对。",
           "explanationStatus": "verified"
         },
@@ -65,12 +68,15 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "天人合一",
             "张载"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "“天人合一”作为完整命题见于张载《正蒙》，北宋张载明确提出这一表达。",
           "explanationStatus": "verified"
         },
@@ -104,12 +110,15 @@ module.exports = {
           "answerKeys": [
             "C"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "陈省身",
             "文化冲突"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "陈省身说“中西文化的不容”把人类带到新的春秋时代，重点是中西文化冲突与对话。",
           "explanationStatus": "verified"
         },
@@ -143,11 +152,14 @@ module.exports = {
           "answerKeys": [
             "D"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "季羡林"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "季羡林常见“三顶桂冠”为国学大师、学界泰斗、国宝；“文化昆仑”不在这组称号中。",
           "explanationStatus": "verified"
         },
@@ -181,12 +193,15 @@ module.exports = {
           "answerKeys": [
             "D"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "陈省身",
             "爱因斯坦"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "陈省身写爱因斯坦书架上的《道德经》，意在说明西方科学巨人也关注中国思想，突出中西文化可互通。",
           "explanationStatus": "verified"
         },
@@ -220,12 +235,15 @@ module.exports = {
           "answerKeys": [
             "D"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "庄子显灵记",
             "范曾"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "《庄子显灵记》是范曾创作的哲思诗剧，不是庄子、陈省身或季羡林的作品。",
           "explanationStatus": "verified"
         },
@@ -259,12 +277,15 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "陈省身",
             "序文特点"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "陈氏序重在旁敲侧击、辞约旨远、含蓄点题，并不是以层次铺陈见长。",
           "explanationStatus": "verified"
         },
@@ -298,11 +319,14 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "天人合一"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "“天地与我并生，而万物与我为一”强调人与万物同在一体，最符合天人合一。",
           "explanationStatus": "verified"
         },
@@ -336,11 +360,14 @@ module.exports = {
           "answerKeys": [
             "C"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "字词"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "C组三词写法正确；A应为“关键”，B应为“抱负”，D应为“宗旨”。",
           "explanationStatus": "verified"
         },
@@ -374,11 +401,14 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "课文主旨"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "两篇序都围绕人与自然关系展开，并借中西文化差异讨论“天人合一”及其局限。",
           "explanationStatus": "verified"
         },
@@ -412,11 +442,14 @@ module.exports = {
           "answerKeys": [
             "C"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "字音"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "C中“处理”读chǔ lǐ，“付梓”读fù zǐ；A、B、D分别错在“庶几”“溽暑”“灵犀”的读音。",
           "explanationStatus": "verified"
         },
@@ -440,12 +473,15 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "李商隐",
             "诗句"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "这两句出自李商隐《无题·昨夜星辰昨夜风》，作者和诗句对应正确。",
           "explanationStatus": "verified"
         },
@@ -479,12 +515,15 @@ module.exports = {
           "answerKeys": [
             "B"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "报任安书",
             "史记"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "此语出自司马迁《报任安书》，也是他说明写作《史记》宗旨的名句。",
           "explanationStatus": "verified"
         },
@@ -518,11 +557,14 @@ module.exports = {
           "answerKeys": [
             "C"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "序"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "《送东阳马生序》是赠序，偏向惜别劝勉；其余多属书序或作品序。",
           "explanationStatus": "verified"
         },
@@ -556,12 +598,15 @@ module.exports = {
           "answerKeys": [
             "B"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "季羡林",
             "自然观"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "季羡林强调警惕西方征服自然的观念，主张人与自然和谐相处。",
           "explanationStatus": "verified"
         },
@@ -585,13 +630,16 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "序一",
             "序二",
             "判断"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "季羡林批评的是西方“征服自然”的偏向，不是简单说近代西方文化全错。",
           "explanationStatus": "verified"
         },
@@ -615,12 +663,15 @@ module.exports = {
           "answerKeys": [
             "B"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "歌德",
             "自然观"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "这句话提醒人类顺应自然规律、反省自身错误，并不是说人在自然面前只能被动接受。",
           "explanationStatus": "verified"
         },
@@ -644,12 +695,15 @@ module.exports = {
           "answerKeys": [
             "B"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "季羡林",
             "天人合一"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "季羡林把“天”解释为大自然、“人”为人类，天人合一重在人与自然和谐共生。",
           "explanationStatus": "verified"
         },
@@ -673,12 +727,15 @@ module.exports = {
           "answerKeys": [
             "B"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "陈省身",
             "道德经"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "爱因斯坦关注《道德经》的例子，正说明西方学者也会关注中国思想文化。",
           "explanationStatus": "verified"
         },
@@ -712,11 +769,14 @@ module.exports = {
           "answerKeys": [
             "D"
           ],
-          "score": 5,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "观点比较"
           ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
           "explanation": "季文着重批评征服自然的西方偏向，陈文则肯定近五百年科学进展改变了人类。",
           "explanationStatus": "verified"
         }
@@ -757,12 +817,15 @@ module.exports = {
           "answerKeys": [
             "C"
           ],
-          "score": 33.3,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "庄子显灵记",
             "文体"
           ],
+          "sourceMeta": {
+            "rawScore": 33.3
+          },
           "explanation": "《庄子显灵记》通常被介绍为范曾的哲思诗剧，文体归为诗剧。",
           "explanationStatus": "verified"
         },
@@ -786,12 +849,15 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 33.3,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "季羡林",
             "人与自然"
           ],
+          "sourceMeta": {
+            "rawScore": 33.3
+          },
           "explanation": "季羡林把21世纪的重要问题落在天人关系上，核心是促进人与自然和谐。",
           "explanationStatus": "verified"
         },
@@ -825,12 +891,15 @@ module.exports = {
           "answerKeys": [
             "C"
           ],
-          "score": 33.3,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "序",
             "文体常识"
           ],
+          "sourceMeta": {
+            "rawScore": 33.3
+          },
           "explanation": "书序可介绍写作缘起、内容和评价，但“作者向读者推荐自己的著作”只适用于自序，说法过窄。",
           "explanationStatus": "verified"
         }
@@ -871,13 +940,16 @@ module.exports = {
           "answerKeys": [
             "C"
           ],
-          "score": 16.7,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "天人合一",
             "张载",
             "文学常识"
           ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
           "explanation": "“天人合一”作为完整命题见于张载《正蒙》，因此人物是北宋张载。",
           "explanationStatus": "verified"
         },
@@ -911,13 +983,16 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 16.7,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "婵娟",
             "苏轼",
             "文学常识"
           ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
           "explanation": "“千里共婵娟”中的婵娟指明月，表达相隔千里共赏一轮月的祝愿。",
           "explanationStatus": "verified"
         },
@@ -951,13 +1026,16 @@ module.exports = {
           "answerKeys": [
             "C"
           ],
-          "score": 16.7,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "屠苏",
             "春节",
             "文学常识"
           ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
           "explanation": "王安石《元日》中的“屠苏”指屠苏酒，是古人新年饮用的酒。",
           "explanationStatus": "verified"
         },
@@ -991,13 +1069,16 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 16.7,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "拱手礼",
             "传统礼仪",
             "文学常识"
           ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
           "explanation": "传统拱手礼一般右手在内、左手在外；男子吉拜尚左，所以左手在外。",
           "explanationStatus": "verified"
         },
@@ -1031,13 +1112,16 @@ module.exports = {
           "answerKeys": [
             "B"
           ],
-          "score": 16.7,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "三十六计",
             "兵书",
             "文学常识"
           ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
           "explanation": "浑水摸鱼、笑里藏刀、反客为主均在三十六计中，反戈一击不属于三十六计。",
           "explanationStatus": "verified"
         },
@@ -1071,13 +1155,16 @@ module.exports = {
           "answerKeys": [
             "A"
           ],
-          "score": 16.7,
+          "weight": 1,
           "difficulty": "easy",
           "tags": [
             "京剧脸谱",
             "色彩含义",
             "文学常识"
           ],
+          "sourceMeta": {
+            "rawScore": 16.7
+          },
           "explanation": "京剧脸谱中黑色常表正直无私、刚直不阿，与题干中的色彩含义对应。",
           "explanationStatus": "verified"
         }
@@ -1107,9 +1194,9 @@ module.exports = {
     ]
   },
   "release": {
-    "version": "v1-college-chinese-ch001",
+    "version": "v4-college-english-units-001-to-003",
     "createdAt": "2026-06-02",
-    "importBatchId": "college-chinese-ch001",
+    "importBatchId": "college-chinese-through-ch007",
     "sourceFiles": [
       "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-1-序二篇.json",
       "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第1课-课前测验.json",
@@ -1248,6 +1335,36 @@ module.exports = {
         ]
       }
     ],
-    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups."
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups.",
+    "schemaChanges": [
+      {
+        "id": "score-to-weight-v1",
+        "description": "Generated questions use weight for app scoring; source score is stored under sourceMeta.rawScore after default-5 normalization."
+      },
+      {
+        "id": "rawscore-default-5-v1",
+        "description": "sourceMeta.rawScore defaults to 5, converts 0 or <=5 to 5, and preserves source values greater than 5."
+      }
+    ],
+    "previousReleaseVersion": "v3-mental-health-ch001-to-ch007",
+    "metadataChanges": [
+      {
+        "id": "chapter-title-normalized-v1",
+        "date": "2026-06-02",
+        "field": "chapter.name",
+        "from": "数字前缀标题，例如 1-序二篇、10-西湖七月半、11-别赋",
+        "to": "纯章节标题，例如 序二篇、西湖七月半、别赋",
+        "reason": "用户要求章节显示为“第 X 章： 章节名称”。题库数据仅保留纯章节标题，由界面根据章节顺序拼接显示文案。"
+      },
+      {
+        "id": "release-directory-consolidation-v1",
+        "date": "2026-06-02",
+        "field": "question-banks/releases",
+        "from": "v2-college-chinese-complete, v2-college-chinese-complete-ch011-title-fix, v2-college-chinese-through-ch002, v2-college-chinese-through-ch003, v2-college-chinese-through-ch004, v2-college-chinese-through-ch005, v2-college-chinese-through-ch006, v2-college-chinese-through-ch007, v2-college-chinese-through-ch008, v2-college-chinese-through-ch008-rawscore-normalized",
+        "to": "v2-college-chinese-complete-chapter-title-normalized",
+        "reason": "用户要求 release 目录只保留 v1 和最终 v2；中间 v2 release 的 manifest 与工单审计信息合并进最终 v2 manifest。"
+      }
+    ],
+    "snapshotRelease": true
   }
 }

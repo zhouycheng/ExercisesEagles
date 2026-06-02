@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "book-summary-card": "/components/book-summary-card/index",
+    "bottom-sheet": "/components/bottom-sheet/index",
+    "chapter-list-item": "/components/chapter-list-item/index",
+    "route-loading": "/components/route-loading/index"
+  }
+}

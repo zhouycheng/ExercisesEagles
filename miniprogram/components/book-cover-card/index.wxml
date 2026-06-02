@@ -1,0 +1,14 @@
+<view class="book-cover-card">
+  <view
+    class="book-cover-card__cover"
+    hover-class="book-cover-card__cover--hover"
+    catchtap="handleBookTap"
+    aria-role="button"
+    aria-label="打开{{book.name}}"
+  >
+    <image class="book-cover-card__image" src="{{book.cover}}" mode="aspectFill"></image>
+  </view>
+  <view class="book-cover-card__title">
+    <text>{{book.name}}</text>
+  </view>
+</view>

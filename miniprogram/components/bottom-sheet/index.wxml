@@ -1,0 +1,16 @@
+<view wx:if="{{visible}}" class="bottom-sheet-mask" catchtouchmove="stop" catchtap="handleClose">
+  <view class="bottom-sheet-panel {{isDragging ? 'bottom-sheet-panel--dragging' : ''}}" style="{{panelStyle}}" catchtap="stop">
+    <view
+      class="bottom-sheet-drag-zone"
+      catchtouchstart="handleDragStart"
+      catchtouchmove="handleDragMove"
+      catchtouchend="handleDragEnd"
+      catchtouchcancel="handleDragEnd"
+      aria-role="button"
+      aria-label="{{closeLabel}}"
+    >
+      <view class="bottom-sheet-handle"></view>
+    </view>
+    <slot />
+  </view>
+</view>
