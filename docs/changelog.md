@@ -1,6 +1,6 @@
 # 更新日志
 
-主要记录题小鹰的变化。项目当前仍保留微信官方示例工程的部分能力；这里重点记录题小鹰答题主流程和项目级改动。
+主要记录题小鹰的变化。
 
 历史开发过程、阶段性实现细节和临时决策可继续放在 `docs/archive/logs/`；这里记录每次更新的概要。
 
@@ -28,6 +28,34 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 ```
 
 同一天的多个提交会合并整理为简洁 bullet。
+
+## 2026-06-04｜v1.2.1｜No Release
+
+从仓库中移除所有微信官方 Demo 模板代码和配置文件，将项目元数据更新为 ExercisesEagles 品牌。
+
+### Changed
+
+- 根目录 `package.json`：name 改为 `exercises-eagles`，移除 Demo 仓库的 GitHub 元数据。
+- `app.wxss`：移除全部仅 Demo 页面引用的样式类（page-head、page-foot、image-plus、demo-text 等），保留 reset、container 和 btn-area。
+- `project.config.json`：精简 packOptions.ignore，移除已删除目录的上传忽略规则，cloudfunctionRoot 清空。
+- `README.md`：移除已删除目录的引用、云函数和示例代码相关描述，目录结构同步为当前状态。
+- `docs/changelog.md`：移除"项目当前仍保留微信官方示例工程的部分能力"描述。
+
+### Removed
+
+- 移除 Demo 分包：`packageAPI/`、`packageComponent/`、`packageExtend/`。
+- 移除 Demo 页面：`page/API/`、`page/component/`、`page/extend/`。
+- 移除 Demo 公共模板：`common/`（head.wxml、foot.wxml、index.wxss、weui.wxss）。
+- 移除 Demo 页面模板：`page/common/head.wxml`、`foot.wxml`、`common.wxss`、`index.wxss`，保留 `page/common/lib/weui.wxss`。
+- 移除 Demo 配置文件：`app-darkmode.json`、`demo.theme.json`、`config.js`。
+- 移除 Demo Worker：`workers/`。
+- 移除 `LICENSE`（版权人 wechat-miniprogram）。
+
+### Verified
+
+- 通过全局搜索确认业务页面（page/home、page/book-detail、page/my、page/quiz）无对已删除目录的引用。
+- 通过 `git diff --check` 检查变更格式。
+- 通过 `npm run lint` 检查代码规范。
 
 ## 2026-06-03｜v1.2.0｜No Release
 
