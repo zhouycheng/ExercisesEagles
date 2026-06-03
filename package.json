@@ -1,21 +1,11 @@
 {
-  "name": "miniprogram-demo",
+  "name": "exercises-eagles",
   "version": "1.0.0",
-  "description": "WeChat miniprogram demo",
+  "description": "题小鹰 - 微信小程序本地题库练习应用",
+  "private": true,
   "scripts": {
     "lint": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wechat-miniprogram/miniprogram-demo.git"
-  },
-  "author": "wechat-miniprogram",
-  "license": "MIT",
-  "private": true,
-  "bugs": {
-    "url": "https://github.com/wechat-miniprogram/miniprogram-demo/issues"
-  },
-  "homepage": "https://github.com/wechat-miniprogram/miniprogram-demo#readme",
   "devDependencies": {
     "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "13.1.0",

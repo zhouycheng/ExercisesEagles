@@ -2,7 +2,7 @@
 
 题小鹰是一个微信小程序本地题库练习应用。当前版本已经从单章节答题 MVP 演进为“首页课本列表 -> 课本详情 -> 章节练习 / 抽题练习 / 模拟测试”的完整本地题库流程。
 
-应用主流程不依赖服务端：题库运行态快照放在 `miniprogram/data/question-banks/`，页面通过本地 CommonJS 模块读取题库 manifest 和章节题库。仓库中仍保留部分微信官方示例目录和云函数示例文件，但它们不再是当前小程序的 active navigation，也不会作为主业务路径使用。
+应用主流程不依赖服务端：题库运行态快照放在 `miniprogram/data/question-banks/`，页面通过本地 CommonJS 模块读取题库 manifest 和章节题库。
 
 ## 当前题库
 
@@ -40,13 +40,12 @@ page/my/index            # 我的页占位
 page/quiz/index          # 答题、查看题目、抽题、模拟测试
 ```
 
-tabBar 当前包含“首页”和“我的”。旧的官方示例页、示例分包和云开发演示目录仍保留在仓库中用于参考，但已从 active app config 和上传包中收敛。
+tabBar 当前包含"首页"和"我的"。
 
 ## 目录结构
 
 ```text
 .
-├── cloudfunctions/                         # 保留的云函数示例，不是当前答题主流程依赖
 ├── docs/
 │   ├── changelog.md                        # 更新日志
 │   └── workflow/
@@ -100,7 +99,7 @@ source-files -> question-banks/workspaces -> question-banks/releases -> miniprog
 - `miniprogram/data/question-banks/manifest.js`
 - `miniprogram/data/question-banks/<book>-ch###.js`
 
-同名 `.json` 文件用于审阅和校验。微信开发者工具上传配置中会忽略运行态 JSON 和旧示例目录，避免把审阅数据和示例能力打进主业务上传包。
+同名 `.json` 文件用于审阅和校验。
 
 更多规则见 [题库工作流](docs/workflow/question-banks.md)。
 
@@ -119,9 +118,7 @@ cd miniprogram
 npm install
 ```
 
-然后使用微信开发者工具打开项目根目录。项目配置中的小程序根目录是 `miniprogram/`，云函数根目录是 `cloudfunctions/`。
-
-当前主业务不需要云开发环境才能运行。如果要调试保留的云函数示例，需要自行配置云开发环境并部署对应云函数。
+然后使用微信开发者工具打开项目根目录。项目配置中的小程序根目录是 `miniprogram/`。
 
 ## 常用检查
 

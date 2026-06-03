@@ -1,13 +1,9 @@
 {
   "description": "项目配置文件。",
   "miniprogramRoot": "miniprogram/",
-  "cloudfunctionRoot": "cloudfunctions/",
+  "cloudfunctionRoot": "",
   "packOptions": {
     "ignore": [
-      {
-        "type": "folder",
-        "value": "common"
-      },
       {
         "type": "folder",
         "value": "miniprogram_npm"
@@ -17,152 +13,12 @@
         "value": "node_modules"
       },
       {
-        "type": "folder",
-        "value": "packageAPI"
-      },
-      {
-        "type": "folder",
-        "value": "packageCloud"
-      },
-      {
-        "type": "folder",
-        "value": "packageComponent"
-      },
-      {
-        "type": "folder",
-        "value": "packageExtend"
-      },
-      {
-        "type": "folder",
-        "value": "page/API"
-      },
-      {
-        "type": "folder",
-        "value": "page/cloud"
-      },
-      {
-        "type": "folder",
-        "value": "page/component"
-      },
-      {
-        "type": "folder",
-        "value": "page/extend"
-      },
-      {
-        "type": "folder",
-        "value": "workers"
-      },
-      {
-        "type": "file",
-        "value": "app-darkmode.json"
-      },
-      {
-        "type": "file",
-        "value": "demo.theme.json"
-      },
-      {
         "type": "file",
         "value": "package-lock.json"
       },
       {
         "type": "file",
         "value": "package.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch001.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch002.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch003.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch004.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch005.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch006.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch007.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch008.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch009.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch010.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-chinese-ch011.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-english-ch001.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-english-ch002.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/college-english-ch003.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/latest.js"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/latest.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/manifest.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/mental-health-ch001.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/mental-health-ch002.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/mental-health-ch003.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/mental-health-ch004.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/mental-health-ch005.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/mental-health-ch006.json"
-      },
-      {
-        "type": "file",
-        "value": "data/question-banks/mental-health-ch007.json"
       },
       {
         "type": "suffix",
