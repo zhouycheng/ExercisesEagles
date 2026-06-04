@@ -1,0 +1,244 @@
+{
+  "workspaceId": "wb-20260602-college-english",
+  "status": "released",
+  "publishable": true,
+  "baseReleaseVersion": "v2-college-chinese-complete-chapter-title-normalized",
+  "targetReleaseVersion": "v4-college-english-units-001-to-003",
+  "createdAt": "2026-06-02",
+  "updatedAt": "2026-06-02",
+  "books": [
+    {
+      "id": "book-college-english",
+      "name": "大学英语",
+      "chapters": [
+        {
+          "id": "ch-001",
+          "name": "第一单元",
+          "order": 1,
+          "questionCount": 20,
+          "groups": [
+            {
+              "id": "group-vocabulary",
+              "name": "词汇题",
+              "groupType": "vocabulary",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第一单元.json",
+              "questionCount": 10
+            },
+            {
+              "id": "group-single-choice",
+              "name": "单选题",
+              "groupType": "singleChoice",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第一单元.json",
+              "questionCount": 10
+            }
+          ]
+        },
+        {
+          "id": "ch-002",
+          "name": "第二单元",
+          "order": 2,
+          "questionCount": 20,
+          "groups": [
+            {
+              "id": "group-vocabulary",
+              "name": "词汇题",
+              "groupType": "vocabulary",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第二单元.json",
+              "questionCount": 10
+            },
+            {
+              "id": "group-single-choice",
+              "name": "单选题",
+              "groupType": "singleChoice",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第二单元.json",
+              "questionCount": 10
+            }
+          ]
+        },
+        {
+          "id": "ch-003",
+          "name": "第三单元",
+          "order": 3,
+          "questionCount": 36,
+          "groups": [
+            {
+              "id": "group-vocabulary",
+              "name": "词汇题",
+              "groupType": "vocabulary",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第三单元.json",
+              "questionCount": 18
+            },
+            {
+              "id": "group-single-choice",
+              "name": "单选题",
+              "groupType": "singleChoice",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第三单元.json",
+              "questionCount": 18
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processedSources": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第一单元.json",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第二单元.json",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第三单元.json"
+  ],
+  "pendingSources": [],
+  "blockingTickets": [],
+  "importDecisions": [
+    {
+      "id": "issue-001-unit2-q013-malformed-blank",
+      "userChoice": "A",
+      "result": "Confirmed correction of generated stem to insert a blank placeholder; source file unchanged."
+    },
+    {
+      "id": "issue-002-unit3-embedded-score-markers",
+      "userChoice": "A",
+      "result": "Confirmed removal of trailing score markers from generated stems; source files unchanged."
+    },
+    {
+      "id": "issue-003-unit3-q015-answer-explanation-conflict",
+      "userChoice": "A",
+      "result": "Revised from prior B after user provided textbook image evidence. Generated answer changed to B and explanation verified; source file unchanged. Evidence: /Users/leftzhou/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_58wr89h4czls22_9888/temp/RWTemp/2026-06/8fd2ae725818d9d055a484c5950c2441/9e5f70fa26734fd782d203a0733e3324.jpg"
+    }
+  ],
+  "manualChanges": [
+    {
+      "questionId": "q-ce-ch002-single-choice-003",
+      "sourceId": "subject-bmu0zf-unit-x8ggao-013",
+      "field": "stem",
+      "from": "The tourists were awestruck at the of the Great Wall, the building of which started as early as the seventh century B.C.E.",
+      "to": "The tourists were awestruck at the ______ of the Great Wall, the building of which started as early as the seventh century B.C.E.",
+      "reason": "用户选择 A，确认修正生成题库中的缺失填空占位；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-008",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-008",
+      "field": "stem",
+      "from": "recruit(1.7分)",
+      "to": "recruit",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-009",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-009",
+      "field": "stem",
+      "from": "stunning(1.7分)",
+      "to": "stunning",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-010",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-010",
+      "field": "stem",
+      "from": "vigorous(1.7分)",
+      "to": "vigorous",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-011",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-011",
+      "field": "stem",
+      "from": "be accustomed to(1.7分)",
+      "to": "be accustomed to",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-012",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-012",
+      "field": "stem",
+      "from": "be based on(1.7分)",
+      "to": "be based on",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-013",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-013",
+      "field": "stem",
+      "from": "for the sake of(1.7分)",
+      "to": "for the sake of",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-014",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-014",
+      "field": "stem",
+      "from": "have a passion for(1.7分)",
+      "to": "have a passion for",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-015",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-015",
+      "field": "stem",
+      "from": "no exaggeration(1.7分)",
+      "to": "no exaggeration",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-016",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-016",
+      "field": "stem",
+      "from": "strive for(1.7分)",
+      "to": "strive for",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-single-choice-008",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-026",
+      "field": "stem",
+      "from": "I've ______ hardships throughout my life, so I think I can handle the stress and achieve my full potential in this company.(3.9分)",
+      "to": "I've ______ hardships throughout my life, so I think I can handle the stress and achieve my full potential in this company.",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-single-choice-009",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-027",
+      "field": "stem",
+      "from": "Many people believe that ______ exercise and outdoor sports could better help people stay healthy and strong.(3.9分)",
+      "to": "Many people believe that ______ exercise and outdoor sports could better help people stay healthy and strong.",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-single-choice-017",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-035",
+      "field": "stem",
+      "from": "The situation between us is very challenging, but we have to learn how to handle the difficult situation ______ improving our relations.(3.9分)",
+      "to": "The situation between us is very challenging, but we have to learn how to handle the difficult situation ______ improving our relations.",
+      "reason": "用户选择 A，确认删除生成题库题干末尾的源系统分值标记；源文件不改。"
+    },
+    {
+      "questionId": "q-ce-ch003-vocabulary-015",
+      "sourceId": "subject-bmu0zf-unit-x8j5fn-015",
+      "field": "answerKeys",
+      "from": [
+        "A"
+      ],
+      "to": [
+        "B"
+      ],
+      "reason": "用户提供教材图片依据，确认 no exaggeration 为“no overstatement / 毫不夸张；并非言过其实”；源文件不改。证据：/Users/leftzhou/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_58wr89h4czls22_9888/temp/RWTemp/2026-06/8fd2ae725818d9d055a484c5950c2441/9e5f70fa26734fd782d203a0733e3324.jpg"
+    }
+  ],
+  "metadataChanges": [
+    {
+      "field": "group assignment",
+      "description": "Split each unit source into 词汇题 and 单选题 groups by source typeLabel/tags."
+    }
+  ],
+  "schemaChanges": [
+    {
+      "field": "score",
+      "description": "Stored app-facing weight as 1 and normalized source score into sourceMeta.rawScore."
+    }
+  ],
+  "validation": {
+    "lastRunAt": "2026-06-02",
+    "passed": true
+  },
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-english-units-001-to-003.md"
+  ]
+}

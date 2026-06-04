@@ -14,7 +14,7 @@ module.exports = {
     {
       "id": "group-homework",
       "name": "课后作业",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
       "questions": [
         {
           "questionId": "q-mh-ch003-homework-001",
@@ -51,7 +51,7 @@ module.exports = {
               "chapterId": "ch-003",
               "groupId": "group-homework",
               "groupType": "homework",
-              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
               "sourceId": "psych-ch3-hw-001"
             }
           ],
@@ -93,7 +93,7 @@ module.exports = {
               "chapterId": "ch-003",
               "groupId": "group-homework",
               "groupType": "homework",
-              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
               "sourceId": "psych-ch3-hw-002"
             }
           ],
@@ -135,7 +135,7 @@ module.exports = {
               "chapterId": "ch-003",
               "groupId": "group-homework",
               "groupType": "homework",
-              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
               "sourceId": "psych-ch3-hw-003"
             }
           ],
@@ -177,7 +177,7 @@ module.exports = {
               "chapterId": "ch-003",
               "groupId": "group-homework",
               "groupType": "homework",
-              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
               "sourceId": "psych-ch3-hw-004"
             }
           ],
@@ -219,7 +219,7 @@ module.exports = {
               "chapterId": "ch-003",
               "groupId": "group-homework",
               "groupType": "homework",
-              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
               "sourceId": "psych-ch3-hw-005"
             }
           ],
@@ -274,7 +274,7 @@ module.exports = {
               "chapterId": "ch-003",
               "groupId": "group-homework",
               "groupType": "homework",
-              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
               "sourceId": "psych-ch3-hw-006"
             }
           ],
@@ -329,7 +329,7 @@ module.exports = {
               "chapterId": "ch-003",
               "groupId": "group-homework",
               "groupType": "homework",
-              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
               "sourceId": "psych-ch3-hw-007"
             }
           ],
@@ -384,7 +384,7 @@ module.exports = {
               "chapterId": "ch-003",
               "groupId": "group-homework",
               "groupType": "homework",
-              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
               "sourceId": "psych-ch3-hw-008"
             }
           ],
@@ -395,7 +395,7 @@ module.exports = {
     }
   ],
   "resolvedTickets": [
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/mental-health-ch001-to-ch007.md"
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/mental-health-ch001-to-ch007.md"
   ],
   "resolution": {
     "userChoices": {
@@ -410,35 +410,35 @@ module.exports = {
     "sourceWorkspaceId": "wb-20260602-mental-health",
     "previousReleaseVersion": "v3-mental-health-ch001-to-ch007",
     "sourceFiles": [
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json"
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json"
     ],
     "verificationSources": [
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第一章-课后作业.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第一章-课后作业.json",
         "usage": "source context for stems, options, answers, and explanation verification"
       },
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第二章-课后作业.json",
         "usage": "source context for stems, options, answers, and explanation verification"
       },
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
         "usage": "source context for stems, options, answers, and explanation verification"
       },
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第四章-课后作业.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第四章-课后作业.json",
         "usage": "source context for stems, options, answers, and explanation verification"
       },
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第五章-课后作业.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
         "usage": "source context for stems, options, answers, and explanation verification"
       },
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第六章-课后作业.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
         "usage": "source context for stems, options, answers, and explanation verification"
       },
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第七章-课后作业.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第七章-课后作业.json",
         "usage": "source context for stems, options, answers, and explanation verification"
       }
     ],
@@ -494,14 +494,14 @@ module.exports = {
             "primaryQuestionId": "q-mh-ch006-homework-011",
             "primarySourceId": "psych-ch6-hw-011",
             "duplicateSourceId": "psych-ch6-hw-016",
-            "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第六章-课后作业.json",
+            "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
             "reason": "User choice A: exact duplicate content merged into the earlier source row."
           },
           {
             "primaryQuestionId": "q-mh-ch006-homework-014",
             "primarySourceId": "psych-ch6-hw-014",
             "duplicateSourceId": "psych-ch6-hw-017",
-            "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第六章-课后作业.json",
+            "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
             "reason": "User choice A: exact duplicate content merged into the earlier source row."
           }
         ]

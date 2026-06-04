@@ -1,0 +1,559 @@
+{
+  "status": "released",
+  "publishable": true,
+  "blockingTickets": [],
+  "book": {
+    "id": "book-mental-health",
+    "name": "大学生心理健康"
+  },
+  "chapter": {
+    "id": "ch-005",
+    "name": "人际关系的构建与优化：从基础搭建到深度互动"
+  },
+  "groups": [
+    {
+      "id": "group-homework",
+      "name": "课后作业",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+      "questions": [
+        {
+          "questionId": "q-mh-ch005-homework-001",
+          "sourceId": "psych-ch5-hw-001",
+          "questionType": "single",
+          "stem": "( ) 是一种以自我为中心、自以为是的心理模式。具备这种人际交往心理模式的个体通常认为自己比别人优秀，比别人聪明、有权力、有地位，不需要别人的帮助和支持，并认为别人对自己的认可和赞赏是理所当然的。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "“我不好-你好”"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "“我不好-你不好”"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "“我好-你不好”"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "“我好-你好”"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第五章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 12.5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-005",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+              "sourceId": "psych-ch5-hw-001"
+            }
+          ],
+          "explanation": "正确答案是C：“我好-你不好”。题干描述的是一种自我优越、轻视他人的人际心理模式。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch005-homework-002",
+          "sourceId": "psych-ch5-hw-002",
+          "questionType": "single",
+          "stem": "在与最亲密的朋友交往过程中，自我揭示的水平层次为 ( ) 。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "第一个层次，是最浅层的，包括饮食喜好、着装习惯、兴趣爱好等"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "第二个层次，是次浅层的，即对人、事、政治时局的态度、观点等"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "第三个层次，是次深层的，指与同事、领导的关系，与家人、朋友的关系，以及自己的想法、感受和“三观”等"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "第四个层次，是最深层的，主要指个人的隐私，包括一些不能为外人道的事情、想法和感受等"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第五章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 12.5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-005",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+              "sourceId": "psych-ch5-hw-002"
+            }
+          ],
+          "explanation": "正确答案是D：第四个层次，是最深层的，主要指个人的隐私，包括一些不能为外人道的事情、想法和感受等。自我揭示会随着关系亲密程度加深而逐渐深入。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch005-homework-003",
+          "sourceId": "psych-ch5-hw-003",
+          "questionType": "single",
+          "stem": "以下哪种方式不利于人际冲突的解决? ( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "多使用“我”开头的句子来进行陈述，少使用“你”开头的句子进行陈述"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "冲突发生时，学会坦率地谈话"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "冲突发生时，应避免去触及那些强烈的情绪感受"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "尽量多描述对方的行为及对自己的影响，避免评价对方是怎样的人"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第五章-课后作业",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 12.5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-005",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+              "sourceId": "psych-ch5-hw-003"
+            }
+          ],
+          "explanation": "正确答案是C：冲突发生时，应避免去触及那些强烈的情绪感受。解决冲突不能只回避情绪，因为强烈情绪往往正是冲突背后的重要原因。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch005-homework-004",
+          "sourceId": "psych-ch5-hw-004",
+          "questionType": "judge",
+          "stem": "每个人在关系中，都更喜欢接受，而不喜欢付出。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第五章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 12.5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-005",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+              "sourceId": "psych-ch5-hw-004"
+            }
+          ],
+          "explanation": "正确答案是错。人际关系中的需要并不只是“接受”，很多人也会通过关心、支持和帮助他人获得价值感、亲密感和连接感。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch005-homework-005",
+          "sourceId": "psych-ch5-hw-005",
+          "questionType": "judge",
+          "stem": "那些与他人保有疏离型界限的个体，是自我分化水平高的体现，因为他们常对他人的情感诉求较少，也更独立自主。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第五章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 12.5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-005",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+              "sourceId": "psych-ch5-hw-005"
+            }
+          ],
+          "explanation": "正确答案是错。自我分化水平高并不等于疏离他人，而是在保持自我独立的同时，也能与他人建立稳定、适度亲密的关系。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch005-homework-006",
+          "sourceId": "psych-ch5-hw-006",
+          "questionType": "judge",
+          "stem": "冲突往往有破坏关系的作用，所以能避免冲突的话就尽量避免。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第五章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 12.5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-005",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+              "sourceId": "psych-ch5-hw-006"
+            }
+          ],
+          "explanation": "正确答案是错。冲突确实可能破坏关系，但也可能暴露问题、促进沟通和推动关系调整。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch005-homework-007",
+          "sourceId": "psych-ch5-hw-007",
+          "questionType": "judge",
+          "stem": "发生在上下级间的冲突，与发生在同学/同事/同辈间的冲突是一样的，都去做坦诚的沟通就好了。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第五章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 12.5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-005",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+              "sourceId": "psych-ch5-hw-007"
+            }
+          ],
+          "explanation": "正确答案是错。上下级冲突和同辈冲突并不完全一样，因为双方权力、角色责任和沟通边界不同。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-mh-ch005-homework-008",
+          "sourceId": "psych-ch5-hw-008",
+          "questionType": "judge",
+          "stem": "“我好-你好”是最为理想的人际交往心理模式，处在这种模式中的人，既能够接纳自己，也愿意欣赏他人。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "对"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "错"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "第五章-课后作业",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 12.5,
+            "duplicateSourceIds": []
+          },
+          "placements": [
+            {
+              "chapterId": "ch-005",
+              "groupId": "group-homework",
+              "groupType": "homework",
+              "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+              "sourceId": "psych-ch5-hw-008"
+            }
+          ],
+          "explanation": "正确答案是对。“我好-你好”代表个体既能肯定和接纳自己，也能尊重和欣赏他人。",
+          "explanationStatus": "verified"
+        }
+      ]
+    }
+  ],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/mental-health-ch001-to-ch007.md"
+  ],
+  "resolution": {
+    "userChoices": {
+      "issue-001-chapter-title-missing": "B",
+      "issue-002-ch006-duplicate-judge-questions": "A"
+    }
+  },
+  "release": {
+    "version": "v3-mental-health-ch001-to-ch007",
+    "createdAt": "2026-06-02",
+    "importBatchId": "mental-health-ch001-to-ch007",
+    "sourceWorkspaceId": "wb-20260602-mental-health",
+    "previousReleaseVersion": "v2-college-chinese-complete-chapter-title-normalized",
+    "sourceFiles": [
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json"
+    ],
+    "verificationSources": [
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第一章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第二章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第四章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      },
+      {
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第七章-课后作业.json",
+        "usage": "source context for stems, options, answers, and explanation verification"
+      }
+    ],
+    "importDecisions": [
+      {
+        "id": "issue-001-chapter-title-missing",
+        "userChoice": "B",
+        "result": "Use user-provided chapter titles and strip chapter-order prefixes from chapter.name.",
+        "titles": [
+          {
+            "chapterId": "ch-001",
+            "userProvidedLabel": "第一章 导论",
+            "chapterName": "导论"
+          },
+          {
+            "chapterId": "ch-002",
+            "userProvidedLabel": "第二章 从被动适应到主动掌舵：构建属于你的大学导航系统",
+            "chapterName": "从被动适应到主动掌舵：构建属于你的大学导航系统"
+          },
+          {
+            "chapterId": "ch-003",
+            "userProvidedLabel": "第三章 遇见完整的自己：从认知到接纳的自我整合之旅",
+            "chapterName": "遇见完整的自己：从认知到接纳的自我整合之旅"
+          },
+          {
+            "chapterId": "ch-004",
+            "userProvidedLabel": "第四章 构建内在的情绪生态系统：从辨识到转化的智慧",
+            "chapterName": "构建内在的情绪生态系统：从辨识到转化的智慧"
+          },
+          {
+            "chapterId": "ch-005",
+            "userProvidedLabel": "第五章 人际关系的构建与优化：从基础搭建到深度互动",
+            "chapterName": "人际关系的构建与优化：从基础搭建到深度互动"
+          },
+          {
+            "chapterId": "ch-006",
+            "userProvidedLabel": "第六章 亲密关系的建构与演变：从个体到共同体的生命旅程",
+            "chapterName": "亲密关系的建构与演变：从个体到共同体的生命旅程"
+          },
+          {
+            "chapterId": "ch-007",
+            "userProvidedLabel": "第七章 积极心理的建构：从识别美好到实践幸福",
+            "chapterName": "积极心理的建构：从识别美好到实践幸福"
+          }
+        ]
+      },
+      {
+        "id": "issue-002-ch006-duplicate-judge-questions",
+        "userChoice": "A",
+        "result": "Merge exact duplicate chapter 6 rows into the earlier source row and record duplicate sourceIds in placements/sourceMeta.",
+        "duplicateDecisions": [
+          {
+            "primaryQuestionId": "q-mh-ch006-homework-011",
+            "primarySourceId": "psych-ch6-hw-011",
+            "duplicateSourceId": "psych-ch6-hw-016",
+            "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
+            "reason": "User choice A: exact duplicate content merged into the earlier source row."
+          },
+          {
+            "primaryQuestionId": "q-mh-ch006-homework-014",
+            "primarySourceId": "psych-ch6-hw-014",
+            "duplicateSourceId": "psych-ch6-hw-017",
+            "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
+            "reason": "User choice A: exact duplicate content merged into the earlier source row."
+          }
+        ]
+      }
+    ],
+    "metadataChanges": [
+      {
+        "field": "ch-001.name",
+        "from": "第一章-课后作业",
+        "to": "导论",
+        "reason": "用户选择 B，提供章节标题“第一章 导论”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-002.name",
+        "from": "第二章-课后作业",
+        "to": "从被动适应到主动掌舵：构建属于你的大学导航系统",
+        "reason": "用户选择 B，提供章节标题“第二章 从被动适应到主动掌舵：构建属于你的大学导航系统”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-003.name",
+        "from": "第三章-课后作业",
+        "to": "遇见完整的自己：从认知到接纳的自我整合之旅",
+        "reason": "用户选择 B，提供章节标题“第三章 遇见完整的自己：从认知到接纳的自我整合之旅”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-004.name",
+        "from": "第四章-课后作业",
+        "to": "构建内在的情绪生态系统：从辨识到转化的智慧",
+        "reason": "用户选择 B，提供章节标题“第四章 构建内在的情绪生态系统：从辨识到转化的智慧”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-005.name",
+        "from": "第五章-课后作业",
+        "to": "人际关系的构建与优化：从基础搭建到深度互动",
+        "reason": "用户选择 B，提供章节标题“第五章 人际关系的构建与优化：从基础搭建到深度互动”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-006.name",
+        "from": "第六章-课后作业",
+        "to": "亲密关系的建构与演变：从个体到共同体的生命旅程",
+        "reason": "用户选择 B，提供章节标题“第六章 亲密关系的建构与演变：从个体到共同体的生命旅程”；生成题库只保存纯标题。"
+      },
+      {
+        "field": "ch-007.name",
+        "from": "第七章-课后作业",
+        "to": "积极心理的建构：从识别美好到实践幸福",
+        "reason": "用户选择 B，提供章节标题“第七章 积极心理的建构：从识别美好到实践幸福”；生成题库只保存纯标题。"
+      }
+    ],
+    "schemaChanges": [
+      {
+        "field": "score",
+        "to": "weight/sourceMeta.rawScore",
+        "rule": "weight defaults to 1; source score is preserved only as normalized sourceMeta.rawScore"
+      },
+      {
+        "field": "explanation",
+        "to": "short verified app-facing explanation",
+        "rule": "source explanations are compressed to answer plus key source rationale"
+      }
+    ],
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups."
+  }
+}

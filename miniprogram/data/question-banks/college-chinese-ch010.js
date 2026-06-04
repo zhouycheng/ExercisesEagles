@@ -14,7 +14,7 @@ module.exports = {
     {
       "id": "group-pretest",
       "name": "课前测验",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第10课-课前测验.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第10课-课前测验.json",
       "questions": [
         {
           "questionId": "q-cc-ch010-pretest-001",
@@ -441,7 +441,7 @@ module.exports = {
     {
       "id": "group-literary-common-sense",
       "name": "文学常识",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第10课-文学常识.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第10课-文学常识.json",
       "questions": [
         {
           "questionId": "q-cc-ch010-literary-001",
@@ -699,7 +699,7 @@ module.exports = {
     }
   ],
   "resolvedTickets": [
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-remaining.md"
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-remaining.md"
   ],
   "resolution": {
     "resolvedAt": "2026-06-02",
@@ -722,7 +722,7 @@ module.exports = {
     ],
     "excludedSourceFiles": [
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-10-西湖七月半.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-10-西湖七月半.json",
         "reason": "File name/unit says ch010 but all questions duplicate ch009 homework content; user chose A not to publish it as ch010 homework."
       }
     ]
@@ -732,8 +732,8 @@ module.exports = {
     "createdAt": "2026-06-02",
     "importBatchId": "college-chinese-remaining",
     "sourceFiles": [
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第10课-课前测验.json",
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第10课-文学常识.json"
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第10课-课前测验.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第10课-文学常识.json"
     ],
     "verificationSources": [],
     "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups.",

@@ -888,15 +888,15 @@
   "runtimeSnapshot": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks",
   "blockingTickets": [],
   "resolvedTickets": [
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch001.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch003.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch004.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch005.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch007.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch008.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-remaining.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/mental-health-ch001-to-ch007.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-english-units-001-to-003.md"
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch001.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch003.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch004.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch005.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch007.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch008.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-remaining.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/mental-health-ch001-to-ch007.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-english-units-001-to-003.md"
   ],
   "counts": {
     "books": 3,
@@ -1120,43 +1120,43 @@
   ],
   "verificationSources": [
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第一章-课后作业.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第一章-课后作业.json",
       "usage": "source context for stems, options, answers, and explanation verification"
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第二章-课后作业.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第二章-课后作业.json",
       "usage": "source context for stems, options, answers, and explanation verification"
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第三章-课后作业.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第三章-课后作业.json",
       "usage": "source context for stems, options, answers, and explanation verification"
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第四章-课后作业.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第四章-课后作业.json",
       "usage": "source context for stems, options, answers, and explanation verification"
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第五章-课后作业.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第五章-课后作业.json",
       "usage": "source context for stems, options, answers, and explanation verification"
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第六章-课后作业.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
       "usage": "source context for stems, options, answers, and explanation verification"
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学生心理健康-第七章-课后作业.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第七章-课后作业.json",
       "usage": "source context for stems, options, answers, and explanation verification"
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第一单元.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第一单元.json",
       "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第二单元.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第二单元.json",
       "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
     },
     {
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第三单元.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第三单元.json",
       "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
     },
     {

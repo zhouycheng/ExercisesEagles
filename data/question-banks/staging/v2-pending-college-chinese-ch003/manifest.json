@@ -1,0 +1,179 @@
+{
+  "version": "v2-pending-college-chinese-ch003",
+  "status": "resolved",
+  "publishable": false,
+  "createdAt": "2026-06-02",
+  "importBatchId": "college-chinese-ch003",
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapters": [
+    {
+      "id": "ch-003",
+      "name": "3-讲故事的人",
+      "order": 3,
+      "groups": [
+        {
+          "id": "group-homework",
+          "name": "课后作业",
+          "groupType": "homework",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-3-讲故事的人.json",
+          "questionCount": 20
+        },
+        {
+          "id": "group-pretest",
+          "name": "课前测验",
+          "groupType": "pretest",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-课前测验.json",
+          "questionCount": 5
+        },
+        {
+          "id": "group-literary-common-sense",
+          "name": "文学常识",
+          "groupType": "literaryCommonSense",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-文学常识.json",
+          "questionCount": 6
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/staging/v2-pending-college-chinese-ch003/college-chinese-ch003.json"
+  ],
+  "runtimeSnapshot": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks",
+  "blockingTickets": [],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch003.md"
+  ],
+  "counts": {
+    "chapters": 1,
+    "groups": 3,
+    "questions": 31,
+    "uniqueQuestions": 31,
+    "explanationsReady": 0,
+    "explanationsPending": 31
+  },
+  "rules": {
+    "questionTypeField": "questionType",
+    "groupTypeSource": "manifest",
+    "displayPlacements": "Show the same question in every declared group placement if placements overlap.",
+    "samplingDeduplication": "Deduplicate by questionId during sampling/review sessions."
+  },
+  "manualChanges": [
+    {
+      "questionId": "q-cc-ch003-homework-001..020",
+      "field": "tags",
+      "from": [
+        "序二篇",
+        "单选题"
+      ],
+      "to": "按每题考点改为第 3 课相关标签",
+      "reason": "用户选择 A，确认源 tags 沿用旧章节，生成题库按第 3 课标签处理。"
+    },
+    {
+      "questionId": "q-cc-ch003-homework-002",
+      "field": "score",
+      "from": 0,
+      "to": 5,
+      "reason": "用户选择 A，确认同组异常 0 分按 5 分生成。"
+    },
+    {
+      "questionId": "q-cc-ch003-homework-002 / q-cc-ch003-homework-008",
+      "field": "deduplicationDecision",
+      "from": "same stem with different options pending confirmation",
+      "to": "keep as two independent questions",
+      "reason": "用户选择 A，确认两题题干相同但选项和考点不同，保留为独立题。"
+    }
+  ],
+  "verificationSources": [
+    {
+      "title": "源文件：大学语文-3-讲故事的人.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-3-讲故事的人.json",
+      "usedFor": [
+        "课后作业题干、选项、答案、标签待确认"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第3课-课前测验.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-课前测验.json",
+      "usedFor": [
+        "课前测验题干、选项、答案、标签待确认"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第3课-文学常识.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-文学常识.json",
+      "usedFor": [
+        "文学常识题干、选项、答案、标签待确认"
+      ]
+    }
+  ],
+  "blockingIssues": [
+    {
+      "id": "issue-001-source-id-tags",
+      "status": "waiting_user_choice",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-3-讲故事的人.json",
+      "field": "questions[].id / questions[].tags",
+      "originalContent": "20 道课后作业题的 source id 为 college-chinese-xu-er-pian-001..020，且 tags 包含“序二篇”；但文件名和 unit.name 为“3-讲故事的人”。",
+      "reason": "源 ID 与标签沿用了第 1 课信息，不能作为稳定身份或准确标签发布。",
+      "proposedHandling": "使用内部 questionId q-cc-ch003-homework-###；sourceId 保留原始值作为证据；将生成题库中的 tags 改为与第 3 课相关的标签。"
+    },
+    {
+      "id": "issue-002-zero-score",
+      "status": "waiting_user_choice",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-3-讲故事的人.json",
+      "field": "questions[1].score",
+      "originalContent": "score: 0",
+      "reason": "同组其余课后作业分值为 5，单题 0 分疑似源数据异常。",
+      "proposedHandling": "生成题库中改为 5，并记录人工确认。"
+    },
+    {
+      "id": "issue-003-same-stem",
+      "status": "waiting_user_choice",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-3-讲故事的人.json",
+      "field": "questions[1].question / questions[7].question",
+      "originalContent": "两题题干都是“根据文章内容，下列说法表述错误的一项是”，但选项和考点不同。",
+      "reason": "同题干不同选项按规则属于潜在冲突，需要确认是两道独立题还是应合并/暂缓。",
+      "proposedHandling": "保留为两道独立题，因为选项不同且分别考查文章整体理解与莫言命名原因。"
+    }
+  ],
+  "resolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-through-ch003",
+    "confirmedChoices": {
+      "sourceIdAndTags": "A",
+      "zeroScore": "A",
+      "sameStemDifferentOptions": "A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch003-homework-001..020",
+        "field": "tags",
+        "from": [
+          "序二篇",
+          "单选题"
+        ],
+        "to": "按每题考点改为第 3 课相关标签",
+        "reason": "用户选择 A，确认源 tags 沿用旧章节，生成题库按第 3 课标签处理。"
+      },
+      {
+        "questionId": "q-cc-ch003-homework-002",
+        "field": "score",
+        "from": 0,
+        "to": 5,
+        "reason": "用户选择 A，确认同组异常 0 分按 5 分生成。"
+      },
+      {
+        "questionId": "q-cc-ch003-homework-002 / q-cc-ch003-homework-008",
+        "field": "deduplicationDecision",
+        "from": "same stem with different options pending confirmation",
+        "to": "keep as two independent questions",
+        "reason": "用户选择 A，确认两题题干相同但选项和考点不同，保留为独立题。"
+      }
+    ]
+  }
+}

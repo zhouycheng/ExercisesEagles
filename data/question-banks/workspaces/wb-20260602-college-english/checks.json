@@ -1,0 +1,109 @@
+{
+  "runAt": "2026-06-02",
+  "workspaceId": "wb-20260602-college-english",
+  "status": "ready",
+  "passed": true,
+  "files": {
+    "workspace": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces/wb-20260602-college-english/workspace.json",
+    "manifest": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces/wb-20260602-college-english/manifest.json",
+    "importPlan": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces/wb-20260602-college-english/import-plan.md",
+    "outputs": [
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces/wb-20260602-college-english/college-english-ch001.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces/wb-20260602-college-english/college-english-ch002.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces/wb-20260602-college-english/college-english-ch003.json"
+    ]
+  },
+  "counts": {
+    "chapters": 3,
+    "groups": 6,
+    "questions": 76,
+    "uniqueQuestions": 76,
+    "explanationsReady": 76,
+    "explanationsPending": 0
+  },
+  "checks": [
+    {
+      "id": "workspace-json-exists",
+      "passed": true
+    },
+    {
+      "id": "manifest-json-exists",
+      "passed": true
+    },
+    {
+      "id": "import-plan-exists",
+      "passed": true
+    },
+    {
+      "id": "bank-json-parses",
+      "passed": true
+    },
+    {
+      "id": "source-ledger-represented",
+      "passed": true
+    },
+    {
+      "id": "answer-keys-exist",
+      "passed": true
+    },
+    {
+      "id": "no-app-facing-score",
+      "passed": true
+    },
+    {
+      "id": "normal-questions-weight-1",
+      "passed": true
+    },
+    {
+      "id": "raw-score-normalized",
+      "passed": true
+    },
+    {
+      "id": "no-duplicate-normalized-content",
+      "passed": true
+    },
+    {
+      "id": "blocking-tickets-empty",
+      "passed": true,
+      "details": []
+    },
+    {
+      "id": "all-explanations-verified",
+      "passed": true,
+      "details": []
+    },
+    {
+      "id": "source-content-user-confirmed-changes",
+      "passed": true,
+      "details": [
+        "q-ce-ch002-single-choice-003.stem",
+        "q-ce-ch003-vocabulary-008.stem",
+        "q-ce-ch003-vocabulary-009.stem",
+        "q-ce-ch003-vocabulary-010.stem",
+        "q-ce-ch003-vocabulary-011.stem",
+        "q-ce-ch003-vocabulary-012.stem",
+        "q-ce-ch003-vocabulary-013.stem",
+        "q-ce-ch003-vocabulary-014.stem",
+        "q-ce-ch003-vocabulary-015.stem",
+        "q-ce-ch003-vocabulary-016.stem",
+        "q-ce-ch003-single-choice-008.stem",
+        "q-ce-ch003-single-choice-009.stem",
+        "q-ce-ch003-single-choice-017.stem"
+      ]
+    },
+    {
+      "id": "ticket-resolved",
+      "passed": true,
+      "details": [
+        "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-english-units-001-to-003.md"
+      ]
+    },
+    {
+      "id": "external-evidence-recorded",
+      "passed": true,
+      "details": [
+        "/Users/leftzhou/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_58wr89h4czls22_9888/temp/RWTemp/2026-06/8fd2ae725818d9d055a484c5950c2441/9e5f70fa26734fd782d203a0733e3324.jpg"
+      ]
+    }
+  ]
+}

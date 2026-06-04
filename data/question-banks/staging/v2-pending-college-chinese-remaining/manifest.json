@@ -1,0 +1,99 @@
+{
+  "version": "v2-pending-college-chinese-remaining",
+  "status": "resolved",
+  "publishable": false,
+  "createdAt": "2026-06-02",
+  "importBatchId": "college-chinese-remaining",
+  "targetReleaseVersion": "v2-college-chinese-complete",
+  "previousReleaseVersion": "v2-college-chinese-through-ch008-rawscore-normalized",
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "plannedChapters": [
+    {
+      "id": "ch-009",
+      "name": "9-专家与通人",
+      "plannedGroups": [
+        "homework",
+        "pretest",
+        "literaryCommonSense"
+      ]
+    },
+    {
+      "id": "ch-010",
+      "name": "10-西湖七月半",
+      "plannedGroups": [
+        "homework?",
+        "pretest",
+        "literaryCommonSense"
+      ]
+    },
+    {
+      "id": "ch-011",
+      "name": "11-章节题",
+      "plannedGroups": [
+        "pretest",
+        "literaryCommonSense"
+      ]
+    }
+  ],
+  "outputs": [],
+  "blockingTickets": [],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-remaining.md"
+  ],
+  "blockingIssues": [],
+  "rules": {
+    "sourceFilesAreReadOnly": true,
+    "stemsOptionsAnswersCopiedExactly": true,
+    "pendingOutputNotPublishable": true
+  },
+  "confirmedChoices": {
+    "issue-001-ch010-homework-content-mismatch": "A",
+    "issue-002-ch011-homework-source-missing": "A",
+    "issue-003-ch009-homework-q001-option-d-spacing": "A",
+    "issue-004-ch009-homework-q003-stem-punctuation": "A",
+    "issue-005-ch009-homework-q006-option-b-mojibake": "A",
+    "issue-006-ch009-homework-q020-stem-typo": "A",
+    "issue-007-ch010-pretest-q010-answer-dispute": "A"
+  },
+  "resolvedIssues": [
+    {
+      "id": "issue-001-ch010-homework-content-mismatch",
+      "userChoice": "A",
+      "result": "Do not publish 大学语文-10-西湖七月半.json as ch010 homework; publish ch010 only with existing pretest and literary common-sense groups."
+    },
+    {
+      "id": "issue-002-ch011-homework-source-missing",
+      "userChoice": "A",
+      "result": "Publish ch011 with existing pretest and literary common-sense groups only; record missing homework source."
+    },
+    {
+      "id": "issue-003-ch009-homework-q001-option-d-spacing",
+      "userChoice": "A",
+      "result": "Generated bank option D text corrected to 隔阂gé hé;隔膜gé mó; source file unchanged."
+    },
+    {
+      "id": "issue-004-ch009-homework-q003-stem-punctuation",
+      "userChoice": "A",
+      "result": "Generated bank stem punctuation corrected to full stop; source file unchanged."
+    },
+    {
+      "id": "issue-005-ch009-homework-q006-option-b-mojibake",
+      "userChoice": "A",
+      "result": "Generated bank option B text corrected to remove pei'y residue; source file unchanged."
+    },
+    {
+      "id": "issue-006-ch009-homework-q020-stem-typo",
+      "userChoice": "A",
+      "result": "Generated bank stem corrected from 本位作者 to 本文作者; source file unchanged."
+    },
+    {
+      "id": "issue-007-ch010-pretest-q010-answer-dispute",
+      "userChoice": "A",
+      "result": "Kept source answer B and wrote a constrained explanation about over-identifying the viewer category as the author himself."
+    }
+  ],
+  "releaseVersion": "v2-college-chinese-complete"
+}

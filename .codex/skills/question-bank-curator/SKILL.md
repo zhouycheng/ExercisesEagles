@@ -1,6 +1,6 @@
 ---
 name: question-bank-curator
-description: Use for the Tixiaoying project when importing, normalizing, validating, committing, publishing, or maintaining question-bank data from source-files into question-banks and miniprogram/data/question-banks. Handles Git-like question-bank workspaces, release commits, source documents, generated JSON, import tickets, release blocking, concise verified explanations, duplicate handling, and manifest-driven textbook grouping rules.
+description: Use for the Tixiaoying project when importing, normalizing, validating, committing, publishing, or maintaining question-bank data from data/source-files into data/question-banks and miniprogram/data/question-banks. Handles Git-like question-bank workspaces, release commits, source documents, generated JSON, import tickets, release blocking, concise verified explanations, duplicate handling, and manifest-driven textbook grouping rules.
 ---
 
 # Question Bank Curator
@@ -13,12 +13,12 @@ Maintain question-bank data only. Do not modify Mini Program code unless the use
 
 Project paths:
 
-- Source inputs: `/Users/leftzhou/WorkSpace.localized/题小鹰/source-files`
-- Canonical generated bank: `/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks`
-- Editable workspaces: `/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/workspaces`
-- Published releases: `/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/releases`
+- Source inputs: `/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files`
+- Canonical generated bank: `/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks`
+- Editable workspaces: `/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces`
+- Published releases: `/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases`
 - Mini Program runtime snapshot: `/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks`
-- Source processing ledger: `/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/source-ledger.json`
+- Source processing ledger: `/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/source-ledger.json`
 
 ## Required References
 
@@ -29,9 +29,9 @@ Project paths:
 
 ## Core Rules
 
-- Source files are evidence. Do not edit files under `source-files`.
+- Source files are evidence. Do not edit files under `data/source-files`.
 - Inspect existing `latest.json`, `source-ledger.json`, workspaces, and releases before deciding current state. Do not infer current state from source filenames alone.
-- Track source processing state in `question-banks/source-ledger.json`; never mark status by editing files under `source-files`.
+- Track source processing state in `data/question-banks/source-ledger.json`; never mark status by editing files under `data/source-files`.
 - Do not build or rely on an automatic parser/generator script as the primary way to create question banks. The agent must read source files and directly curate/write the bank according to these rules.
 - Scripts are allowed only for mechanical assistance such as listing files, counting questions, validating JSON, checking duplicates, rendering reports, or wrapping runtime JSON as JS. They must not be the main author of stems, options, answers, placements, or explanations.
 - Question stems, option text, answer keys, and answer text must be copied exactly from source material unless a user-confirmed ticket explicitly changes generated output.

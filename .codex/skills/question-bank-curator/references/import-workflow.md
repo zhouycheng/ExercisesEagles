@@ -18,7 +18,7 @@ Use this workflow for importing, continuing, committing, publishing, or syncing 
 Question-bank data follows a Git-like model:
 
 ```text
-source-files -> workspaces -> releases -> latest/runtime
+data/source-files -> data/question-banks/workspaces -> data/question-banks/releases -> latest/runtime
 ```
 
 Default import output is `workspaces/<workspaceId>`. Do not create a release during normal chapter/unit imports.

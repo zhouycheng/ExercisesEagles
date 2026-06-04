@@ -14,7 +14,7 @@ module.exports = {
     {
       "id": "group-homework",
       "name": "课后作业",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-3-讲故事的人.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-3-讲故事的人.json",
       "questions": [
         {
           "questionId": "q-cc-ch003-homework-001",
@@ -868,7 +868,7 @@ module.exports = {
     {
       "id": "group-pretest",
       "name": "课前测验",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第3课-课前测验.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-课前测验.json",
       "questions": [
         {
           "questionId": "q-cc-ch003-pretest-001",
@@ -1085,7 +1085,7 @@ module.exports = {
     {
       "id": "group-literary-common-sense",
       "name": "文学常识",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第3课-文学常识.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-文学常识.json",
       "questions": [
         {
           "questionId": "q-cc-ch003-literary-001",
@@ -1343,7 +1343,7 @@ module.exports = {
     }
   ],
   "resolvedTickets": [
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch003.md"
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch003.md"
   ],
   "resolution": {
     "resolvedAt": "2026-06-02",
@@ -1385,15 +1385,15 @@ module.exports = {
     "createdAt": "2026-06-02",
     "importBatchId": "college-chinese-through-ch007",
     "sourceFiles": [
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-3-讲故事的人.json",
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第3课-课前测验.json",
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第3课-文学常识.json"
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-3-讲故事的人.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-课前测验.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-文学常识.json"
     ],
     "verificationSources": [
       {
         "title": "源文件：大学语文-3-讲故事的人.json",
         "type": "source-file",
-        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-3-讲故事的人.json",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-3-讲故事的人.json",
         "usedFor": [
           "课后作业题干、选项、答案、原始 sourceId"
         ]
@@ -1401,7 +1401,7 @@ module.exports = {
       {
         "title": "源文件：大学语文章节题-第3课-课前测验.json",
         "type": "source-file",
-        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第3课-课前测验.json",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-课前测验.json",
         "usedFor": [
           "课前测验题干、选项、答案、标签"
         ]
@@ -1409,7 +1409,7 @@ module.exports = {
       {
         "title": "源文件：大学语文章节题-第3课-文学常识.json",
         "type": "source-file",
-        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第3课-文学常识.json",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第3课-文学常识.json",
         "usedFor": [
           "文学常识题干、选项、答案、标签"
         ]

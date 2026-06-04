@@ -1,9 +1,9 @@
 {
   "version": "v4-college-english-units-001-to-003",
   "createdAt": "2026-06-02",
-  "releaseDir": "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/releases/v4-college-english-units-001-to-003",
+  "releaseDir": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003",
   "manifest": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks/manifest.json",
-  "sourceLedger": "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/source-ledger.json",
+  "sourceLedger": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/source-ledger.json",
   "books": [
     {
       "id": "book-college-chinese",
@@ -441,14 +441,14 @@
   ],
   "blockingTickets": [],
   "resolvedTickets": [
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch001.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch003.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch004.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch005.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch007.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch008.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-remaining.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/mental-health-ch001-to-ch007.md",
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-english-units-001-to-003.md"
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch001.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch003.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch004.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch005.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch007.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch008.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-remaining.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/mental-health-ch001-to-ch007.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-english-units-001-to-003.md"
   ]
 }

@@ -15,7 +15,7 @@ module.exports = {
       "id": "group-vocabulary",
       "name": "词汇题",
       "groupType": "vocabulary",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第一单元.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第一单元.json",
       "questions": [
         {
           "questionId": "q-ce-ch001-vocabulary-001",
@@ -443,7 +443,7 @@ module.exports = {
       "id": "group-single-choice",
       "name": "单选题",
       "groupType": "singleChoice",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第一单元.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第一单元.json",
       "questions": [
         {
           "questionId": "q-ce-ch001-single-choice-001",
@@ -869,10 +869,10 @@ module.exports = {
     }
   ],
   "resolvedTickets": [
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-english-units-001-to-003.md"
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-english-units-001-to-003.md"
   ],
   "resolution": {
-    "ticket": "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-english-units-001-to-003.md",
+    "ticket": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-english-units-001-to-003.md",
     "resolvedAt": "2026-06-02"
   },
   "release": {
@@ -882,19 +882,19 @@ module.exports = {
     "sourceWorkspaceId": "wb-20260602-college-english",
     "previousReleaseVersion": "v3-mental-health-ch001-to-ch007",
     "sourceFiles": [
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第一单元.json"
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第一单元.json"
     ],
     "verificationSources": [
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第一单元.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第一单元.json",
         "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
       },
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第二单元.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第二单元.json",
         "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
       },
       {
-        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学英语-第三单元.json",
+        "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学英语-第三单元.json",
         "usage": "Source questions and source explanations used to verify concise vocabulary and sentence-choice explanations."
       },
       {
