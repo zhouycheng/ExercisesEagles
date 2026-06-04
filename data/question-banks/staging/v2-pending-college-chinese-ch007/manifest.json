@@ -1,0 +1,331 @@
+{
+  "version": "v2-pending-college-chinese-ch007",
+  "status": "resolved",
+  "publishable": false,
+  "createdAt": "2026-06-02",
+  "importBatchId": "college-chinese-ch007",
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapters": [
+    {
+      "id": "ch-007",
+      "name": "7-国立西南联合大学纪念碑碑文",
+      "order": 7,
+      "groups": [
+        {
+          "id": "group-homework",
+          "name": "课后作业",
+          "groupType": "homework",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-7-国立西南联合大学纪念碑碑文.json",
+          "questionCount": 20
+        },
+        {
+          "id": "group-pretest",
+          "name": "课前测验",
+          "groupType": "pretest",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第8课-课前测验.json",
+          "questionCount": 3
+        },
+        {
+          "id": "group-literary-common-sense",
+          "name": "文学常识",
+          "groupType": "literaryCommonSense",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第7课-文学常识.json",
+          "questionCount": 16
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/staging/v2-pending-college-chinese-ch007/college-chinese-ch007.json"
+  ],
+  "runtimeSnapshot": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks",
+  "blockingTickets": [],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch007.md"
+  ],
+  "counts": {
+    "chapters": 1,
+    "groups": 3,
+    "questions": 39,
+    "uniqueQuestions": 39,
+    "explanationsReady": 39,
+    "explanationsPending": 0
+  },
+  "rules": {
+    "questionTypeField": "questionType",
+    "groupTypeSource": "manifest",
+    "displayPlacements": "Show the same question in every declared group placement if placements overlap.",
+    "samplingDeduplication": "Deduplicate by questionId during sampling/review sessions."
+  },
+  "manualChanges": [
+    {
+      "questionId": "q-cc-ch007-pretest-001..003 / future q-cc-ch008-pretest-001..007",
+      "field": "source-file-to-chapter/group mapping",
+      "from": "source filenames map 第7课课前测验 to ch007 and 第8课课前测验 to ch008",
+      "to": "map by content: 第8课课前测验 -> ch007 pretest; 第7课课前测验 -> future ch008 pretest",
+      "reason": "用户选择 A，确认第7/8课课前测验文件名与内容对调，按题目内容归属导入。"
+    },
+    {
+      "questionId": "q-cc-ch007-pretest-001..003",
+      "field": "tags[0]",
+      "from": "8-课前测试题",
+      "to": "7-课前测试题",
+      "reason": "用户选择 A 确认源文件按内容归属第7课，生成题库标签同步到第7课；题干、选项、答案未修改。"
+    }
+  ],
+  "verificationSources": [
+    {
+      "title": "源文件：大学语文-7-国立西南联合大学纪念碑碑文.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-7-国立西南联合大学纪念碑碑文.json",
+      "usedFor": [
+        "课后作业题干、选项、答案、原始 sourceId"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第8课-课前测验.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第8课-课前测验.json",
+      "usedFor": [
+        "用户选择 A 后按内容映射为第7课课前测验"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第7课-文学常识.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第7课-文学常识.json",
+      "usedFor": [
+        "文学常识题干、选项、答案、标签"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第7课-课前测验.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第7课-课前测验.json",
+      "usedFor": [
+        "用户选择 A 后记录为第8课课前测验待后续导入"
+      ]
+    },
+    {
+      "title": "清华大学红色网站：国立西南联合大学纪念碑",
+      "type": "web",
+      "url": "https://www.redweb.tsinghua.edu.cn/info/1023/1791.htm",
+      "usedFor": [
+        "碑文作者、联大历史、三校南迁、抗战使命、联大成就核对"
+      ]
+    },
+    {
+      "title": "云南师范大学西南联大博物馆：国立西南联合大学纪念碑",
+      "type": "web",
+      "url": "https://bwg.ynnu.edu.cn/info/1057/1343.htm",
+      "usedFor": [
+        "纪念碑位置、建成时间、冯友兰撰文、三绝碑资料核对"
+      ]
+    },
+    {
+      "title": "清华大学：冯友兰先生与西南联大纪念碑",
+      "type": "web",
+      "url": "https://www.tsinghua.edu.cn/info/1181/59526.htm",
+      "usedFor": [
+        "碑文全文、兼容并包、南渡、八音合奏、使命与抗战相终始核对"
+      ]
+    },
+    {
+      "title": "云南师范大学：校训",
+      "type": "web",
+      "url": "https://www.ynnu.edu.cn/xywh1/xx.htm",
+      "usedFor": [
+        "西南联大校训刚毅坚卓核对"
+      ]
+    },
+    {
+      "title": "北京大学：西南联大校史资料",
+      "type": "web",
+      "url": "https://www.pku.edu.cn/detail/908.html",
+      "usedFor": [
+        "西南联大由北大、清华、南开组成及昆明办学核对"
+      ]
+    },
+    {
+      "title": "湘黔滇旅行团资料",
+      "type": "web",
+      "url": "https://yn.yunnan.cn/system/2026/04/29/033988404.shtml",
+      "usedFor": [
+        "湘黔滇旅行团徒步抵达昆明核对"
+      ]
+    },
+    {
+      "title": "商务印书馆：《中国哲学史新编》",
+      "type": "web",
+      "url": "https://www.cp.com.cn/book/f5e041ce-a.html",
+      "usedFor": [
+        "冯友兰代表著作核对"
+      ]
+    },
+    {
+      "title": "中国社会科学网：冯友兰的形而上学",
+      "type": "web",
+      "url": "https://www.cssn.cn/zx/zx_rdkx/202408/t20240827_5774136.shtml",
+      "usedFor": [
+        "贞元六书篇目核对"
+      ]
+    },
+    {
+      "title": "金岳霖《论道》资料",
+      "type": "web",
+      "url": "https://www.csspw.com.cn/booksdetail_15923_2054128_0.jhtml",
+      "usedFor": [
+        "《论道》为金岳霖著作核对"
+      ]
+    },
+    {
+      "title": "央视网：六大古都",
+      "type": "web",
+      "url": "https://tv.cctv.com/2014/10/08/VIDA1412761181241812.shtml",
+      "usedFor": [
+        "中国六大古都核对"
+      ]
+    },
+    {
+      "title": "中国日报网：四大名绣",
+      "type": "web",
+      "url": "https://cn.chinadaily.com.cn/a/202605/11/WS6a014ccba310942cc49ab951.html",
+      "usedFor": [
+        "四大名绣核对"
+      ]
+    },
+    {
+      "title": "中国风景名胜区协会：四大佛教名山",
+      "type": "web",
+      "url": "https://www.china-npa.org/info/2205.jspx",
+      "usedFor": [
+        "四大佛教名山核对"
+      ]
+    },
+    {
+      "title": "故宫博物院：龙门石窟",
+      "type": "web",
+      "url": "https://www.dpm.org.cn/lemmas/243334.html",
+      "usedFor": [
+        "龙门石窟位于河南洛阳核对"
+      ]
+    },
+    {
+      "title": "中国关键词：三教合一",
+      "type": "web",
+      "url": "https://keywords.china.org.cn/2024-08/28/content_117392874.html",
+      "usedFor": [
+        "儒佛道三教合一核对"
+      ]
+    },
+    {
+      "title": "中国政府网：国情",
+      "type": "web",
+      "url": "https://www.gov.cn/guoqing/index.htm",
+      "usedFor": [
+        "34个省级行政区核对"
+      ]
+    },
+    {
+      "title": "汉典：耄耋",
+      "type": "web",
+      "url": "https://www.zdic.net/hans/%E8%80%84%E8%80%8B",
+      "usedFor": [
+        "耄耋八九十岁核对"
+      ]
+    },
+    {
+      "title": "维基文库：李清照《醉花阴》",
+      "type": "web",
+      "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E8%8A%B1%E9%99%B0_%28%E6%9D%8E%E6%B8%85%E7%85%A7%29",
+      "usedFor": [
+        "人比黄花瘦出处核对"
+      ]
+    },
+    {
+      "title": "梨园资料",
+      "type": "web",
+      "url": "https://www.baike.com/wikiid/8268850241245815543",
+      "usedFor": [
+        "梨园子弟源于唐代核对"
+      ]
+    },
+    {
+      "title": "四大民间传说资料",
+      "type": "web",
+      "url": "https://www.newton.com.tw/wiki/%E5%9B%9B%E5%A4%A7%E6%84%9B%E6%83%85%E5%82%B3%E8%AA%AA",
+      "usedFor": [
+        "四大民间传说核对"
+      ]
+    },
+    {
+      "title": "地动仪资料",
+      "type": "web",
+      "url": "https://metalworld.ustb.edu.cn/cn/article/pdf/preview/JSSJ199501013.pdf",
+      "usedFor": [
+        "张衡东汉发明地动仪核对"
+      ]
+    },
+    {
+      "title": "文成公主进藏资料",
+      "type": "web",
+      "url": "https://www.baike.com/wikiid/7158714417269227528",
+      "usedFor": [
+        "文成公主和亲发生在唐太宗时期核对"
+      ]
+    },
+    {
+      "title": "常识题：三秋口径",
+      "type": "web",
+      "url": "https://www.koolearn.com/shiti/tk-st-31311.html",
+      "usedFor": [
+        "题库答案中三秋按三个季度口径核对"
+      ]
+    }
+  ],
+  "blockingIssues": [
+    {
+      "id": "issue-001-pretest-file-content-swapped",
+      "status": "resolved",
+      "sourceFile": [
+        "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第7课-课前测验.json",
+        "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第8课-课前测验.json"
+      ],
+      "field": "source-file-to-chapter/group mapping",
+      "originalContent": [
+        "大学语文章节题-第7课-课前测验.json 的题目均围绕《<北京大学月刊>发刊词》、蔡元培和北京大学。",
+        "大学语文章节题-第8课-课前测验.json 的题目围绕西南联合大学、冯友兰和《贞元六书》。"
+      ],
+      "reason": "第7/8课课前测验文件名与题目内容疑似对调，不能只按文件名发布。",
+      "proposedHandling": "按题目内容对调课前测验映射：第7课使用第8课课前测验文件，第8课后续使用第7课课前测验文件；源文件不改名，仅在 release/ledger 记录。",
+      "userChoice": "A",
+      "resolution": "按题目内容对调第7/8课课前测验映射；第7课使用第8课课前测验源文件，第8课后续使用第7课课前测验源文件。"
+    }
+  ],
+  "resolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-through-ch007",
+    "confirmedChoices": {
+      "pretestFileContentMapping": "A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch007-pretest-001..003 / future q-cc-ch008-pretest-001..007",
+        "field": "source-file-to-chapter/group mapping",
+        "from": "source filenames map 第7课课前测验 to ch007 and 第8课课前测验 to ch008",
+        "to": "map by content: 第8课课前测验 -> ch007 pretest; 第7课课前测验 -> future ch008 pretest",
+        "reason": "用户选择 A，确认第7/8课课前测验文件名与内容对调，按题目内容归属导入。"
+      },
+      {
+        "questionId": "q-cc-ch007-pretest-001..003",
+        "field": "tags[0]",
+        "from": "8-课前测试题",
+        "to": "7-课前测试题",
+        "reason": "用户选择 A 确认源文件按内容归属第7课，生成题库标签同步到第7课；题干、选项、答案未修改。"
+      }
+    ]
+  }
+}

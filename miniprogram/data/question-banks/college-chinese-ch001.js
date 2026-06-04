@@ -14,7 +14,7 @@ module.exports = {
     {
       "id": "group-homework",
       "name": "课后作业",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-1-序二篇.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-1-序二篇.json",
       "questions": [
         {
           "questionId": "q-cc-ch001-homework-001",
@@ -785,7 +785,7 @@ module.exports = {
     {
       "id": "group-pretest",
       "name": "课前测验",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第1课-课前测验.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-课前测验.json",
       "questions": [
         {
           "questionId": "q-cc-ch001-pretest-001",
@@ -908,7 +908,7 @@ module.exports = {
     {
       "id": "group-literary-common-sense",
       "name": "文学常识",
-      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第1课-文学常识.json",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-文学常识.json",
       "questions": [
         {
           "questionId": "q-cc-ch001-literary-001",
@@ -1172,7 +1172,7 @@ module.exports = {
     }
   ],
   "resolvedTickets": [
-    "/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/college-chinese-ch001.md"
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch001.md"
   ],
   "resolution": {
     "resolvedAt": "2026-06-02",
@@ -1198,15 +1198,15 @@ module.exports = {
     "createdAt": "2026-06-02",
     "importBatchId": "college-chinese-through-ch007",
     "sourceFiles": [
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-1-序二篇.json",
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第1课-课前测验.json",
-      "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第1课-文学常识.json"
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-1-序二篇.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-课前测验.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-文学常识.json"
     ],
     "verificationSources": [
       {
         "title": "源文件：大学语文-1-序二篇.json",
         "type": "source-file",
-        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-1-序二篇.json",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-1-序二篇.json",
         "usedFor": [
           "课后作业题干、选项、答案、标签"
         ]
@@ -1214,7 +1214,7 @@ module.exports = {
       {
         "title": "源文件：大学语文章节题-第1课-课前测验.json",
         "type": "source-file",
-        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第1课-课前测验.json",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-课前测验.json",
         "usedFor": [
           "课前测验题干、选项、答案、标签"
         ]
@@ -1222,7 +1222,7 @@ module.exports = {
       {
         "title": "源文件：大学语文章节题-第1课-文学常识.json",
         "type": "source-file",
-        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文章节题-第1课-文学常识.json",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-文学常识.json",
         "usedFor": [
           "文学常识题干、选项、答案、标签"
         ]

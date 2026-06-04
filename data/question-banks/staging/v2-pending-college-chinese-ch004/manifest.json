@@ -1,0 +1,134 @@
+{
+  "version": "v2-pending-college-chinese-ch004",
+  "status": "resolved",
+  "publishable": false,
+  "createdAt": "2026-06-02",
+  "importBatchId": "college-chinese-ch004",
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapters": [
+    {
+      "id": "ch-004",
+      "name": "4-我的四个假想敌",
+      "order": 4,
+      "groups": [
+        {
+          "id": "group-homework",
+          "name": "课后作业",
+          "groupType": "homework",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-4-我的四个假想敌.json",
+          "questionCount": 19
+        },
+        {
+          "id": "group-pretest",
+          "name": "课前测验",
+          "groupType": "pretest",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第4课-课前测验.json",
+          "questionCount": 5
+        },
+        {
+          "id": "group-literary-common-sense",
+          "name": "文学常识",
+          "groupType": "literaryCommonSense",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第4课-文学常识.json",
+          "questionCount": 6
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/staging/v2-pending-college-chinese-ch004/college-chinese-ch004.json"
+  ],
+  "runtimeSnapshot": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks",
+  "blockingTickets": [],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch004.md"
+  ],
+  "counts": {
+    "chapters": 1,
+    "groups": 3,
+    "questions": 30,
+    "uniqueQuestions": 30,
+    "explanationsReady": 0,
+    "explanationsPending": 30
+  },
+  "rules": {
+    "questionTypeField": "questionType",
+    "groupTypeSource": "manifest",
+    "displayPlacements": "Show the same question in every declared group placement if placements overlap.",
+    "samplingDeduplication": "Deduplicate by questionId during sampling/review sessions."
+  },
+  "manualChanges": [
+    {
+      "questionId": "q-cc-ch004-homework-001..005 / q-cc-ch004-pretest-001..005",
+      "field": "sourceIdIdentityPolicy",
+      "from": "same sourceId used for different content across groups",
+      "to": "use internal questionId as identity; keep sourceId as evidence only",
+      "reason": "用户选择 A，确认重复 sourceId 不作为题目身份，按文件和 groupType 归属导入。"
+    }
+  ],
+  "verificationSources": [
+    {
+      "title": "源文件：大学语文-4-我的四个假想敌.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-4-我的四个假想敌.json",
+      "usedFor": [
+        "课后作业题干、选项、答案、标签待确认"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第4课-课前测验.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第4课-课前测验.json",
+      "usedFor": [
+        "课前测验题干、选项、答案、标签待确认"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第4课-文学常识.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第4课-文学常识.json",
+      "usedFor": [
+        "文学常识题干、选项、答案、标签待确认"
+      ]
+    }
+  ],
+  "blockingIssues": [
+    {
+      "id": "issue-001-duplicate-source-id",
+      "status": "waiting_user_choice",
+      "sourceFile": [
+        "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-4-我的四个假想敌.json",
+        "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第4课-课前测验.json"
+      ],
+      "field": "questions[].id",
+      "originalContent": [
+        "subject-bmvcex-unit-4-001",
+        "subject-bmvcex-unit-4-002",
+        "subject-bmvcex-unit-4-003",
+        "subject-bmvcex-unit-4-004",
+        "subject-bmvcex-unit-4-005"
+      ],
+      "reason": "课后作业与课前测验使用了相同 sourceId，但题干、选项、答案不同；sourceId 不能作为稳定题目身份。",
+      "proposedHandling": "使用内部 questionId 区分两组题；sourceId 保留原文作为证据；导入时按文件和 groupType 归属。"
+    }
+  ],
+  "resolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-through-ch004",
+    "confirmedChoices": {
+      "duplicateSourceId": "A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch004-homework-001..005 / q-cc-ch004-pretest-001..005",
+        "field": "sourceIdIdentityPolicy",
+        "from": "same sourceId used for different content across groups",
+        "to": "use internal questionId as identity; keep sourceId as evidence only",
+        "reason": "用户选择 A，确认重复 sourceId 不作为题目身份，按文件和 groupType 归属导入。"
+      }
+    ]
+  }
+}

@@ -22,25 +22,25 @@ Read this reference before creating, validating, publishing, syncing, or consumi
 ## Directory Layout
 
 ```text
-/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/
   Raw source files. Read-only evidence. Never edit.
 
-/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/
   Canonical generated question-bank root.
 
-/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/workspaces/<workspaceId>/
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces/<workspaceId>/
   Editable Git-like working tree for ongoing imports. Not publishable.
 
-/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/releases/<releaseVersion>/
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/<releaseVersion>/
   Publishable immutable release commit. Contains one `manifest.json` and one or more bank JSON files.
 
-/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/tickets/
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/
   Markdown import tickets and human-choice audit records.
 
-/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/latest.json
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/latest.json
   Canonical latest-release index.
 
-/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/source-ledger.json
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/source-ledger.json
   Source-file processing ledger.
 
 /Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks/
@@ -117,7 +117,7 @@ Workspaces are editable working trees. Importing a chapter or unit updates a wor
 Location:
 
 ```text
-/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/workspaces/<workspaceId>/
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces/<workspaceId>/
 ```
 
 Required files:
@@ -169,7 +169,7 @@ Workspace status rules:
 {
   "id": "group-homework",
   "name": "课后作业",
-  "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files/大学语文-1-序二篇.json",
+  "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-1-序二篇.json",
   "questions": []
 }
 ```
@@ -363,7 +363,7 @@ Rules:
 Location:
 
 ```text
-/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/source-ledger.json
+/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/source-ledger.json
 ```
 
 Top-level shape:
@@ -372,7 +372,7 @@ Top-level shape:
 {
   "version": 1,
   "generatedAt": "YYYY-MM-DD",
-  "sourceDir": "/Users/leftzhou/WorkSpace.localized/题小鹰/source-files",
+  "sourceDir": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files",
   "summary": {},
   "statuses": ["unprocessed", "workspace", "blocked", "released", "superseded", "excluded"],
   "entries": []

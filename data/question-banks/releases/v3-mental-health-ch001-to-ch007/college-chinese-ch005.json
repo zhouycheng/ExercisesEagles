@@ -1,0 +1,1403 @@
+{
+  "status": "released",
+  "publishable": true,
+  "blockingTickets": [],
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapter": {
+    "id": "ch-005",
+    "name": "下棋"
+  },
+  "groups": [
+    {
+      "id": "group-homework",
+      "name": "课后作业",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-5-下棋.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch005-homework-001",
+          "sourceId": "subject-bmvcex-unit-5-001",
+          "questionType": "single",
+          "stem": "“指极其紧要的时刻”是哪个词语的意思?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "生死关头"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "剑拔弩张"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "旗鼓相当"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "不拘小节"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“生死关头”指关系到生死成败的紧要时刻，正对应题干意思。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-002",
+          "sourceId": "subject-bmvcex-unit-5-002",
+          "questionType": "single",
+          "stem": "20世纪30年代初，鲁迅写了《“论语”一年》、《小品文的危机》等文，所针对的作家是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "林语堂"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "胡适"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "胡秋原"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "梁实秋"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "鲁迅《“论语”一年》《小品文的危机》主要针对林语堂办《论语》、倡小品文的风潮。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-003",
+          "sourceId": "subject-bmvcex-unit-5-003",
+          "questionType": "single",
+          "stem": "如果观棋者说错了，会有什么结果?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "其中一个下棋人感谢他。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "下棋的两人一起打他。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "下棋的人一起嘲笑他没水平。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "另一个下棋人也夸奖他。"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "原文说若观棋者说得不中肯，两位下棋者会一齐嗤之以鼻，讥其“无见识”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-004",
+          "sourceId": "subject-bmvcex-unit-5-004",
+          "questionType": "single",
+          "stem": "下列哪项不是笠翁李渔所说的“下棋不如观棋”的原因",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "观者无得失心"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "观棋就是斗牛、斗鸡、斗蟋蟀"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "如看斗牛、斗鸡、斗蟋蟀一般"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "观棋是有趣的事，"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "李渔说观棋有趣，是因观者无得失心，并非说观棋本身就是斗牛斗鸡。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-005",
+          "sourceId": "subject-bmvcex-unit-5-005",
+          "questionType": "single",
+          "stem": "梁实秋翻译过谁的作品?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "托尔斯泰"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "莎士比亚"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "普鲁斯特"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "乔伊斯"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "梁实秋以翻译莎士比亚作品著称，曾完成《莎士比亚全集》翻译。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-006",
+          "sourceId": "subject-bmvcex-unit-5-006",
+          "questionType": "single",
+          "stem": "下列哪部作品不是梁实秋的?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "《槐园梦忆》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《雅舍小品》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《边城》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《梁实秋散文选》"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《边城》作者是沈从文，不是梁实秋；其余几项都属梁实秋相关作品。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-007",
+          "sourceId": "subject-bmvcex-unit-5-007",
+          "questionType": "single",
+          "stem": "下列词语中划线部分注音错误的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "抓耳挠腮 náo"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "阒不见人 qù"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "自怨自艾 ài"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "排闼 tà"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“自怨自艾”的“艾”读 yì，表示悔恨改正，不读 ài。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-008",
+          "sourceId": "subject-bmvcex-unit-5-008",
+          "questionType": "single",
+          "stem": "下列词语解释错误的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "同归于尽:一起死亡或一同毁灭。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "长吁短叹:因伤感、烦闷、痛苦等不住地唉声叹气。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "无关痛痒:既不痛也不痒。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "索然寡味:毫无意味或毫无兴致的样子，索然无味。"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“无关痛痒”指与切身利害无关，不是字面上的既不痛也不痒。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-009",
+          "sourceId": "subject-bmvcex-unit-5-009",
+          "questionType": "single",
+          "stem": "梁实秋是中国现代文学史上的一位重要作家，他的主要文学贡献是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "小说创作"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "诗歌创作"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "戏剧创作"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "散文创作"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "梁实秋最有代表性的文学贡献在散文小品，代表作有《雅舍小品》。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-010",
+          "sourceId": "subject-bmvcex-unit-5-010",
+          "questionType": "single",
+          "stem": "下列词语书写全部正确的是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "略胜一筹"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "构心斗角"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "长须短叹"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "干尽杀绝"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "正确写法是“略胜一筹”；其余应为“勾心斗角”“长吁短叹”“赶尽杀绝”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-011",
+          "sourceId": "subject-bmvcex-unit-5-011",
+          "questionType": "single",
+          "stem": "下列各项中哪个不是爱好下棋的人的表现?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "下起棋来可以不顾性命。"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "原来性情急躁易怒，可是下棋能够让他变得缓和平静。"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "和人争权夺利、招摇撞骗。"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "下棋打了起来。"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“争权夺利、招摇撞骗”不是爱好下棋的表现，原文写的是下棋时的执着百态。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-012",
+          "sourceId": "subject-bmvcex-unit-5-012",
+          "questionType": "single",
+          "stem": "“被挖者不敢出声，出声则口张，口张则车被挖回，挖回则必悔棋，悔棋则不得胜，这种认真的态度憨得可爱”一句中用到了什么修辞手法?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "顶真"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "夸张"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "比喻"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "排比"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "句中“出声则口张，口张则车被挖回”前后词语相接，属于顶真。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-013",
+          "sourceId": "subject-bmvcex-unit-5-013",
+          "questionType": "single",
+          "stem": "下列词语中划线部分注音正确的一项是",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "忻然 jīn"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "中肯 zhōng"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "嗤之以鼻 chī"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "髀肉复生 pí"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“嗤之以鼻”读 chī；“忻然”读 xīn，“中肯”读 zhòng，“髀肉”读 bì。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-014",
+          "sourceId": "subject-bmvcex-unit-5-014",
+          "questionType": "single",
+          "stem": "下列各项中哪部著作是梁实秋写的?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "《蛙》"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "《生死疲劳》"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "《雅舍小品》"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "《红高粱》"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《雅舍小品》是梁实秋的散文小品代表作，其他选项是莫言作品。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-015",
+          "sourceId": "subject-bmvcex-unit-5-015",
+          "questionType": "judge",
+          "stem": "《下棋》作者是梁实秋，他是文学家、翻译家，本文选自《雅舍小品全集》，体裁是散文(小品文)。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《下棋》作者梁实秋，选自《雅舍小品》系统，体裁可归入散文小品。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-016",
+          "sourceId": "subject-bmvcex-unit-5-016",
+          "questionType": "judge",
+          "stem": "《下棋》中作者的弈棋观，同时也是作者的人生观是:干什么事情既不能太张扬，也不可太低调，都要把握一个度，讲究不即不离，用中和的态度来对待生活。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "题干概括的是《下棋》中不即不离、讲究分寸的弈棋观和人生观。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-017",
+          "sourceId": "subject-bmvcex-unit-5-017",
+          "questionType": "judge",
+          "stem": "本文以诙谐幽默的笔法和细致的观察，淋漓尽致地描绘了下棋时的人性百态，写出了作者对人生境界的品味和反思。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《下棋》以幽默笔法写弈棋百态，也借棋局观察和反思人生情味。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-018",
+          "sourceId": "subject-bmvcex-unit-5-018",
+          "questionType": "judge",
+          "stem": "《雅舍小品》的作者是梁实秋。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《雅舍小品》是梁实秋的代表性散文小品集，题干说法正确。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-019",
+          "sourceId": "subject-bmvcex-unit-5-019",
+          "questionType": "judge",
+          "stem": "梁实秋的散文集《雅舍小品》中的文章，谈的是人生中的凡人小事。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "《雅舍小品》多从日常小事落笔，在凡人小事中写出人生趣味。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-homework-020",
+          "sourceId": "subject-bmvcex-unit-5-020",
+          "questionType": "judge",
+          "stem": "文中说两个人下棋时先是神情潇洒，“如神仙中人”，后来棋势吃紧，便剑拔弩张，“如斗鹌鹑”，这是用了对比和比喻的修辞手法。",
+          "options": [
+            {
+              "key": "true",
+              "keyLabel": "A",
+              "text": "正确"
+            },
+            {
+              "key": "false",
+              "keyLabel": "B",
+              "text": "错误"
+            }
+          ],
+          "answerKeys": [
+            "true"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-下棋",
+            "判断题"
+          ],
+          "sourceMeta": {
+            "rawScore": 5
+          },
+          "explanation": "“神仙中人”与“斗鹌鹑”形成对比，“如”又构成比喻，题干判断正确。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-pretest",
+      "name": "课前测验",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-课前测验.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch005-pretest-001",
+          "sourceId": "subject-bmvcex-unit-5-001",
+          "questionType": "single",
+          "stem": "小品文是( )。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "戏剧"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "小说"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "诗歌"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "散文"
+            }
+          ],
+          "answerKeys": [
+            "D"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-课前小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 33.3
+          },
+          "explanation": "小品文篇幅短小、笔调灵活，属于散文的一种。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-pretest-002",
+          "sourceId": "subject-bmvcex-unit-5-002",
+          "questionType": "single",
+          "stem": "下面哪项不是梁实秋小品文的语言特点( )",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "简洁成癖"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "不喜修饰"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "文白交融"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "长短句并用"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-课前小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 33.3
+          },
+          "explanation": "梁实秋小品文讲究简洁、文白交融和长短句并用，“不喜修饰”不符合题意。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-pretest-003",
+          "sourceId": "subject-bmvcex-unit-5-003",
+          "questionType": "single",
+          "stem": "下面不符合梁实秋散文的创作特点的是( )。",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "作品有着分明的民族意识、爱国情怀和家国之恋"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "注重追求精神的愉悦"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "不太关注与表现人性"
+            },
+            {
+              "key": "D",
+              "keyLabel": "D",
+              "text": "常常以调侃、幽默的笔调来砧砭时弊"
+            }
+          ],
+          "answerKeys": [
+            "C"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-课前小测试",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 33.3
+          },
+          "explanation": "梁实秋散文常写人性和生活趣味，所以“不太关注与表现人性”不符合其特点。",
+          "explanationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "group-literary-common-sense",
+      "name": "文学常识",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-文学常识.json",
+      "questions": [
+        {
+          "questionId": "q-cc-ch005-literary-001",
+          "sourceId": "subject-bmvcex-unit-5-literature-001",
+          "questionType": "single",
+          "stem": "李清照词中的“绿肥红瘦”描写的是什么季节的景色?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "仲夏"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "暮春"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "初春"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.2
+          },
+          "explanation": "“绿肥红瘦”出自李清照《如梦令》，写春末花少叶盛的暮春景象。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-literary-002",
+          "sourceId": "subject-bmvcex-unit-5-literature-002",
+          "questionType": "single",
+          "stem": "下面哪个成语与秦始皇有关?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "图穷匕见"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "指鹿为马"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "奇货可居"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "“图穷匕见”出自荆轲刺秦王故事，与秦始皇有关。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-literary-003",
+          "sourceId": "subject-bmvcex-unit-5-literature-003",
+          "questionType": "single",
+          "stem": "《诗经》是我国第一部诗歌总集，《诗经》里面包括多少首诗?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "三百首"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "三百零五首"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "《诗经》共 305 篇，传统上也称“诗三百”。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-literary-004",
+          "sourceId": "subject-bmvcex-unit-5-literature-004",
+          "questionType": "single",
+          "stem": "唱念做打是中国戏曲表演的四种艺术手段，也是戏曲表演的四项基本功，其中“做”指的是:",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "器械表演"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "舞蹈动作"
+            },
+            {
+              "key": "C",
+              "keyLabel": "C",
+              "text": "面部表情"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "戏曲“四功”里“做”指舞蹈化、程式化的形体动作。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-literary-005",
+          "sourceId": "subject-bmvcex-unit-5-literature-005",
+          "questionType": "single",
+          "stem": "算盘是中国传统计算工具，利用算盘能进行开平方的运算吗?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "不能"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "能"
+            }
+          ],
+          "answerKeys": [
+            "B"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "传统珠算除加减乘除外，也可以按算法进行开平方。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-literary-006",
+          "sourceId": "subject-bmvcex-unit-5-literature-006",
+          "questionType": "single",
+          "stem": "《孙子兵法》的作者是:",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "孙武"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "孙膑"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "《孙子兵法》传统上署名春秋末期军事家孙武。",
+          "explanationStatus": "verified"
+        },
+        {
+          "questionId": "q-cc-ch005-literary-007",
+          "sourceId": "subject-bmvcex-unit-5-literature-007",
+          "questionType": "single",
+          "stem": "“海上升明月，天涯共此时”是谁的名句?",
+          "options": [
+            {
+              "key": "A",
+              "keyLabel": "A",
+              "text": "张九龄"
+            },
+            {
+              "key": "B",
+              "keyLabel": "B",
+              "text": "王勃"
+            }
+          ],
+          "answerKeys": [
+            "A"
+          ],
+          "weight": 1,
+          "difficulty": "easy",
+          "tags": [
+            "5-文学常识小测验",
+            "单选题"
+          ],
+          "sourceMeta": {
+            "rawScore": 14.3
+          },
+          "explanation": "通行诗句为“海上生明月，天涯共此时”，出自张九龄《望月怀远》。",
+          "explanationStatus": "verified"
+        }
+      ]
+    }
+  ],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch005.md"
+  ],
+  "resolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-through-ch005",
+    "confirmedChoices": {
+      "duplicateSourceId": "A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch005-homework-001..003 / q-cc-ch005-pretest-001..003",
+        "field": "sourceIdIdentityPolicy",
+        "from": "same sourceId used for different content across groups",
+        "to": "use internal questionId as identity; keep sourceId as evidence only",
+        "reason": "用户选择 A，确认重复 sourceId 不作为题目身份，按文件和 groupType 归属导入。"
+      }
+    ]
+  },
+  "release": {
+    "version": "v3-mental-health-ch001-to-ch007",
+    "createdAt": "2026-06-02",
+    "importBatchId": "college-chinese-through-ch007",
+    "sourceFiles": [
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-5-下棋.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-课前测验.json",
+      "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-文学常识.json"
+    ],
+    "verificationSources": [
+      {
+        "title": "源文件：大学语文-5-下棋.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-5-下棋.json",
+        "usedFor": [
+          "课后作业题干、选项、答案、标签、原始 sourceId"
+        ]
+      },
+      {
+        "title": "源文件：大学语文章节题-第5课-课前测验.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-课前测验.json",
+        "usedFor": [
+          "课前测验题干、选项、答案、标签、原始 sourceId"
+        ]
+      },
+      {
+        "title": "源文件：大学语文章节题-第5课-文学常识.json",
+        "type": "source-file",
+        "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-文学常识.json",
+        "usedFor": [
+          "文学常识题干、选项、答案、标签"
+        ]
+      },
+      {
+        "title": "百度文库：梁实秋《下棋》原文",
+        "type": "web",
+        "url": "https://wenku.baidu.com/view/84f040a34ad7c1c708a1284ac850ad02df80070b.html",
+        "usedFor": [
+          "课文内容、观棋者反应、顶真句、李渔观棋观点、比喻与对比核对"
+        ]
+      },
+      {
+        "title": "豆瓣阅读：《雅舍小品》",
+        "type": "web",
+        "url": "https://read.douban.com/ebook/472453417/",
+        "usedFor": [
+          "《雅舍小品》作者、体裁、收录下棋等日常题材核对"
+        ]
+      },
+      {
+        "title": "诚品：《雅舍小品》",
+        "type": "web",
+        "url": "https://www.eslite.com/product/1001125581307730",
+        "usedFor": [
+          "梁实秋翻译莎士比亚全集、散文小品特点核对"
+        ]
+      },
+      {
+        "title": "中国作家网：林语堂的小品文运动",
+        "type": "web",
+        "url": "https://www.chinawriter.com.cn/2014/2014-01-20/189196.html",
+        "usedFor": [
+          "鲁迅《小品文的危机》与林语堂《论语》关系核对"
+        ]
+      },
+      {
+        "title": "中国作家网：现代散文史资料",
+        "type": "web",
+        "url": "https://www.zikao365.com/html/4_21_25/2007_8_28_an3476925182870021752_0.htm",
+        "usedFor": [
+          "《“论语”一年》《小品文的危机》针对林语堂资料核对"
+        ]
+      },
+      {
+        "title": "汉典：自怨自艾",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E8%87%AA%E6%80%A8%E8%87%AA%E8%89%BE",
+        "usedFor": [
+          "自怨自艾读音核对"
+        ]
+      },
+      {
+        "title": "汉典：无关痛痒",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E6%97%A0%E5%85%B3%E7%97%9B%E7%97%92",
+        "usedFor": [
+          "无关痛痒释义核对"
+        ]
+      },
+      {
+        "title": "汉典：嗤之以鼻",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E5%97%A4%E4%B9%8B%E4%BB%A5%E9%BC%BB",
+        "usedFor": [
+          "嗤之以鼻读音核对"
+        ]
+      },
+      {
+        "title": "汉典：髀肉复生",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E9%AB%80%E8%82%89%E5%A4%8D%E7%94%9F",
+        "usedFor": [
+          "髀肉复生读音核对"
+        ]
+      },
+      {
+        "title": "汉典：略胜一筹",
+        "type": "web",
+        "url": "https://www.zdic.net/hans/%E7%95%A5%E8%83%9C%E4%B8%80%E7%AD%B9",
+        "usedFor": [
+          "词语字形核对"
+        ]
+      },
+      {
+        "title": "古诗文网：李清照《如梦令》",
+        "type": "web",
+        "url": "https://www.gushiwen.cn/GuShiWen.aspx?id=688f0b9448",
+        "usedFor": [
+          "绿肥红瘦与暮春核对"
+        ]
+      },
+      {
+        "title": "MDBG：图穷匕见",
+        "type": "web",
+        "url": "https://www.mdbg.net/chinese/dictionary?wdqb=%E5%9B%BE%E7%A9%B7%E5%8C%95%E8%A7%81",
+        "usedFor": [
+          "图穷匕见与荆轲刺秦王核对"
+        ]
+      },
+      {
+        "title": "诗经资料",
+        "type": "web",
+        "url": "https://www.gushiwenku.cn/xuanji/shijing/",
+        "usedFor": [
+          "《诗经》305 篇核对"
+        ]
+      },
+      {
+        "title": "唱念做打资料",
+        "type": "web",
+        "url": "https://www.baike.com/wikiid/8720196753707383197",
+        "usedFor": [
+          "“做”指舞蹈化形体动作核对"
+        ]
+      },
+      {
+        "title": "珠算开平方资料",
+        "type": "web",
+        "url": "https://chowkafat.net/Abacus7.html",
+        "usedFor": [
+          "算盘可做开平方运算核对"
+        ]
+      },
+      {
+        "title": "《孙子兵法》资料",
+        "type": "web",
+        "url": "https://ccj.pku.edu.cn/Article/DownLoad?id=301280019&type=ArticleFile",
+        "usedFor": [
+          "《孙子兵法》作者孙武核对"
+        ]
+      },
+      {
+        "title": "古诗文网：张九龄《望月怀远》",
+        "type": "web",
+        "url": "https://www.gushiwen.cn/mingju/juv.aspx?id=f3555a375e78",
+        "usedFor": [
+          "“海上生明月，天涯共此时”作者出处核对"
+        ]
+      }
+    ],
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups.",
+    "schemaChanges": [
+      {
+        "id": "score-to-weight-v1",
+        "description": "Generated questions use weight for app scoring; source score is stored under sourceMeta.rawScore after default-5 normalization."
+      },
+      {
+        "id": "rawscore-default-5-v1",
+        "description": "sourceMeta.rawScore defaults to 5, converts 0 or <=5 to 5, and preserves source values greater than 5."
+      }
+    ],
+    "previousReleaseVersion": "v2-college-chinese-complete-chapter-title-normalized",
+    "metadataChanges": [
+      {
+        "id": "chapter-title-normalized-v1",
+        "date": "2026-06-02",
+        "field": "chapter.name",
+        "from": "数字前缀标题，例如 1-序二篇、10-西湖七月半、11-别赋",
+        "to": "纯章节标题，例如 序二篇、西湖七月半、别赋",
+        "reason": "用户要求章节显示为“第 X 章： 章节名称”。题库数据仅保留纯章节标题，由界面根据章节顺序拼接显示文案。"
+      },
+      {
+        "id": "release-directory-consolidation-v1",
+        "date": "2026-06-02",
+        "field": "question-banks/releases",
+        "from": "v2-college-chinese-complete, v2-college-chinese-complete-ch011-title-fix, v2-college-chinese-through-ch002, v2-college-chinese-through-ch003, v2-college-chinese-through-ch004, v2-college-chinese-through-ch005, v2-college-chinese-through-ch006, v2-college-chinese-through-ch007, v2-college-chinese-through-ch008, v2-college-chinese-through-ch008-rawscore-normalized",
+        "to": "v2-college-chinese-complete-chapter-title-normalized",
+        "reason": "用户要求 release 目录只保留 v1 和最终 v2；中间 v2 release 的 manifest 与工单审计信息合并进最终 v2 manifest。"
+      }
+    ],
+    "snapshotRelease": true
+  }
+}

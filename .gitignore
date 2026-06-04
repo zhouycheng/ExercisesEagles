@@ -27,3 +27,5 @@ Thumbs.db
 
 # 微信小程序私有配置（含个人 AppID）
 project.private.config.json
+
+design/

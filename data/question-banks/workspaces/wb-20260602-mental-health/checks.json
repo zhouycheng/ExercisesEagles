@@ -1,0 +1,100 @@
+{
+  "workspaceId": "wb-20260602-mental-health",
+  "checkedAt": "2026-06-02",
+  "passed": true,
+  "scope": "workspace",
+  "summary": {
+    "sourceFiles": 7,
+    "sourceRows": 141,
+    "duplicateSourceRows": 2,
+    "bankFiles": 7,
+    "questions": 139,
+    "uniqueQuestions": 139,
+    "explanationsReady": 139,
+    "failures": 0
+  },
+  "checks": [
+    {
+      "id": "workspace-files-exist",
+      "passed": true,
+      "detail": "workspace.json, manifest.json, import-plan.md, checks.json, and 7 bank JSON files exist."
+    },
+    {
+      "id": "source-files-represented",
+      "passed": true,
+      "detail": "All 7 psychology source files are represented in the workspace manifest and source ledger."
+    },
+    {
+      "id": "blocking-tickets-empty",
+      "passed": true,
+      "detail": "All workspace blocking tickets are resolved."
+    },
+    {
+      "id": "chapter-names-pure",
+      "passed": true,
+      "detail": "User-provided chapter-order labels were stored as pure chapter names without 第一章/第二章 prefixes."
+    },
+    {
+      "id": "bank-json-parses",
+      "passed": true,
+      "detail": "All workspace bank JSON files parse."
+    },
+    {
+      "id": "manifest-counts-match",
+      "passed": true,
+      "detail": "139 generated questions across 7 chapters."
+    },
+    {
+      "id": "answers-exist-in-options",
+      "passed": true,
+      "detail": "Every answer key exists in options[].key."
+    },
+    {
+      "id": "no-app-facing-score",
+      "passed": true,
+      "detail": "No generated question object contains score."
+    },
+    {
+      "id": "weights-normalized",
+      "passed": true,
+      "detail": "All generated questions use weight: 1."
+    },
+    {
+      "id": "raw-scores-normalized",
+      "passed": true,
+      "detail": "sourceMeta.rawScore follows default-5 normalization."
+    },
+    {
+      "id": "explanations-verified",
+      "passed": true,
+      "detail": "Every generated question has a non-empty verified explanation."
+    },
+    {
+      "id": "duplicates-merged",
+      "passed": true,
+      "detail": "The two known chapter 6 exact duplicates were merged and recorded in placements/sourceMeta."
+    },
+    {
+      "id": "workspace-ready",
+      "passed": true,
+      "detail": "Workspace validation passed."
+    }
+  ],
+  "failures": [],
+  "duplicateDecisions": [
+    {
+      "primaryQuestionId": "q-mh-ch006-homework-011",
+      "primarySourceId": "psych-ch6-hw-011",
+      "duplicateSourceId": "psych-ch6-hw-016",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
+      "reason": "User choice A: exact duplicate content merged into the earlier source row."
+    },
+    {
+      "primaryQuestionId": "q-mh-ch006-homework-014",
+      "primarySourceId": "psych-ch6-hw-014",
+      "duplicateSourceId": "psych-ch6-hw-017",
+      "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学生心理健康-第六章-课后作业.json",
+      "reason": "User choice A: exact duplicate content merged into the earlier source row."
+    }
+  ]
+}

@@ -33,6 +33,10 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 
 从仓库中移除所有微信官方 Demo 模板代码和配置文件，将项目元数据更新为 ExercisesEagles 品牌。
 
+### Added
+
+- 新增项目内题库维护数据目录 `data/source-files` 和 `data/question-banks`，用于承载原始资料、workspaces、releases、tickets、latest 和 source ledger。
+
 ### Changed
 
 - 根目录 `package.json`：name 改为 `exercises-eagles`，移除 Demo 仓库的 GitHub 元数据。
@@ -40,6 +44,9 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 - `project.config.json`：精简 packOptions.ignore，移除已删除目录的上传忽略规则，cloudfunctionRoot 清空。
 - `README.md`：移除已删除目录的引用、云函数和示例代码相关描述，目录结构同步为当前状态。
 - `docs/changelog.md`：移除"项目当前仍保留微信官方示例工程的部分能力"描述。
+- 题库维护流程、技能说明、canonical 题库和运行态来源追踪路径从项目外目录迁移到项目内 `data/`。
+- `.gitignore` 保留本地设计资料忽略项，但允许 `data/` 题库维护数据被纳入版本管理。
+- 新增项目根 ESLint 配置，默认 lint 覆盖手写小程序代码并跳过生成题库模块和小程序 npm 构建产物。
 
 ### Removed
 
@@ -56,6 +63,7 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 - 通过全局搜索确认业务页面（page/home、page/book-detail、page/my、page/quiz）无对已删除目录的引用。
 - 通过 `git diff --check` 检查变更格式。
 - 通过 `npm run lint` 检查代码规范。
+- 通过题库路径搜索确认旧的项目外 `source-files` 和 `question-banks` 绝对路径已清理。
 
 ## 2026-06-03｜v1.2.0｜No Release
 

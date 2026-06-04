@@ -1,0 +1,134 @@
+{
+  "version": "v2-pending-college-chinese-ch005",
+  "status": "resolved",
+  "publishable": false,
+  "createdAt": "2026-06-02",
+  "importBatchId": "college-chinese-ch005",
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapters": [
+    {
+      "id": "ch-005",
+      "name": "5-下棋",
+      "order": 5,
+      "groups": [
+        {
+          "id": "group-homework",
+          "name": "课后作业",
+          "groupType": "homework",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-5-下棋.json",
+          "questionCount": 20
+        },
+        {
+          "id": "group-pretest",
+          "name": "课前测验",
+          "groupType": "pretest",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-课前测验.json",
+          "questionCount": 3
+        },
+        {
+          "id": "group-literary-common-sense",
+          "name": "文学常识",
+          "groupType": "literaryCommonSense",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-文学常识.json",
+          "questionCount": 7
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/staging/v2-pending-college-chinese-ch005/college-chinese-ch005.json"
+  ],
+  "runtimeSnapshot": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks",
+  "blockingTickets": [],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch005.md"
+  ],
+  "counts": {
+    "chapters": 1,
+    "groups": 3,
+    "questions": 30,
+    "uniqueQuestions": 30,
+    "explanationsReady": 30,
+    "explanationsPending": 0
+  },
+  "rules": {
+    "questionTypeField": "questionType",
+    "groupTypeSource": "manifest",
+    "displayPlacements": "Show the same question in every declared group placement if placements overlap.",
+    "samplingDeduplication": "Deduplicate by questionId during sampling/review sessions."
+  },
+  "manualChanges": [
+    {
+      "questionId": "q-cc-ch005-homework-001..003 / q-cc-ch005-pretest-001..003",
+      "field": "sourceIdIdentityPolicy",
+      "from": "same sourceId used for different content across groups",
+      "to": "use internal questionId as identity; keep sourceId as evidence only",
+      "reason": "用户选择 A，确认重复 sourceId 不作为题目身份，按文件和 groupType 归属导入。"
+    }
+  ],
+  "verificationSources": [
+    {
+      "title": "源文件：大学语文-5-下棋.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-5-下棋.json",
+      "usedFor": [
+        "课后作业题干、选项、答案、标签待确认"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第5课-课前测验.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-课前测验.json",
+      "usedFor": [
+        "课前测验题干、选项、答案、标签待确认"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第5课-文学常识.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-文学常识.json",
+      "usedFor": [
+        "文学常识题干、选项、答案、标签待确认"
+      ]
+    }
+  ],
+  "blockingIssues": [
+    {
+      "id": "issue-001-duplicate-source-id",
+      "status": "resolved",
+      "sourceFile": [
+        "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-5-下棋.json",
+        "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第5课-课前测验.json"
+      ],
+      "field": "questions[].id",
+      "originalContent": [
+        "subject-bmvcex-unit-5-001",
+        "subject-bmvcex-unit-5-002",
+        "subject-bmvcex-unit-5-003"
+      ],
+      "reason": "课后作业与课前测验使用了相同 sourceId，但题干、选项、答案不同；sourceId 不能作为稳定题目身份。",
+      "proposedHandling": "使用内部 questionId 区分两组题；sourceId 保留原文作为证据；导入时按文件和 groupType 归属。",
+      "userChoice": "A",
+      "resolution": "使用内部 questionId 区分课后作业与课前测验题；原 sourceId 保留为证据，按文件和 groupType 归属。"
+    }
+  ],
+  "resolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-through-ch005",
+    "confirmedChoices": {
+      "duplicateSourceId": "A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch005-homework-001..003 / q-cc-ch005-pretest-001..003",
+        "field": "sourceIdIdentityPolicy",
+        "from": "same sourceId used for different content across groups",
+        "to": "use internal questionId as identity; keep sourceId as evidence only",
+        "reason": "用户选择 A，确认重复 sourceId 不作为题目身份，按文件和 groupType 归属导入。"
+      }
+    ]
+  }
+}

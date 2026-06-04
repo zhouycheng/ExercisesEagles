@@ -51,6 +51,9 @@ tabBar 当前包含"首页"和"我的"。
 │   └── workflow/
 │       ├── git.md                          # Git 分支、提交、PR、tag 规则
 │       └── question-banks.md               # 题库数据流、运行态快照和校验规则
+├── data/
+│   ├── source-files/                       # 原始题库资料，只读证据
+│   └── question-banks/                     # 题库 workspaces、releases、tickets 和 ledger
 ├── miniprogram/
 │   ├── adapters/
 │   │   └── wx-layout.js                    # 状态栏、胶囊按钮和导航栏布局适配
@@ -83,15 +86,15 @@ tabBar 当前包含"首页"和"我的"。
 
 ## 题库数据流
 
-题库有三层：
+题库维护数据已经收敛到项目内 `data/`，题库流转有四个阶段：
 
 ```text
-source-files -> question-banks/workspaces -> question-banks/releases -> miniprogram/data/question-banks
+data/source-files -> data/question-banks/workspaces -> data/question-banks/releases -> miniprogram/data/question-banks
 ```
 
-- `source-files` 是原始资料，只作为证据读取，不直接修改。
-- `question-banks/workspaces` 是可编辑导入工作区。
-- `question-banks/releases` 是不可变发布版本。
+- `data/source-files` 是原始资料，只作为证据读取，不直接修改。
+- `data/question-banks/workspaces` 是可编辑导入工作区。
+- `data/question-banks/releases` 是不可变发布版本。
 - `miniprogram/data/question-banks` 是当前小程序运行态快照。
 
 当前小程序运行时读取：

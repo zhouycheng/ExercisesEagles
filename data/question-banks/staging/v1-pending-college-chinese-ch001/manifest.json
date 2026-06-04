@@ -1,0 +1,181 @@
+{
+  "version": "v1-pending-college-chinese-ch001",
+  "status": "resolved",
+  "publishable": false,
+  "scope": {
+    "book": "大学语文",
+    "chapter": "1-序二篇"
+  },
+  "sourceFiles": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-1-序二篇.json",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-课前测验.json",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-文学常识.json"
+  ],
+  "outputs": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/staging/v1-pending-college-chinese-ch001/college-chinese-ch001.json"
+  ],
+  "blockingTickets": [],
+  "counts": {
+    "groups": 3,
+    "questions": 29,
+    "explanationsReady": 29,
+    "explanationsPending": 0
+  },
+  "releaseBlockingReason": null,
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch001.md"
+  ],
+  "resolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v1-college-chinese-ch001",
+    "confirmedChoices": {
+      "sourceMapping": "A",
+      "explanations": "A",
+      "releaseAfterClean": "A",
+      "optionTypo": "A"
+    },
+    "manualChanges": [
+      {
+        "questionId": "q-cc-ch001-homework-013",
+        "field": "options.B.text",
+        "from": "《报仁安书》；《史记》",
+        "to": "《报任安书》；《史记》",
+        "reason": "用户在工单中选择 A，确认修正源选项疑似错字。"
+      }
+    ]
+  },
+  "releaseVersion": "v1-college-chinese-ch001",
+  "verificationSources": [
+    {
+      "title": "源文件：大学语文-1-序二篇.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-1-序二篇.json",
+      "usedFor": [
+        "课后作业题干、选项、答案、标签"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第1课-课前测验.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-课前测验.json",
+      "usedFor": [
+        "课前测验题干、选项、答案、标签"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第1课-文学常识.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第1课-文学常识.json",
+      "usedFor": [
+        "文学常识题干、选项、答案、标签"
+      ]
+    },
+    {
+      "title": "《序二篇》课程同步资料",
+      "type": "web",
+      "url": "https://blog.sina.com.cn/s/blog_b16e168f0101bkr1.html",
+      "usedFor": [
+        "序文类型",
+        "季羡林与陈省身观点差异",
+        "新的春秋时代",
+        "陈氏序特点"
+      ]
+    },
+    {
+      "title": "范曾《庄子显灵记》研究资料",
+      "type": "web",
+      "url": "https://ccj.pku.edu.cn/Article/DownLoad?id=271012111&type=ArticleFile",
+      "usedFor": [
+        "《庄子显灵记》作者与诗剧文体"
+      ]
+    },
+    {
+      "title": "天人合一命题资料",
+      "type": "web",
+      "url": "https://www.megbook.com.hk/mall/detail.jsp?proID=3296928",
+      "usedFor": [
+        "张载明确提出天人合一完整命题"
+      ]
+    },
+    {
+      "title": "季羡林天人合一观点资料",
+      "type": "web",
+      "url": "https://www.chinanews.com.cn/kong/news/2009/09-23/1882302.shtml",
+      "usedFor": [
+        "季羡林对东方天人合一与西方征服自然的观点"
+      ]
+    },
+    {
+      "title": "季羡林三辞桂冠资料",
+      "type": "web",
+      "url": "https://news.cctv.com/china/20090711/104356.shtml",
+      "usedFor": [
+        "国学大师、学界泰斗、国宝三项称号"
+      ]
+    },
+    {
+      "title": "《报任安书》名句出处资料",
+      "type": "web",
+      "url": "https://m.cnr.cn/news/20190617/t20190617_524652599.shtml",
+      "usedFor": [
+        "究天人之际，通古今之变，成一家之言出处"
+      ]
+    },
+    {
+      "title": "古诗文与文学常识资料",
+      "type": "web",
+      "url": "https://www.gushiwen.cn/mingju/juv.aspx?id=5b12ce0a3539",
+      "usedFor": [
+        "李商隐诗句出处"
+      ]
+    },
+    {
+      "title": "《元日》注释资料",
+      "type": "web",
+      "url": "https://www.gushiwen.cn/shiwenv_a167901c9c90.aspx",
+      "usedFor": [
+        "屠苏指屠苏酒"
+      ]
+    },
+    {
+      "title": "苏轼《水调歌头》注释资料",
+      "type": "web",
+      "url": "https://meirishici.com/quote/482",
+      "usedFor": [
+        "婵娟指月亮"
+      ]
+    },
+    {
+      "title": "汉典读音资料",
+      "type": "web",
+      "url": "https://www.zdic.net/",
+      "usedFor": [
+        "庶几、溽暑、付梓、灵犀等读音核对"
+      ]
+    },
+    {
+      "title": "《三十六计》列表资料",
+      "type": "web",
+      "url": "https://guoxue.httpcn.com/book/36/",
+      "usedFor": [
+        "浑水摸鱼、笑里藏刀、反客为主属于三十六计"
+      ]
+    },
+    {
+      "title": "人民网拱手礼资料",
+      "type": "web",
+      "url": "https://paper.people.com.cn/rmrbhwb/html/2012-12/22/content_1163784.htm",
+      "usedFor": [
+        "男子行拱手礼左手在外"
+      ]
+    },
+    {
+      "title": "人民网京剧脸谱资料",
+      "type": "web",
+      "url": "https://paper.people.com.cn/rmrbhwb/html/2013-07/10/content_1266505.htm",
+      "usedFor": [
+        "黑色脸谱表示正直、无私、刚直不阿"
+      ]
+    }
+  ]
+}

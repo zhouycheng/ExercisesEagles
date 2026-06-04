@@ -1,0 +1,268 @@
+{
+  "version": "v2-pending-college-chinese-ch008",
+  "status": "resolved",
+  "publishable": false,
+  "createdAt": "2026-06-02",
+  "importBatchId": "college-chinese-ch008",
+  "targetReleaseVersion": "v2-college-chinese-through-ch008",
+  "previousReleaseVersion": "v2-college-chinese-through-ch007",
+  "book": {
+    "id": "book-college-chinese",
+    "name": "大学语文"
+  },
+  "chapters": [
+    {
+      "id": "ch-008",
+      "name": "8-北京大学月刊发刊词",
+      "order": 8,
+      "groups": [
+        {
+          "id": "group-homework",
+          "name": "课后作业",
+          "groupType": "homework",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-8-北京大学月刊发刊词.json",
+          "questionCount": 20
+        },
+        {
+          "id": "group-pretest",
+          "name": "课前测验",
+          "groupType": "pretest",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第7课-课前测验.json",
+          "questionCount": 7
+        },
+        {
+          "id": "group-literary-common-sense",
+          "name": "文学常识",
+          "groupType": "literaryCommonSense",
+          "sourceFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第8课-文学常识.json",
+          "questionCount": 6
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/staging/v2-pending-college-chinese-ch008/college-chinese-ch008.json"
+  ],
+  "runtimeSnapshot": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks",
+  "blockingTickets": [],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch008.md"
+  ],
+  "counts": {
+    "chapters": 1,
+    "groups": 3,
+    "questions": 33,
+    "uniqueQuestions": 33,
+    "explanationsReady": 33,
+    "explanationsPending": 0
+  },
+  "rules": {
+    "sourceFilesAreReadOnly": true,
+    "stemsOptionsAnswersCopiedExactly": true,
+    "explanationsVerifiedAndShort": true,
+    "pendingOutputNotPublishable": true,
+    "samplingDeduplication": "Deduplicate by questionId when drawing questions across groups."
+  },
+  "blockingIssues": [],
+  "manualChanges": [
+    {
+      "questionId": "q-cc-ch008-pretest-001..007",
+      "field": "source-file-to-chapter/group mapping",
+      "from": "source filename/tag says 第7课课前测验",
+      "to": "map by confirmed content to ch008 pretest",
+      "reason": "沿用 college-chinese-ch007 工单用户选择 A；源文件不改名，题干、选项、答案未修改。"
+    },
+    {
+      "questionId": "q-cc-ch008-pretest-001..007",
+      "field": "tags[0]",
+      "from": "7-课前小测试",
+      "to": "8-课前小测试",
+      "reason": "源文件按内容归属第8课后，生成题库标签同步到第8课；题干、选项、答案未修改。"
+    }
+  ],
+  "verificationSources": [
+    {
+      "title": "源文件：大学语文-8-北京大学月刊发刊词.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文-8-北京大学月刊发刊词.json",
+      "usedFor": [
+        "课后作业题干、选项、答案、原始 sourceId"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第7课-课前测验.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第7课-课前测验.json",
+      "usedFor": [
+        "用户已确认按内容映射为第8课课前测验"
+      ]
+    },
+    {
+      "title": "源文件：大学语文章节题-第8课-文学常识.json",
+      "type": "source-file",
+      "path": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files/大学语文章节题-第8课-文学常识.json",
+      "usedFor": [
+        "文学常识题干、选项、答案、原始 sourceId"
+      ]
+    },
+    {
+      "title": "北京大学新闻网：蔡元培题写《北京大学月刊》发刊词",
+      "type": "web",
+      "url": "https://news.pku.edu.cn/2012zt/2012-05/14/content_241031.htm",
+      "usedFor": [
+        "发刊词作者、1918年撰写时间、兼容并收/思想自由、文中大学理念核对"
+      ]
+    },
+    {
+      "title": "《北京大学日刊》：蔡元培全集出版",
+      "type": "web",
+      "url": "https://journal.pku.edu.cn/CN/Y1997/V34/I2/107",
+      "usedFor": [
+        "《蔡元培全集》为后人整理出版文集核对"
+      ]
+    },
+    {
+      "title": "中国政府网/新华社：蔡元培生平资料",
+      "type": "web",
+      "url": "https://www.gov.cn/jrzg/2008-01/11/content_856186.htm",
+      "usedFor": [
+        "蔡元培近代教育家、籍贯、进士、任北大校长核对"
+      ]
+    },
+    {
+      "title": "人民网：毛泽东挽蔡元培联",
+      "type": "web",
+      "url": "http://dangshi.people.com.cn/n/2013/0428/c85037-21317547.html",
+      "usedFor": [
+        "“学界泰斗，人世楷模”核对"
+      ]
+    },
+    {
+      "title": "汉典：白驹过隙",
+      "type": "web",
+      "url": "https://www.zdic.net/hans/%E7%99%BD%E9%A9%B9%E8%BF%87%E9%9A%99",
+      "usedFor": [
+        "白驹过隙释义核对"
+      ]
+    },
+    {
+      "title": "汉典：亡羊补牢",
+      "type": "web",
+      "url": "https://www.zdic.net/hans/%E4%BA%A1%E7%BE%8A%E8%A1%A5%E7%89%A2",
+      "usedFor": [
+        "亡羊补牢释义核对"
+      ]
+    },
+    {
+      "title": "汉典：望梅止渴",
+      "type": "web",
+      "url": "https://www.zdic.net/hans/%E6%9C%9B%E6%A2%85%E6%AD%A2%E6%B8%B4",
+      "usedFor": [
+        "望梅止渴典故核对"
+      ]
+    },
+    {
+      "title": "汉典：杀青",
+      "type": "web",
+      "url": "https://www.zdic.net/hans/%E6%9D%80%E9%9D%92",
+      "usedFor": [
+        "杀青原义核对"
+      ]
+    },
+    {
+      "title": "汉典：俟",
+      "type": "web",
+      "url": "https://www.zdic.net/hans/%E4%BF%9F",
+      "usedFor": [
+        "文言词义核对"
+      ]
+    },
+    {
+      "title": "汉典：樊然",
+      "type": "web",
+      "url": "https://www.zdic.net/hans/%E6%A8%8A%E7%84%B6",
+      "usedFor": [
+        "樊然释义核对"
+      ]
+    },
+    {
+      "title": "汉典：三元及第",
+      "type": "web",
+      "url": "https://www.zdic.net/hans/%E4%B8%89%E5%85%83%E5%8F%8A%E7%AC%AC",
+      "usedFor": [
+        "科举三元及第核对"
+      ]
+    },
+    {
+      "title": "故宫博物院：四书五经",
+      "type": "web",
+      "url": "https://www.dpm.org.cn/Home.html",
+      "usedFor": [
+        "四书五经常识核对"
+      ]
+    },
+    {
+      "title": "古籍与传统文化资料：汉赋四大家",
+      "type": "web",
+      "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=70698",
+      "usedFor": [
+        "汉赋四大家核对"
+      ]
+    },
+    {
+      "title": "中国哲学书电子化计划：《中庸》",
+      "type": "web",
+      "url": "https://ctext.org/liji/zhong-yong/zhs",
+      "usedFor": [
+        "“万物并育而不相害，道并行而不悖”出处核对"
+      ]
+    },
+    {
+      "title": "中国哲学书电子化计划：《庄子》",
+      "type": "web",
+      "url": "https://ctext.org/zhuangzi/zhs",
+      "usedFor": [
+        "《庄子》为先秦道家文本核对"
+      ]
+    },
+    {
+      "title": "中国哲学书电子化计划：墨子",
+      "type": "web",
+      "url": "https://ctext.org/mozi/zhs",
+      "usedFor": [
+        "墨子兼爱思想核对"
+      ]
+    },
+    {
+      "title": "中国大百科全书：范晔",
+      "type": "web",
+      "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=45531",
+      "usedFor": [
+        "《后汉书》作者核对"
+      ]
+    },
+    {
+      "title": "中国大百科全书：王羲之",
+      "type": "web",
+      "url": "https://www.zgbk.com/ecph/words?SiteID=1&ID=41972",
+      "usedFor": [
+        "王羲之与鹅、书法常识核对"
+      ]
+    }
+  ],
+  "schemaResolution": {
+    "resolvedAt": "2026-06-02",
+    "releaseVersion": "v2-college-chinese-through-ch008",
+    "reason": "Source score is audit metadata only; generated app-facing weight defaults to 1.",
+    "affectedQuestionIds": [
+      "q-cc-ch008-homework-006"
+    ]
+  },
+  "schemaChanges": [
+    {
+      "id": "score-to-weight-v1",
+      "date": "2026-06-02",
+      "description": "Source score preserved as sourceMeta.rawScore; generated question weight defaults to 1."
+    }
+  ]
+}

@@ -27,17 +27,17 @@ v4-college-english-units-001-to-003
 
 ## 数据层级
 
-题库数据按 Git-like 模型维护：
+题库数据按 Git-like 模型维护，流转分为四个阶段：
 
 ```text
-source-files -> question-banks/workspaces -> question-banks/releases -> miniprogram/data/question-banks
+data/source-files -> data/question-banks/workspaces -> data/question-banks/releases -> miniprogram/data/question-banks
 ```
 
 含义：
 
-- `/Users/leftzhou/WorkSpace.localized/题小鹰/source-files`：原始资料，只读证据，不直接修改。
-- `/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/workspaces`：可编辑导入工作区，用于持续整理题库。
-- `/Users/leftzhou/WorkSpace.localized/题小鹰/question-banks/releases`：不可变发布版本，只能从已验证 ready workspace 生成。
+- `/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/source-files`：原始资料，只读证据，不直接修改。
+- `/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/workspaces`：可编辑导入工作区，用于持续整理题库。
+- `/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases`：不可变发布版本，只能从已验证 ready workspace 生成。
 - `/Users/leftzhou/WorkSpace.localized/题小鹰/project/miniprogram/data/question-banks`：小程序运行态快照。
 
 只有发布成功后，才能更新 canonical latest 和小程序运行态快照。普通导入应先进入 workspace，不直接覆盖 runtime。
@@ -53,7 +53,7 @@ miniprogram/data/question-banks/<bookSlug>-ch###.js
 
 同名 `.json` 文件保留用于检查、审阅、发布追踪和外部工具读取。发布同步时必须保证 `.json` 与 `.js` 包装内容一致。
 
-当前上传配置会忽略运行态 JSON 文件和旧示例目录，主业务上传包依赖 `.js` 包装模块、页面、组件和图片资源。
+项目根目录的 `data/` 是题库维护数据，不在 `miniprogramRoot` 下；主业务上传包依赖 `miniprogram/data/question-banks` 中的 `.js` 包装模块、页面、组件和图片资源。
 
 ## 应用数据流
 

@@ -1,0 +1,433 @@
+{
+  "version": "v4-college-english-units-001-to-003",
+  "createdAt": "2026-06-02",
+  "releaseDir": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003",
+  "manifest": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/manifest.json",
+  "sourceLedger": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/source-ledger.json",
+  "books": [
+    {
+      "id": "book-college-chinese",
+      "name": "大学语文",
+      "chapters": [
+        {
+          "id": "ch-001",
+          "name": "序二篇",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch001.json",
+          "questionCount": 29,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 3
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ch-002",
+          "name": "语言的功能与陷阱",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch002.json",
+          "questionCount": 29,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 3
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ch-003",
+          "name": "讲故事的人",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch003.json",
+          "questionCount": 31,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 5
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ch-004",
+          "name": "我的四个假想敌",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch004.json",
+          "questionCount": 30,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 19
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 5
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ch-005",
+          "name": "下棋",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch005.json",
+          "questionCount": 30,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 3
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 7
+            }
+          ]
+        },
+        {
+          "id": "ch-006",
+          "name": "金岳霖先生",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch006.json",
+          "questionCount": 29,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 3
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ch-007",
+          "name": "国立西南联合大学纪念碑碑文",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch007.json",
+          "questionCount": 39,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 3
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 16
+            }
+          ]
+        },
+        {
+          "id": "ch-008",
+          "name": "北京大学月刊发刊词",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch008.json",
+          "questionCount": 33,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 7
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ch-009",
+          "name": "专家与通人",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch009.json",
+          "questionCount": 35,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 20
+            },
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 3
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 12
+            }
+          ]
+        },
+        {
+          "id": "ch-010",
+          "name": "西湖七月半",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch010.json",
+          "questionCount": 16,
+          "groups": [
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 10
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ch-011",
+          "name": "别赋",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-chinese-ch011.json",
+          "questionCount": 9,
+          "groups": [
+            {
+              "id": "group-pretest",
+              "name": "课前测验",
+              "questionCount": 3
+            },
+            {
+              "id": "group-literary-common-sense",
+              "name": "文学常识",
+              "questionCount": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book-mental-health",
+      "name": "大学生心理健康",
+      "chapters": [
+        {
+          "id": "ch-001",
+          "name": "导论",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/mental-health-ch001.json",
+          "questionCount": 34,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 34
+            }
+          ]
+        },
+        {
+          "id": "ch-002",
+          "name": "从被动适应到主动掌舵：构建属于你的大学导航系统",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/mental-health-ch002.json",
+          "questionCount": 27,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 27
+            }
+          ]
+        },
+        {
+          "id": "ch-003",
+          "name": "遇见完整的自己：从认知到接纳的自我整合之旅",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/mental-health-ch003.json",
+          "questionCount": 8,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 8
+            }
+          ]
+        },
+        {
+          "id": "ch-004",
+          "name": "构建内在的情绪生态系统：从辨识到转化的智慧",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/mental-health-ch004.json",
+          "questionCount": 8,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 8
+            }
+          ]
+        },
+        {
+          "id": "ch-005",
+          "name": "人际关系的构建与优化：从基础搭建到深度互动",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/mental-health-ch005.json",
+          "questionCount": 8,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 8
+            }
+          ]
+        },
+        {
+          "id": "ch-006",
+          "name": "亲密关系的建构与演变：从个体到共同体的生命旅程",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/mental-health-ch006.json",
+          "questionCount": 29,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 29
+            }
+          ]
+        },
+        {
+          "id": "ch-007",
+          "name": "积极心理的建构：从识别美好到实践幸福",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/mental-health-ch007.json",
+          "questionCount": 25,
+          "groups": [
+            {
+              "id": "group-homework",
+              "name": "课后作业",
+              "questionCount": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book-college-english",
+      "name": "大学英语",
+      "chapters": [
+        {
+          "id": "ch-001",
+          "name": "第一单元",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-english-ch001.json",
+          "questionCount": 20,
+          "groups": [
+            {
+              "id": "group-vocabulary",
+              "name": "词汇题",
+              "groupType": "vocabulary",
+              "questionCount": 10
+            },
+            {
+              "id": "group-single-choice",
+              "name": "单选题",
+              "groupType": "singleChoice",
+              "questionCount": 10
+            }
+          ]
+        },
+        {
+          "id": "ch-002",
+          "name": "第二单元",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-english-ch002.json",
+          "questionCount": 20,
+          "groups": [
+            {
+              "id": "group-vocabulary",
+              "name": "词汇题",
+              "groupType": "vocabulary",
+              "questionCount": 10
+            },
+            {
+              "id": "group-single-choice",
+              "name": "单选题",
+              "groupType": "singleChoice",
+              "questionCount": 10
+            }
+          ]
+        },
+        {
+          "id": "ch-003",
+          "name": "第三单元",
+          "dataFile": "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/releases/v4-college-english-units-001-to-003/college-english-ch003.json",
+          "questionCount": 36,
+          "groups": [
+            {
+              "id": "group-vocabulary",
+              "name": "词汇题",
+              "groupType": "vocabulary",
+              "questionCount": 18
+            },
+            {
+              "id": "group-single-choice",
+              "name": "单选题",
+              "groupType": "singleChoice",
+              "questionCount": 18
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blockingTickets": [],
+  "resolvedTickets": [
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch001.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch003.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch004.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch005.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch007.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-ch008.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-chinese-remaining.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/mental-health-ch001-to-ch007.md",
+    "/Users/leftzhou/WorkSpace.localized/题小鹰/project/data/question-banks/tickets/college-english-units-001-to-003.md"
+  ]
+}
