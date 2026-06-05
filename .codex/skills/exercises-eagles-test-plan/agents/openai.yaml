@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Test Plan"
+  short_description: "Writes validation plans for Tixiaoying changes without running the checks."
+  default_prompt: "Use $exercises-eagles-test-plan to design automated and manual validation for this Tixiaoying change."
+
+policy:
+  allow_implicit_invocation: true

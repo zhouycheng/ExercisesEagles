@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Feature Analysis"
+  short_description: "Analyzes Tixiaoying requirements, bugs, interaction chains, and current behavior from project evidence."
+  default_prompt: "Use $exercises-eagles-feature-analysis to analyze the Tixiaoying requirement or bug against the current docs, source, config, and Git state."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Review"
+  short_description: "Reviews and validates Tixiaoying changes with project-specific checks and risk reporting."
+  default_prompt: "Use $exercises-eagles-review to inspect changed Tixiaoying files, run relevant checks, and report findings or validation results."
+
+policy:
+  allow_implicit_invocation: true
