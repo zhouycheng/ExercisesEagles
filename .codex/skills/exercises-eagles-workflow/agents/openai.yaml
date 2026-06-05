@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Workflow"
+  short_description: "Routes Tixiaoying project work to the focused workflow skill that fits the current intent."
+  default_prompt: "Use $exercises-eagles-workflow to choose the right Tixiaoying project skill for analysis, design, tasks, test planning, implementation, review, or delivery."
+
+policy:
+  allow_implicit_invocation: true

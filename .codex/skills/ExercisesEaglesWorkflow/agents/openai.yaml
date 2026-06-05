@@ -1,7 +1,7 @@
 interface:
-  display_name: "ExercisesEagles Workflow"
-  short_description: "Project workflow from intake to PR prep, including Git branch/worktree/commit/release rules"
-  default_prompt: "Use $ExercisesEaglesWorkflow to guide this Tixiaoying change from requirement discussion through branch setup, tests, implementation, validation, docs, commit preparation, and PR delivery."
+  display_name: "ExercisesEagles Workflow Legacy Router"
+  short_description: "Compatibility entrypoint that routes old ExercisesEaglesWorkflow calls to the split project workflow skills."
+  default_prompt: "Use $exercises-eagles-legacy-workflow only as a compatibility router, then delegate to the focused exercises-eagles project skill for the current Tixiaoying task."
 
 policy:
   allow_implicit_invocation: true

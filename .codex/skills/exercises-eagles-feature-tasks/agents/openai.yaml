@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Feature Tasks"
+  short_description: "Breaks scoped Tixiaoying designs into ordered file-level implementation, test, and docs tasks."
+  default_prompt: "Use $exercises-eagles-feature-tasks to create an ordered task list for the confirmed Tixiaoying design."
+
+policy:
+  allow_implicit_invocation: true
