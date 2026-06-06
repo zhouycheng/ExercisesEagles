@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Implementation"
+  short_description: "Implements confirmed Tixiaoying scope using the existing Mini Program architecture and project workflow."
+  default_prompt: "Use $exercises-eagles-implementation to make the confirmed Tixiaoying code, docs, config, script, or runtime snapshot change."
+
+policy:
+  allow_implicit_invocation: true

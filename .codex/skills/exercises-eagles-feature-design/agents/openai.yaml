@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Feature Design"
+  short_description: "Designs scoped Tixiaoying changes with module boundaries, tradeoffs, acceptance criteria, and branch suggestions."
+  default_prompt: "Use $exercises-eagles-feature-design to turn the analyzed Tixiaoying requirement into a scoped design and branch-name options."
+
+policy:
+  allow_implicit_invocation: true

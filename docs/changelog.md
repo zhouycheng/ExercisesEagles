@@ -29,7 +29,7 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 
 同一天的多个提交会合并整理为简洁 bullet。
 
-## 2026-06-06｜v1.2.2｜No Release
+## 2026-06-06｜v1.0.1｜No Release
 
 ### Changed
 
@@ -43,7 +43,28 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 - 通过 `git diff --check` 检查变更格式。
 - 通过 `npm run lint` 检查代码规范。
 
-## 2026-06-04｜v1.2.1｜No Release
+## 2026-06-05｜v1.0.0｜No Release
+
+将题小鹰项目级工作流技能从单体入口拆分为职责更小的 8 个 workflow skills，并保留旧入口作为兼容路由。
+
+### Added
+
+- 新增 `exercises-eagles-workflow`、`exercises-eagles-feature-analysis`、`exercises-eagles-feature-design`、`exercises-eagles-feature-tasks`、`exercises-eagles-test-plan`、`exercises-eagles-implementation`、`exercises-eagles-review` 和 `exercises-eagles-delivery` 项目级技能。
+- 每个新技能都包含独立 `SKILL.md` 和 `agents/openai.yaml`，覆盖路由、需求分析、方案设计、任务拆分、测试计划、实现、评审验证和交付文案。
+
+### Changed
+
+- 将旧 `ExercisesEaglesWorkflow` 改为 `exercises-eagles-legacy-workflow` 兼容路由入口，负责把旧调用转发到新的拆分技能。
+- 删除旧 `ExercisesEaglesWorkflow/references/` 下的单体工作流规则文件，避免新旧规则并存造成维护歧义。
+
+### Verified
+
+- 通过 Ruby YAML 解析所有拆分后的 `SKILL.md` frontmatter 和 `agents/openai.yaml`。
+- 通过搜索确认拆分后的 workflow 技能 `name` 均以 `exercises-eagles-` 开头，且无 `TODO`、`{project}`、`FrameLean` 等模板残留。
+- 通过 `git diff -- .codex/skills/question-bank-curator` 确认 `question-bank-curator` 未被修改。
+- 通过 `git diff --check` 检查变更格式。
+
+## 2026-06-04｜v1.0.0｜No Release
 
 从仓库中移除所有微信官方 Demo 模板代码和配置文件，将项目元数据更新为 ExercisesEagles 品牌。
 
@@ -79,7 +100,7 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 - 通过 `npm run lint` 检查代码规范。
 - 通过题库路径搜索确认旧的项目外 `source-files` 和 `question-banks` 绝对路径已清理。
 
-## 2026-06-03｜v1.2.0｜No Release
+## 2026-06-03｜v1.0.0｜No Release
 
 这次将题小鹰从单章节答题 MVP 推进为多课本本地题库应用，并同步收敛小程序主导航、题库运行态和项目文档。
 
@@ -124,7 +145,7 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 - 通过 Node 逐个读取运行态题库 `.js` 模块，确认 21 个章节 / 单元的题目数量与 manifest 统计一致。
 - 通过静态阅读 `miniprogram/app.json`、`project.config.json`、`miniprogram/page/`、`miniprogram/viewmodels/`、`miniprogram/models/`、`miniprogram/repositories/` 和 `miniprogram/utils/` 核对当前页面、导航和数据流。
 
-## 2026-06-02｜v1.1.0｜No Release
+## 2026-06-02｜v1.0.0｜No Release
 
 ### Changed
 

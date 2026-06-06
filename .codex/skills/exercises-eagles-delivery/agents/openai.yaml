@@ -1,0 +1,7 @@
+interface:
+  display_name: "ExercisesEagles Delivery"
+  short_description: "Prepares Tixiaoying changelog, commit details, PR copy, release copy, archive, and final delivery packages."
+  default_prompt: "Use $exercises-eagles-delivery to prepare commit, PR, release, changelog, archive, or final delivery copy for this Tixiaoying change."
+
+policy:
+  allow_implicit_invocation: true
