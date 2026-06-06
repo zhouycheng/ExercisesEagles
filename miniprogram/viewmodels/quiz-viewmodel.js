@@ -37,7 +37,7 @@ class QuizViewModel {
   load(options) {
     const normalizedOptions = options || {}
     const quizMode = normalizeQuizMode(decodeOptionValue(normalizedOptions.mode))
-    const quiz = this.getQuizFromOptions(normalizedOptions)
+    const quiz = this.getQuizFromOptions(normalizedOptions, quizMode)
     const isViewMode = quizMode === QUIZ_MODES.VIEW
     const durationMinutes = parsePositiveInteger(normalizedOptions.duration, DEFAULT_TEST_DURATION_MINUTES)
     const storageKey = quiz && !isViewMode ? this.getStorageKey(quiz, quizMode, durationMinutes) : ''
@@ -176,7 +176,7 @@ class QuizViewModel {
     return this.withPersistence(this.session.forceSubmitQuiz())
   }
 
-  getQuizFromOptions(options) {
+  getQuizFromOptions(options, quizMode) {
     const bookId = decodeOptionValue(options && options.bookId)
     const chapterId = decodeOptionValue(options && options.chapterId)
     const scope = decodeOptionValue(options && options.scope)
@@ -186,7 +186,14 @@ class QuizViewModel {
         this.repository.getFirstChapterQuiz()
     }
 
-    return this.repository.getChapterQuiz(bookId, chapterId) || this.repository.getFirstChapterQuiz()
+    const seed = decodeOptionValue(options && options.seed)
+    const chapterQuizOptions = quizMode === QUIZ_MODES.VIEW ? null : {
+      shuffle: true,
+      seed: seed || Date.now()
+    }
+
+    return this.repository.getChapterQuiz(bookId, chapterId, chapterQuizOptions) ||
+      this.repository.getFirstChapterQuiz()
   }
 
   getStorageKey(quiz, quizMode, durationMinutes) {

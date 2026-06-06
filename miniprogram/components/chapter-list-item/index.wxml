@@ -17,6 +17,6 @@
       class="chapter-list-item__button chapter-list-item__button--blue"
       aria-role="button"
       bindtap="handleDrawTap"
-    >抽题</view>
+    >开始练习</view>
   </view>
 </view>

@@ -29,6 +29,20 @@ YYYY-MM-DD｜vX.Y.Z｜Release 或 No Release
 
 同一天的多个提交会合并整理为简洁 bullet。
 
+## 2026-06-06｜v1.2.2｜No Release
+
+### Changed
+
+- 章节列表入口文案从“抽题”改为“开始练习”。
+- 章节练习保留完整章节题量，但每次进入按本次 seed 乱序呈现题目；查看题目模式仍按原始题库顺序展示。
+
+### Verified
+
+- 通过 Node 行为检查确认章节练习题量保持完整、不同 seed 顺序不同、查看题目模式保持原始顺序。
+- 通过 `node --check` 检查本次修改的答题入口和题库 catalog JS 文件。
+- 通过 `git diff --check` 检查变更格式。
+- 通过 `npm run lint` 检查代码规范。
+
 ## 2026-06-04｜v1.2.1｜No Release
 
 从仓库中移除所有微信官方 Demo 模板代码和配置文件，将项目元数据更新为 ExercisesEagles 品牌。

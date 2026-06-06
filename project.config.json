@@ -5,24 +5,24 @@
   "packOptions": {
     "ignore": [
       {
-        "type": "folder",
-        "value": "miniprogram_npm"
+        "value": "miniprogram_npm",
+        "type": "folder"
       },
       {
-        "type": "folder",
-        "value": "node_modules"
+        "value": "node_modules",
+        "type": "folder"
       },
       {
-        "type": "file",
-        "value": "package-lock.json"
+        "value": "package-lock.json",
+        "type": "file"
       },
       {
-        "type": "file",
-        "value": "package.json"
+        "value": "package.json",
+        "type": "file"
       },
       {
-        "type": "suffix",
-        "value": ".DS_Store"
+        "value": ".DS_Store",
+        "type": "suffix"
       }
     ],
     "include": []
@@ -66,7 +66,7 @@
     "disableSWC": true
   },
   "compileType": "miniprogram",
-  "libVersion": "latest",
+  "libVersion": "3.15.2",
   "appid": "wx11da32e72feccf06",
   "projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A4%BA%E4%BE%8B",
   "simulatorType": "wechat",

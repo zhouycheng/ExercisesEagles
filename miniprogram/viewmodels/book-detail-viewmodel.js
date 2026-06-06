@@ -101,7 +101,7 @@ class BookDetailViewModel {
     }))
   }
 
-  openChapter(chapter, mode, isOpeningQuiz) {
+  openChapter(chapter, mode, isOpeningQuiz, seed) {
     if (!chapter || !chapter.quizUrl || isOpeningQuiz) {
       return null
     }
@@ -118,12 +118,15 @@ class BookDetailViewModel {
     }
 
     const isViewMode = mode === 'view'
+    const routeQuery = isViewMode
+      ? 'mode=view'
+      : `mode=normal&seed=${encodeURIComponent(seed || Date.now())}`
 
     return {
       command: {
         type: 'openRouteWithLoading',
         payload: {
-          url: `${chapter.quizUrl}&mode=${isViewMode ? 'view' : 'normal'}`,
+          url: `${chapter.quizUrl}&${routeQuery}`,
           title: isViewMode ? '正在打开题目' : '正在装载题目',
           description: `${chapter.name} · ${quiz.questions.length} 题`
         }
