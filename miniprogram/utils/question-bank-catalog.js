@@ -71,7 +71,7 @@ function getFirstBookDetail() {
   return firstBook ? getBookDetail(firstBook.id) : null
 }
 
-function getChapterQuiz(bookId, chapterId) {
+function getChapterQuiz(bookId, chapterId, options) {
   const located = findChapter(bookId, chapterId)
   const loadBank = located ? CHAPTER_BANK_LOADERS[getChapterBankKey(bookId, chapterId)] : null
   const bank = loadBank ? loadBank() : null
@@ -80,7 +80,7 @@ function getChapterQuiz(bookId, chapterId) {
     return null
   }
 
-  return normalizeChapterQuiz(located.book, located.chapter, located.chapterIndex, bank)
+  return normalizeChapterQuiz(located.book, located.chapter, located.chapterIndex, bank, options)
 }
 
 function getBookQuiz(bookId) {
@@ -198,12 +198,14 @@ function normalizeChapter(book, chapter, index) {
   }
 }
 
-function normalizeChapterQuiz(book, chapter, chapterIndex, bank) {
+function normalizeChapterQuiz(book, chapter, chapterIndex, bank, options) {
   const groups = Array.isArray(bank.groups) ? bank.groups : []
   const questions = groups.reduce((items, group) => {
     const groupQuestions = Array.isArray(group.questions) ? group.questions : []
     return items.concat(groupQuestions.map((question) => normalizeQuizQuestion(question, group)))
   }, [])
+  const normalizedOptions = options || {}
+  const quizQuestions = normalizedOptions.shuffle ? shuffleQuestions(questions, normalizedOptions.seed) : questions
 
   const title = `${book.name} - ${chapter.name}`
 
@@ -216,7 +218,7 @@ function normalizeChapterQuiz(book, chapter, chapterIndex, bank) {
     title,
     sharePath: getChapterQuizUrl(book.id, chapter.id),
     storageKey: `quizBestScore:${book.id}:${chapter.id}`,
-    questions
+    questions: quizQuestions
   }
 }
 

@@ -82,7 +82,7 @@ manifest.js / chapter modules
 
 | 场景 | 参数 | 行为 |
 | --- | --- | --- |
-| 章节练习 | `bookId`、`chapterId`、`mode=normal` | 按章节顺序答题并记录成绩 |
+| 章节练习 | `bookId`、`chapterId`、`mode=normal`、`seed` | 使用本章节完整题目，按进入时 seed 乱序答题并记录成绩 |
 | 查看题目 | `bookId`、`chapterId`、`mode=view` | 直接展示答案和解析，不记录成绩 |
 | 整本抽题 | `scope=book`、`bookId`、`count`、`seed` | 从整本书题库按 seed 抽取固定题量 |
 | 模拟测试 | `scope=book`、`bookId`、`count`、`seed`、`mode=test`、`duration` | 整本抽题并开启倒计时，时间到自动交卷 |

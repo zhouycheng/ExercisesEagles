@@ -42,7 +42,7 @@ Page({
 
   handleChapterDrawTap(e) {
     const chapter = e.detail && e.detail.chapter
-    this.applyViewModelResult(this.viewModel.openChapter(chapter, 'normal', this.isOpeningQuiz))
+    this.applyViewModelResult(this.viewModel.openChapter(chapter, 'normal', this.isOpeningQuiz, Date.now()))
   },
 
   closeConfigSheet() {
